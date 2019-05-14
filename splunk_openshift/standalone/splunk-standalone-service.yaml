@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: standalone 
+  labels:
+    app: splunk
+    role: standalone
+    tier: standalone
+spec:
+  selector:
+    app: splunk
+    role: standalone
+    tier: standalone
+  ports:
+    - name: splunkweb
+      port: 8000 
+      targetPort: 8000
+    - name: splunkd
+      port: 8089
+      targetPort: 8089
+    - name: s2s
+      port: 9997
+      targetPort: 9997
+    - name: hec
+      port: 8088
+      targetPort: 8088
+  clusterIP: None

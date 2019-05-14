@@ -1,0 +1,18 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: buttercupgo 
+  labels:
+    app: buttercupgo
+spec:
+  selector:
+    app: buttercupgo
+  ports:
+    - name: web
+      port: 3040 
+      targetPort: 8000
+    - name: port2 
+      port: 3000
+      targetPort: 3000
+  clusterIP: None

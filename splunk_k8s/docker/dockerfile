@@ -1,0 +1,3 @@
+FROM splunk/splunk:latest
+
+COPY ta_container_workshop.tgz /tmp/

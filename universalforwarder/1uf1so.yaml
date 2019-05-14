@@ -1,0 +1,46 @@
+version: "3.6"
+
+networks:
+  splunknet:
+    driver: bridge
+    attachable: true
+
+services:
+  uf1:
+    networks:
+      splunknet:
+        aliases:
+          - uf1
+    image: ${UF_IMAGE:-splunk/universalforwarder:7.2.1}
+    hostname: uf1
+    container_name: uf1
+    user: root
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_STANDALONE_URL=so1
+      - DEBUG=true
+      - SPLUNK_PASSWORD=helloworld
+      - SPLUNK_HOME_OWNERSHIP_ENFORCEMENT=false
+    ports:
+      - 8089
+    volumes:
+      - /var/lib/docker/containers:/host/containers:ro
+      - ${PWD}/config/default.yml:/tmp/defaults/default.yml
+      - ${PWD}/config/ta_docker_uf:/opt/splunkforwarder/etc/apps/ta_docker_uf
+
+  so1:
+    networks:
+      splunknet:
+        aliases:
+          - so1
+    image: ${SPLUNK_IMAGE:-splunk/splunk:latest}
+    hostname: so1
+    container_name: so1
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_STANDALONE_URL=so1
+      - DEBUG=true
+      - SPLUNK_PASSWORD=helloworld
+    ports:
+      - 8000
+      - 8089

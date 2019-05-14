@@ -1,0 +1,17 @@
+version: "3.6"
+
+#networks:
+#  splunknet:
+#    driver: bridge
+#    attachable: true
+
+services:
+  fluent-hec:
+    image: splunk/fluentd-hec:1.1.0
+    hostname: fluent-hec
+    container_name: fluent-hec
+    network_mode: host
+    command: "-c /fluentd/etc/fluent.conf"
+    volumes:
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - ${PWD}/config/:/fluentd/etc

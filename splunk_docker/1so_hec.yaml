@@ -1,0 +1,25 @@
+version: "3.6"
+
+networks:
+  splunknet:
+    driver: bridge
+    attachable: true
+
+services:
+  so1:
+    restart: always
+    networks:
+      splunknet:
+        aliases:
+          - so1
+    image: ${SPLUNK_IMAGE:-splunk/splunk:latest}
+    container_name: so1
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_PASSWORD=helloworld
+      - SPLUNK_HEC_TOKEN=00000000-0000-0000-0000-000000000000
+      - DEBUG=true
+    ports:
+      - 9999:8000
+      - 9089:8089
+      - 9088:8088

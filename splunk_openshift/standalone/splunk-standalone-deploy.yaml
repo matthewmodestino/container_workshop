@@ -1,0 +1,56 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: standalone 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: splunk
+        role: standalone
+        tier: standalone 
+    spec:
+      serviceAccountName: splunk
+      hostname: standalone
+      containers:
+        - name: standalone
+          image: matthewmodestino/splunk-container-workshop:latest
+          securityContext:
+            privileged: true
+            runAsUser: 0
+          env:
+            - name: SPLUNK_HOME
+              value: /opt/splunk
+            - name: SPLUNK_ROLE
+              value: splunk_standalone
+            - name: SPLUNK_PASSWORD
+              value: helloworld
+            - name: SPLUNK_START_ARGS
+              value: "--accept-license"
+            - name: SPLUNK_APPS_URL
+              value: /tmp/ta_container_workshop.tgz
+            - name: "SPLUNK_HEC_TOKEN"
+              value: 00000000-0000-0000-0000-000000000000
+            - name: DEBUG
+              value: "true"
+          ports:
+            - name: web
+              containerPort: 8000
+            - name: hec
+              containerPort: 8088 
+            - name: mgmt
+              containerPort: 8089
+            - name: kv
+              containerPort: 8191
+          volumeMounts: 
+            - name: splunk-standalone-data
+              mountPath: /opt/splunk/var
+            - name: splunk-standalone-config
+              mountPath: /opt/splunk/etc
+      volumes:
+        - name: splunk-standalone-config
+          emptyDir: {}
+        - name: splunk-standalone-data
+          emptyDir: {}

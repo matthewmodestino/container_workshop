@@ -1,0 +1,21 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: butercupgo 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: buttercupgo 
+    spec:
+      hostname: buttercupgo
+      containers:
+        - name: buttercupgo
+          image: matthewmodestino/buttercupgo:latest
+          ports:
+            - name: web
+              containerPort: 3040 
+            - name: port2
+              containerPort: 3000

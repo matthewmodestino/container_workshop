@@ -1,0 +1,7 @@
+ buttercupgo:
+    restart: always
+    hostname: buttercupgo
+    image: matthewmodestino/buttercupgo
+    ports:
+      - "3040:3040"
+      - "3000:3000"
