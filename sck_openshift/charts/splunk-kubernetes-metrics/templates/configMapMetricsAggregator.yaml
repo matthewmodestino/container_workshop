@@ -72,9 +72,9 @@ data:
       hec_host standalone 
       hec_port 8088
       hec_token "#{ENV['SPLUNK_HEC_TOKEN']}"
-      host "#{ENV['MY_NODE_NAME']}"
-      #host "192.168.99.106"
-      index em_metrics
+      #host "#{ENV['MY_NODE_NAME']}"
+      #host "minishift"
+      index cm_metrics
       source source
       insecure_ssl true
       <buffer>

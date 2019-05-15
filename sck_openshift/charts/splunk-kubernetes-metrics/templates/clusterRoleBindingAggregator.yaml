@@ -16,4 +16,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: splunk-kubernetes-metrics
-  namespace: default
+  namespace: splunk 

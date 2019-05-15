@@ -18,8 +18,8 @@ data:
     <source>
       @type kubernetes_metrics
       tag kube.*
-      node_name "#{ENV['SPLUNK_HEC_HOST']}"
-      #node_name "192.168.99.106"
+      #node_name "#{ENV['SPLUNK_HEC_HOST']}"
+      node_name "10.0.2.15"
       kubelet_port 10250
       use_rest_client_ssl true
       insecure_ssl true
@@ -67,9 +67,9 @@ data:
       hec_token "#{ENV['SPLUNK_HEC_TOKEN']}"
       #host "#{ENV['SPLUNK_HEC_HOST']}"
       host "minishift"
-      index em_metrics
+      index cm_metrics
       source ${tag}
-      insecure_ssl false
+      insecure_ssl true 
       <buffer>
         chunk_limit_records 10000
       </buffer>
