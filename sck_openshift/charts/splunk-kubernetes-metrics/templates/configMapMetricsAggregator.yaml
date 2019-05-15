@@ -1,0 +1,83 @@
+##---
+# Source: splunk-connect-for-kubernetes/charts/splunk-kubernetes-metrics/templates/configMapMetricsAggregator.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sck-splunk-kubernetes-metrics-aggregator
+  labels:
+    app: splunk-kubernetes-metrics
+    chart: splunk-kubernetes-metrics-1.1.0
+    release: sck
+    heritage: Tiller
+data:
+  fluent.conf: |
+    # system wide configurations
+    <system>
+      log_level info
+    </system>
+    <source>
+      @type kubernetes_metrics_aggregator
+      tag kube.*
+      kubelet_port 10250
+    </source>
+    <filter kube.**>
+      @type record_modifier
+      <record>
+        metric_name ${tag}
+        cluster_name minishift
+      </record>
+    </filter>
+    <filter kube.cluster.**>
+      @type record_modifier
+      <record>
+        source ${record['name']}
+      </record>
+    </filter>
+    <filter kube.namespace.**>
+      @type record_modifier
+      <record>
+        source ${record['name']}
+      </record>
+    </filter>
+    <filter kube.node.**>
+      @type record_modifier
+      <record>
+        source ${record['node']}
+      </record>
+    </filter>
+    <filter kube.pod.**>
+      @type record_modifier
+      <record>
+        source ${record['node']}/${record['pod-name']}
+      </record>
+    </filter>
+    <filter kube.sys-container.**>
+      @type record_modifier
+      <record>
+        source ${record['node']}/${record['pod-name']}/${record['name']}
+      </record>
+    </filter>
+    <filter kube.container.**>
+      @type record_modifier
+      <record>
+        source ${record['node']}/${record['pod-name']}/${record['container-name']}
+      </record>
+    </filter>
+    <match kube.**>
+      @type splunk_hec
+      data_type metric
+      metric_name_key metric_name
+      metric_value_key value
+      protocol https
+      hec_host standalone 
+      hec_port 8088
+      hec_token "#{ENV['SPLUNK_HEC_TOKEN']}"
+      host "#{ENV['MY_NODE_NAME']}"
+      #host "192.168.99.106"
+      index em_metrics
+      source source
+      insecure_ssl true
+      <buffer>
+        chunk_limit_records 10000
+      </buffer>
+    </match>

@@ -1,0 +1,72 @@
+##---
+# Source: splunk-connect-for-kubernetes/charts/splunk-kubernetes-objects/templates/deployment.yaml
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: sck-splunk-kubernetes-objects
+  labels:
+    app: splunk-kubernetes-objects
+    chart: splunk-kubernetes-objects-1.1.0
+    release: sck
+    heritage: Tiller
+spec:
+  selector:
+    matchLabels:
+      app: splunk-kubernetes-objects
+      release: sck
+      engine: fluentd
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: splunk-kubernetes-objects
+        release: sck
+        engine: fluentd
+      annotations:
+        checksum/config: f4f5587328f6a617504b761be99726e0a0815ad38cacf84432ef3b0e0a68262a
+    spec:
+      serviceAccountName: splunk-kubernetes-objects
+      terminationGracePeriodSeconds: 30
+      containers:
+      - name: splunk-fluentd-k8s-objects
+        image: splunk/kube-objects:1.1.0
+        imagePullPolicy: IfNotPresent
+        args:
+          - -c
+          - /fluentd/etc/fluent.conf
+        env:
+          - name: MY_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+          - name: MY_POD_NAME
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
+          - name: SPLUNK_HEC_HOST
+            valueFrom:
+              fieldRef:
+                fieldPath: spec.nodeName
+          - name: SPLUNK_HEC_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: sck-splunk-kubernetes-objects
+                key: splunk_hec_token
+        resources:
+          requests:
+            cpu: 100m
+            memory: 200Mi
+          
+        volumeMounts:
+        - name: conf-configmap
+          mountPath: /fluentd/etc
+        - name: secrets
+          mountPath: /fluentd/etc/splunk
+          readOnly: true
+      volumes:
+      - name: conf-configmap
+        configMap:
+          name: sck-splunk-kubernetes-objects
+      - name: secrets
+        secret:
+          secretName: sck-splunk-kubernetes-objects

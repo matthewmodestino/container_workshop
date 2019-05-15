@@ -1,0 +1,73 @@
+##---
+# Source: splunk-connect-for-kubernetes/charts/splunk-kubernetes-metrics/templates/deployment.yaml
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: sck-splunk-kubernetes-metrics
+  labels:
+    app: splunk-kubernetes-metrics
+    chart: splunk-kubernetes-metrics-1.1.0
+    release: sck
+    heritage: Tiller
+    engine: fluentd
+spec:
+  selector:
+    matchLabels:
+      name: sck-splunk-kubernetes-metrics
+  template:
+    metadata:
+      name: sck-splunk-kubernetes-metrics
+      labels:
+        name: sck-splunk-kubernetes-metrics
+        app: splunk-kubernetes-metrics
+        chart: splunk-kubernetes-metrics-1.1.0
+        release: sck
+        heritage: Tiller
+        engine: fluentd
+      annotations:
+        scheduler.alpha.kubernetes.io/critical-pod: ''
+        checksum/config: ed8942bf7b59bbd933e99e9197d2c6c2c27e7bca674dfe27c6626d60afce0541
+    spec:
+      serviceAccountName: splunk-kubernetes-metrics
+      tolerations:
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/master
+        
+      containers:
+      - name: splunk-fluentd-k8s-metrics
+        image: splunk/k8s-metrics:1.1.0
+        imagePullPolicy: Always
+        securityContext:
+          privileged: true
+          runAsUser: 0
+        env:
+          - name: SPLUNK_HEC_HOST
+            valueFrom:
+              fieldRef:
+                fieldPath: spec.nodeName
+          - name: SPLUNK_HEC_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: sck-splunk-kubernetes-metrics
+                key: splunk_hec_token
+        resources:
+            limits:
+              cpu: 200m
+              memory: 300Mi
+            requests:
+              cpu: 200m
+              memory: 300Mi
+            
+        volumeMounts:
+          - name: conf-configmap
+            mountPath: /fluentd/etc
+          - name: secrets
+            mountPath: /fluentd/etc/splunk
+            readOnly: true
+      volumes:
+      - name: conf-configmap
+        configMap:
+          name: sck-splunk-kubernetes-metrics
+      - name: secrets
+        secret:
+          secretName: sck-splunk-kubernetes-metrics

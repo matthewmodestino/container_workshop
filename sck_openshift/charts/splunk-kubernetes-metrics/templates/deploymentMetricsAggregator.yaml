@@ -1,0 +1,65 @@
+##---
+# Source: splunk-connect-for-kubernetes/charts/splunk-kubernetes-metrics/templates/deploymentMetricsAggregator.yaml
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: sck-splunk-kubernetes-metrics-agg
+  labels:
+    app: splunk-kubernetes-metrics
+    chart: splunk-kubernetes-metrics-1.1.0
+    release: sck
+    heritage: Tiller
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: splunk-kubernetes-metrics
+      release: sck
+  template:
+    metadata:
+      labels:
+        app: splunk-kubernetes-metrics
+        release: sck
+      annotations:
+        scheduler.alpha.kubernetes.io/critical-pod: ''
+        checksum/config: 206d90fcc2912dccc4c3665e6810cf1bcd8ba863eb1fa69d64c1ab1e7df262f0
+    spec:
+      serviceAccountName: splunk-kubernetes-metrics
+      tolerations:
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/master
+        
+      containers:
+      - name: splunk-fluentd-k8s-metrics-agg
+        image: splunk/k8s-metrics-aggr:1.1.0
+        imagePullPolicy: Always
+        securityContext:
+          privileged: true
+          runAsUser: 0
+        env:
+          - name: SPLUNK_HEC_TOKEN
+            valueFrom:
+              secretKeyRef:
+                name: sck-splunk-kubernetes-metrics
+                key: splunk_hec_token
+        resources:
+            limits:
+              cpu: 200m
+              memory: 300Mi
+            requests:
+              cpu: 200m
+              memory: 300Mi
+            
+        volumeMounts:
+          - name: conf-configmap
+            mountPath: /fluentd/etc
+          - name: secrets
+            mountPath: /fluentd/etc/splunk
+            readOnly: true
+      volumes:
+      - name: conf-configmap
+        configMap:
+          name: sck-splunk-kubernetes-metrics-aggregator
+      - name: secrets
+        secret:
+          secretName: sck-splunk-kubernetes-metrics

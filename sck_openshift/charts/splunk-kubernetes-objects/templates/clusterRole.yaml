@@ -1,0 +1,40 @@
+##---
+# Source: splunk-connect-for-kubernetes/charts/splunk-kubernetes-objects/templates/clusterRole.yaml
+
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: sck-splunk-kubernetes-objects
+  labels:
+    app: splunk-kubernetes-objects
+    chart: splunk-kubernetes-objects-1.1.0
+    release: sck
+    heritage: Tiller
+rules:
+  
+  
+  - apiGroups: [""]
+    resources:
+    - pods
+    - namespaces
+    - nodes
+    - services
+    - configmaps
+    - secrets
+    - persistentvolumes
+    - serviceaccounts
+    - persistentvolumeclaims
+    - resourcequotas
+    - componentstatuses
+    verbs: ["get", "list"]
+  - apiGroups: [""]
+    resources:
+    - events
+    verbs: ["watch"]
+  - apiGroups: ["apps"]
+    resources:
+    - deployments
+    - daemonsets
+    - replicasets
+    - statefulsets
+    verbs: ["get", "list"]
