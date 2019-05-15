@@ -1,7 +1,0 @@
-# Application-level permission
-[]
-access = read : [ * ], write : [ admin ]
-export = system
-
-[views/settings]
-access = read : [ admin ], write : [ admin ]
