@@ -17,6 +17,7 @@ spec:
       containers:
         - name: standalone
           image: matthewmodestino/splunk-container-workshop:latest
+          imagePullPolicy: Always
           securityContext:
             privileged: true
             #runAsUser: 0
@@ -30,7 +31,7 @@ spec:
             - name: SPLUNK_START_ARGS
               value: "--accept-license"
             - name: SPLUNK_APPS_URL
-              value: /tmp/ta_container_workshop.tgz
+              value: "/tmp/ta_container_workshop.tgz"
             - name: "SPLUNK_HEC_TOKEN"
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG
