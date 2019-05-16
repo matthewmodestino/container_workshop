@@ -1,4 +1,0 @@
-FROM splunk/splunk:latest
-
-COPY ta_container_workshop.tgz /tmp/
-COPY splunk-metrics-workspace_101.tgz /tmp/
