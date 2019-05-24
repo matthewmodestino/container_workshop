@@ -15,6 +15,39 @@ data:
       log_level info
     </system>
     <source>
+      @id kube_openshift_build
+      @type kubernetes_objects
+      tag kube.objects.oapi.*
+      api_version "build.openshift.io/v1"
+      insecure_ssl true
+      <pull>
+        resource_name builds
+        interval 30s
+      </pull>
+    </source>
+    <source>
+      @id kube_openshift_route
+      @type kubernetes_objects
+      tag kube.objects.oapi.*
+      api_version "route.openshift.io/v1"
+      insecure_ssl true
+      <pull>
+        resource_name routes
+        interval 30s
+      </pull>
+    </source>
+    <source>
+      @id kube_openshift_projects
+      @type kubernetes_objects
+      tag kube.objects.oapi.*
+      api_version "project.openshift.io/v1"
+      insecure_ssl true
+      <pull>
+        resource_name projects
+        interval 30s
+      </pull>
+    </source>
+    <source>
       @type kubernetes_objects
       tag kube.objects.*
       api_version "apps/v1"

@@ -23,7 +23,7 @@ data:
       kubelet_port 10250
       use_rest_client_ssl true
       insecure_ssl true
-      cluster_name minishift
+      #cluster_name minishift
     </source>
     <filter kube.**>
       @type record_modifier

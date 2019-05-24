@@ -38,3 +38,14 @@ rules:
     - replicasets
     - statefulsets
     verbs: ["get", "list"]
+  - apiGroups:
+    - 'build.openshift.io'
+    - 'route.openshift.io'
+    - 'project.openshift.io'
+    resources:
+    - builds
+    - routes
+    - projects
+    verbs:
+      - get
+      - list
