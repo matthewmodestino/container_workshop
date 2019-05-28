@@ -2,8 +2,6 @@
 
 The following hands on walkthroughs are meant to enable Splunk users to experience various container concepts and Splunk product patterns seen in the wild. 
 
-From monitoring container platforms with Splunk, to deploying Splunk in container environments, you will explore common integrations in today’s containerized environments. We hope it will inspire you to join the growing community of Splunkers helping shape the future of Splunk in containerized environments!
-
 > This content is NOT Splunk Supported configuration or meant to be production deployment guidance. Don't let this stop you from exploring!
  
 # Getting Started
