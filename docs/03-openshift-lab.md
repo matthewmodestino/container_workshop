@@ -93,7 +93,7 @@ objects pod needs proper rbac to collect from the Kubernetes API.
 metrics daemonset needs permissions to talk to the kubelet & API.
 
 
-### Navigate to the sck_openshift/charts folder
+Navigate to the sck_openshift/charts folder
 
 ```
 oc get nodes -o wide
@@ -101,7 +101,7 @@ oc get nodes -o wide
 
 > Note your Openshift node’s internal-IP. We will update our metrics yamls to use this IP. 
 
-### Navigate to ../sck_openshift/charts/splunk-kubernetes-metrics/templates
+Navigate to ../sck_openshift/charts/splunk-kubernetes-metrics/templates
 
 `vi configmap.yaml` and update the node_name parameter with your node’s internal-IP
 
