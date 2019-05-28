@@ -32,7 +32,7 @@ To learn more about docker-compose, READ ME! https://docs.docker.com/compose/com
 
 This Splunk deploy will receive data from various integrations we review in the following labs.
 
-Navigate to splunk_docker folder
+### Navigate to splunk_docker folder
 
 ```
 docker-compose -f 1so_hec.yaml up -d
@@ -40,7 +40,7 @@ docker-compose -f 1so_hec.yaml up -d
 
 Tail the splunk container’s logs. Splunk docker images leverage the splunk-ansible project as our entrypoint. Once ansible play recap is completed, your splunk instance is ready. 
 
-Find your container id
+### Find your container id
 
 ```
 docker ps -a
@@ -83,7 +83,7 @@ splunk_common : include_tasks ------------------------------------------- 0.10s
 Ansible playbook complete, will begin streaming var/log/splunk/splunkd_stderr.log
 ```
 
-## Test HEC
+### Test HEC
 
 Let’s ensure the HEC configuration allows us to send data to Splunk. 
 
@@ -106,7 +106,7 @@ https://github.com/splunk/docker-logging-plugin
 docker plugin install splunk/docker-logging-plugin
 ```
 
-## Configure the Logging Plugin
+### Configure the Logging Plugin
 Once installed, the plugin is very easy to configure through the docker desktop UI. It even included json syntax checks. 
 
 https://docs.docker.com/docker-for-mac/#daemon
@@ -115,7 +115,7 @@ Here are some configs you can paste into the advanced daemon screen on Docker De
 
 See all config options for Splunk Logging Plugin here: https://github.com/splunk/docker-logging-plugin/blob/release/2.0.1/README.md
 
-Try the default “inline” format
+### Try the default “inline” format
 
 ```
  "log-driver" : "4e534fbc6e71",
@@ -126,7 +126,7 @@ Try the default “inline” format
   }
 ```
 
-Try the Raw format
+### Try the Raw format
 
 ```
  "log-driver" : "4e534fbc6e71",
@@ -138,7 +138,7 @@ Try the Raw format
   }
 ```
 
-## Deploy a sample app
+### Deploy a sample app
 To examine the formats mentioned above, you can deploy buttercupgo. 
 
 Each time you change the Docker daemon settings and restart, or use docker restart command to restart the buttercupgo image, you should see logs in Splunk. 
