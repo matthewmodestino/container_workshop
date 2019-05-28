@@ -30,21 +30,20 @@ https://docs.docker.com/docker-for-windows/
 
 To complete the Openshift lab, we will use minishift, which we will build a openshift vm using virtualbox. 
 
-Install Virtualbox on your Mac
+### Install Virtualbox on your Mac
 https://docs.okd.io/latest/minishift/getting-started/setting-up-virtualization-environment.html#setting-up-virtualbox-driver
 
-Install homebrew
+### Install homebrew
 https://brew.sh/
 
-Install minishift
+### Install minishift
 https://docs.okd.io/latest/minishift/getting-started/installing.html
 
 ```
 brew cask install minishift
 ```
 
-
-start minishift
+### start minishift
 
 
 ```
