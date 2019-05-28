@@ -1,6 +1,6 @@
 # Openshift Lab
 
-##Explore Openshift
+## Explore Openshift
 If your customer is using Openshift, all the content we just covered for Open Soure Kubernetes still applies; we just put a little red hat on a few things. Openshift provides advanced security and permission controls, so we will deploy with additional configs to ensure we have the access and permissions we need. 
 
 https://docs.okd.io/latest/architecture/index.html
