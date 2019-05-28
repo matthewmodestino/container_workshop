@@ -15,7 +15,7 @@ Let’s deploy a standalone instance of Splunk Enterprise to send data to.
 
 # Deploy Splunk
 
-## Create a Splunk Project
+### Create a Splunk Project
 
 Notice we clear the node selector label to ensure our daemonsets can run on master nodes. 
 
@@ -23,7 +23,7 @@ Notice we clear the node selector label to ensure our daemonsets can run on mast
 oc adm new-project splunk --node-selector=""
 ```
 
-## Select the project
+### Select the project
 
 ```
 oc project splunk
@@ -35,19 +35,19 @@ At anytime, check what cluster and project you are working on:
 oc status
 ```
 
-## Create a service account called splunk
+### Create a service account called splunk
 
 ```
 oc create sa splunk
 ```
 
-## Provide privilege to the splunk service account. 
+### Provide privilege to the splunk service account. 
 
 ```
 oc adm policy add-scc-to-user privileged system:serviceaccount:splunk:splunk
 ```
 
-## Deploy the Splunk standalone
+### Deploy the Splunk standalone
 
 ```
 oc apply -f standalone
@@ -93,17 +93,17 @@ objects pod needs proper rbac to collect from the Kubernetes API.
 metrics daemonset needs permissions to talk to the kubelet & API.
 
 
-Navigate to the sck_openshift/charts folder
+### Navigate to the sck_openshift/charts folder
 
 ```
 oc get nodes -o wide
 ```
 
-Note your Openshift node’s internal-IP. We will update our metrics yamls to use this IP. 
+> Note your Openshift node’s internal-IP. We will update our metrics yamls to use this IP. 
 
-Navigate to ../sck_openshift/charts/splunk-kubernetes-metrics/templates
+### Navigate to ../sck_openshift/charts/splunk-kubernetes-metrics/templates
 
-vi configmap.yaml and update the node_name parameter with your node’s internal-IP
+`vi configmap.yaml` and update the node_name parameter with your node’s internal-IP
 
 ```
   <source>
