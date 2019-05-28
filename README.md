@@ -76,7 +76,11 @@ Successfully tagged matthewmodestino/container-workshop:7.2.6-redhat
 ```
 
 
+# Labs
 
+* [Docker](docs/01-docker-lab.md)
+* [Kubernetes](docs/02-kubernetes-lab.md)
+* [Openshift](docs/03-openshift-lab.md)
 
 
 
