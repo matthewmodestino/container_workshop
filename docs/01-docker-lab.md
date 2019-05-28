@@ -180,7 +180,7 @@ docker plugin rm 65d7fec7b834
 
 There are many ways to achieve results with Splunk. The following are alternate integration options to Splunk Connect for Docker that we have seen, internally and in the field. 
 
-splunk-fluent-hec
+## splunk-fluent-hec
 https://hub.docker.com/r/splunk/fluentd-hec
 
 The topic of data formatting and multiline logging will be where the discussion moves once a customer gets running with Splunk Connect for Docker. The plugin does not support multiline logs (stacktraces, etc), so using Splunk’s fluentd-hec images looks like a good alternative, and aligns with Splunk Connect for Kubernetes, which we will cover in the next lab. 
@@ -205,7 +205,9 @@ I have used open-source plugins to PoC this, and it works very well. I would loo
 
 # Troubleshooting the Docker Labs
 
-If your Splunk image has errors in the Ansible Play Recap, review the error and the configuration that the container dumps on startup for issues.
+Check `docker logs -f <yourContainerID>` to ensure the ansible plays finish successfully. 
+
+If your Splunk image has errors in the Ansible Play Recap, review the error and the associated splunk-ansible play. Also check the rendered configuration that the container dumps on startup for issues. Here is a working example:
 
 ```
 $ docker logs -f 36cb6a7af601
