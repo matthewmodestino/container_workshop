@@ -32,7 +32,7 @@ To learn more about docker-compose, READ ME! https://docs.docker.com/compose/com
 
 This Splunk deploy will receive data from various integrations we review in the following labs.
 
-### Navigate to splunk_docker folder
+Navigate to `splunk_docker` folder
 
 ```
 docker-compose -f 1so_hec.yaml up -d
@@ -40,7 +40,7 @@ docker-compose -f 1so_hec.yaml up -d
 
 Tail the splunk container’s logs. Splunk docker images leverage the splunk-ansible project as our entrypoint. Once ansible play recap is completed, your splunk instance is ready. 
 
-### Find your container id
+Find your container id
 
 ```
 docker ps -a
@@ -85,7 +85,7 @@ Ansible playbook complete, will begin streaming var/log/splunk/splunkd_stderr.lo
 
 ### Test HEC
 
-Let’s ensure the HEC configuration allows us to send data to Splunk. 
+Let’s ensure the HEC configuration defined in the compose file allows us to send data to Splunk. 
 
 ```
 curl -k https://localhost:9088/services/collector -H 'Authorization: Splunk 00000000-0000-0000-0000-000000000000' -d '{"sourcetype": "mysourcetype", "event":"Hello, World!"}'
@@ -151,7 +151,7 @@ docker-compose -f buttercupgo.yaml up -d
 > HINT HINT: buttercup go is instrumented with boomerang.js. and Logs2Metrics is a thing now! We will look to ingest the boomerang data directly into Splunk metrics in a future lab. 
 Review
 
-## Let’s discuss! 
+## Review 
 
 #docker-community, #dockerizing-splunk #project-docker-plugin & #project-k8s
 
@@ -176,7 +176,7 @@ docker plugin rm 65d7fec7b834
 ```
 
 
-# BONUS Docker LABS!
+# BONUS LABS!
 
 There are many ways to achieve results with Splunk. The following are alternate integration options to Splunk Connect for Docker that we have seen, internally and in the field. 
 
