@@ -47,7 +47,7 @@ oc create sa splunk
 oc adm policy add-scc-to-user privileged system:serviceaccount:splunk:splunk
 ```
 
-## From the splunk_openshift folder, deploy the standalone yaml:
+Deploy the standalone yaml
 
 ```
 oc apply -f standalone
