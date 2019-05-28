@@ -47,7 +47,7 @@ oc create sa splunk
 oc adm policy add-scc-to-user privileged system:serviceaccount:splunk:splunk
 ```
 
-Deploy the standalone yaml
+## Deploy the Splunk standalone
 
 ```
 oc apply -f standalone
@@ -141,8 +141,3 @@ oc apply -f splunk-kubernetes-objects/templates/
 ```
 oc apply -f splunk-kubernetes-metrics/templates/
 ```
-
-
-
-
-
