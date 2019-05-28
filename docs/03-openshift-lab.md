@@ -1,7 +1,7 @@
 # Openshift Lab
 
 ## Explore Openshift
-If your customer is using Openshift, all the content we just covered for Open Soure Kubernetes still applies; we just put a little red hat on a few things. Openshift provides advanced security and permission controls, so we will deploy with additional configs to ensure we have the access and permissions we need. 
+If you are using Openshift, all the content covered in the Kubernetes lab still applies; we just put a little red hat on a few things. Openshift provides advanced security and permission controls, so we will deploy with additional configs to ensure we have the access and permissions we need. 
 
 https://docs.okd.io/latest/architecture/index.html
 
@@ -74,15 +74,6 @@ docker pull registry.connect.redhat.com/splunk/sck101
 docker tag registry.connect.redhat.com/splunk/sck101 matthewmodestino/sck101
 docker push matthewmodestino/sck101
 ```
-
-```
-oc login https://192.168.99.108:8443 --token=GJtkfdoEek6H0qSUbM4xuk5M5Diy3XiS7C-FIkq6CO4
-```
-
-```
-docker login -u admin -p GJtkfdoEek6H0qSUbM4xuk5M5Diy3XiS7C-FIkq6CO4 docker-registry-default.192.168.99.108.nip.io
-```
-
 # Deploy Splunk Connect for Kubernetes
 
 I have provided yaml files that I have rendered using “helm template” and updated them to run in Openshift. The main configurations are: 
@@ -141,3 +132,10 @@ oc apply -f splunk-kubernetes-objects/templates/
 ```
 oc apply -f splunk-kubernetes-metrics/templates/
 ```
+
+## Review
+
+## Clean Up
+
+## Troubleshooting
+
