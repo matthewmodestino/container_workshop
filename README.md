@@ -25,6 +25,51 @@ https://docs.docker.com/docker-for-mac/
 Windows
 https://docs.docker.com/docker-for-windows/
 
+
+## Install Minishift
+
+To complete the Openshift lab, we will use minishift, which we will build a openshift vm using virtualbox. 
+
+Install Virtualbox on your Mac
+https://docs.okd.io/latest/minishift/getting-started/setting-up-virtualization-environment.html#setting-up-virtualbox-driver
+
+Install homebrew
+https://brew.sh/
+
+Install minishift
+https://docs.okd.io/latest/minishift/getting-started/installing.html
+
+```
+brew cask install minishift
+```
+
+
+start minishift
+
+
+```
+minishift start --vm-driver virtualbox --docker-opt log-driver=json-file 
+```
+
+Once minishift comes up, note the admin credentials. 
+
+```
+Login to server ...
+Creating initial project "myproject" ...
+Server Information ...
+OpenShift server started.
+
+The server is accessible via web console at:
+    https://192.168.99.104:8443/console
+
+You are logged in as:
+    User:     developer
+    Password: <any value>
+
+To login as administrator:
+    oc login -u system:admin
+```
+
 ## Sign up/Sign into docker hub (Optional)
 You will want to have an account on dockerhub to allow you to share and publish docker images.
 
