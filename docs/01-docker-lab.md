@@ -1,7 +1,7 @@
 # Docker Lab
-Docker is a widely adopted container runtime engine that will very likely be part the stack that you encounter in customer container environments. Understanding the Docker layer is a great base for jumping into the world of container orchestrators like Kubernetes and Openshift. 
+Docker is a widely adopted container runtime engine that will very likely be part the stack that you encounter in container environments. Understanding the Docker layer is a great base for jumping into the world of container orchestrators like Kubernetes and Openshift. 
 
-The Purpose of this lab is to familiarize you with the data sources and integrations that Docker Enterprise, or Docker-esque environments (ECS, Fargate) customers will encounter. 
+The Purpose of this lab is to familiarize you with the data sources and integrations that Docker Enterprise, or Docker-esque environments (ECS, Fargate) will use. 
 
 Here are the docs for some helpful commands that we will be using. 
 
