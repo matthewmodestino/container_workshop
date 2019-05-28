@@ -39,7 +39,6 @@ spec:
         imagePullPolicy: Always
         securityContext:
           privileged: true
-          runAsUser: 0
         env:
           - name: SPLUNK_HEC_HOST
             valueFrom:

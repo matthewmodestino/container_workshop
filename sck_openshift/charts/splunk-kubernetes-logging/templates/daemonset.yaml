@@ -28,13 +28,14 @@ spec:
       - name: splunk-fluentd-k8s-logs
         #image: splunk/fluentd-hec:1.1.0
         image: splunk/fluentd-hec:1.0.1
+        #image: matthewmodestino/sck101 
         imagePullPolicy: Always
         securityContext:
           privileged: true
           runAsUser: 0
         args:
-          - -c
-          - /fluentd/etc/fluent.conf
+          - "-c"
+          - "/fluentd/etc/fluent.conf"
         env:
           - name: SPLUNK_HEC_HOST
             valueFrom:

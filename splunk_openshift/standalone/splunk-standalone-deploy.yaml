@@ -16,11 +16,12 @@ spec:
       hostname: standalone
       containers:
         - name: standalone
-          image: matthewmodestino/splunk-container-workshop:latest
+          image: matthewmodestino/container-workshop:7.2.6-redhat
+          #image: matthewmodestino/splunk-container-workshop:latest
           imagePullPolicy: Always
           securityContext:
             privileged: true
-            #runAsUser: 0
+            runAsUser: 0
           env:
             - name: SPLUNK_HOME
               value: /opt/splunk
