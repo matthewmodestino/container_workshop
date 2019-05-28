@@ -4,9 +4,11 @@ The following hands on walkthroughs are meant to enable Splunk users to experien
 
 From monitoring container platforms with Splunk, to deploying Splunk in container environments, you will explore common integrations in today’s containerized environments. We hope it will inspire you to join the growing community of Splunkers helping shape the future of Splunk in containerized environments!
 
-The following content is NOT Splunk Supported configuration or meant to be production deployment guidance. Please consult Splunk Documentation or your Splunk account team & Professional Services for advanced production support. 
-Getting Started
-Note: we will be running Linux containers in all labs. 
+> This content is NOT Splunk Supported configuration or meant to be production deployment guidance. Don't let this stop you from exploring!
+ 
+# Getting Started
+
+> Note: we will be running Linux containers in all labs. 
 
 The following labs expect Docker Desktop and Minishift will be used as the container environments. This will help ensure content can be followed locally on your laptop.
 
@@ -14,7 +16,7 @@ In theory, you should be able to follow these on any properly configured Docker,
 
 If you run into issues, I will do my best to support you via Github Issues or Splunk User Group Slack (splk.it/slack) in the #docker or #kubernetes or #Openshift channels. 
 
-##Install Docker for Mac or Windows 
+## Install Docker for Mac or Windows 
 For the Docker and Kubernetes labs, we will use Docker Desktop. The following labs and content were developed against Docker Desktop for Mac, but SHOULD work on Windows or any properly configured Docker or Kubernetes environment. 
 
 Mac
@@ -23,16 +25,17 @@ https://docs.docker.com/docker-for-mac/
 Windows
 https://docs.docker.com/docker-for-windows/
 
-##Sign up/Sign into docker hub (Optional)
+## Sign up/Sign into docker hub (Optional)
 You will want to have an account on dockerhub to allow you to share and publish docker images.
 
 https://hub.docker.com/signup
 
-##Pull the Workshop repo
+## Pull the Workshop repo
 All the files you will need to run the demos are contained here.
 
 git clone https://github.com/matthewmodestino/container_workshop
-Docker Images
+
+## Docker Images
 In the following labs, we will deploy a splunk enterprise standalone instance, built on Red Hat’s Universal Base Image, that has been pre-configured to install metrics workspace and a custom app with configs to use with Splunk Connect for Kubernetes. 
 
 
