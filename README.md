@@ -17,7 +17,8 @@ In theory, you should be able to follow these on any properly configured Docker,
 If you run into issues, I will do my best to support you via Github Issues or Splunk User Group Slack (splk.it/slack) in the #docker or #kubernetes or #Openshift channels. 
 
 ## Install Docker for Mac or Windows 
-For the Docker and Kubernetes labs, we will use Docker Desktop. The following labs and content were developed against Docker Desktop for Mac, but SHOULD work on Windows or any properly configured Docker or Kubernetes environment. 
+To complete the Docker and Kubernetes labs and to work with docker images, we will use Docker Desktop. The following labs and content were developed against Docker Desktop for Mac, but SHOULD work on Windows or any properly configured Docker or Kubernetes environment. 
+
 
 Mac
 https://docs.docker.com/docker-for-mac/
