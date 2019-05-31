@@ -1,0 +1,58 @@
+version: "3.7"
+networks:
+  splunknet:
+    driver: bridge
+    attachable: true
+
+services:
+  so1:
+    networks:
+      splunknet:
+        aliases:
+          - so1
+    image: ${SPLUNK_IMAGE:-splunk/splunk:latest}
+    hostname: so1
+    container_name: so1
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_STANDALONE_URL=so1
+      - DEBUG=true
+      - SPLUNK_PASSWORD=helloworld
+    ports:
+      - 8000
+      - 8089
+  cacti:
+    networks:
+      splunknet:
+        aliases:
+          - cacti
+    image: quantumobject/docker-cacti
+    ports:
+     - "9999:80"
+     - "161:161"
+    volumes:
+     #- /etc/localtime:/etc/localtime:ro
+     - ./backups/:/var/backups/
+     - cacti-opt-cacti-log:/opt/cacti/log
+     - cacti-opt-cacti-plugins:/opt/cacti/plugins 
+  splkuf:
+    networks: 
+      splunknet:
+        aliases:
+          - uf1
+    image: splunk/universalforwarder:latest
+    environment:
+      SPLUNK_START_ARGS: "--accept-license"
+      SPLUNK_PASSWORD: "helloworld"
+      SPLUNK_STANDALONE_URL: "so1"
+      SPLUNK_ADD: "monitor /var/log/cacti/cacti.log"
+      DEBUG: "true"
+    volumes:
+     - cacti-opt-cacti-log:/var/log/cacti:ro
+     - vsplunkuf-opt-splunkforwarder-etc:/opt/splunkforwarder/etc
+     - vsplunkuf-opt-splunkforwarder-var:/opt/splunkforwarder/var
+volumes:
+  vsplunkuf-opt-splunkforwarder-etc:
+  vsplunkuf-opt-splunkforwarder-var:
+  cacti-opt-cacti-log:
+  cacti-opt-cacti-plugins:
