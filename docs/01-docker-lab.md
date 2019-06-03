@@ -198,7 +198,8 @@ More experimentation with this to come!
 ## Syslog Driver with syslog-ng & HEC
 
 I have not ventured into this world, due to the fact that it would generally require customization of the container environment. Still, it should be investigated and compared for scale, reliability, features, against other options. The main detractor is that while syslog is a supported Docker driver, it breaks the `docker logs` and `kubectl logs` commands, which may or may not be a big deal for your environment/teams. 
-Collectd for Docker Metrics
+
+## Collectd for Docker Metrics
 With Splunk making collectd a first class input for metrics (see write_splunk plugin that SAI uses), using collectd to collect metrics from docker nodes looks very promising.
 
 I have used open-source plugins to PoC this, and it works very well. I would look for SAI to create an official plugin in the future.  
