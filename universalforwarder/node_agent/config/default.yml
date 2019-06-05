@@ -22,38 +22,51 @@ splunk:
   admin_user: admin
   allow_upgrade: true
   app_paths:
-    default: /opt/splunkforwarder/etc/apps
-    deployment: /opt/splunkforwarder/etc/deployment-apps
-    httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
-    idxc: /opt/splunkforwarder/etc/master-apps
-    shc: /opt/splunkforwarder/etc/shcluster/apps
+    default: /opt/splunk/etc/apps
+    deployment: /opt/splunk/etc/deployment-apps
+    httpinput: /opt/splunk/etc/apps/splunk_httpinput
+    idxc: /opt/splunk/etc/master-apps
+    shc: /opt/splunk/etc/shcluster/apps
   enable_service: false
-  exec: /opt/splunkforwarder/bin/splunk
-  group: root
+  exec: /opt/splunk/bin/splunk
+  group: splunk
   hec_disabled: 0
   hec_enableSSL: 1
   hec_port: 8088
-  hec_token: 80fb87e3-470c-4f1d-a1b2-3efa29f6a5c2
-  home: /opt/splunkforwarder
+  hec_token: 04e14e5b-c87b-4d01-a1af-a43a74395128
+  home: /opt/splunk
   http_enableSSL: 0
   http_enableSSL_cert: null
   http_enableSSL_privKey: null
   http_enableSSL_privKey_password: null
   http_port: 8000
+  idxc:
+    enable: false
+    label: idxc_label
+    replication_factor: 3
+    replication_port: 9887
+    search_factor: 3
+    secret: rezoTnxBXxCHRBORqZXC8BNBTCOavs40
   ignore_license: false
   license_download_dest: /tmp/splunk.lic
   nfr_license: /tmp/nfr_enterprise.lic
   opt: /opt
-  #password: 3/CBjNI3JEOlfsQE/LiIEysExRwgs58E
-  pid: /opt/splunkforwarder/var/run/splunk/splunkd.pid
+  #password: hDViJYNAvG1QOftlgd3wXtSEXkAPA0nD
+  pid: /opt/splunk/var/run/splunk/splunkd.pid
   s2s_enable: true
   s2s_port: 9997
   search_head_cluster_url: null
   secret: null
+  shc:
+    enable: false
+    label: shc_label
+    replication_factor: 3
+    replication_port: 9887
+    secret: RpqiPB3ij1s5V5abYs37pnIsIYiE28DY
   smartstore: null
   svc_port: 8089
-  tar_dir: splunkforwarder
-  user: root
+  tar_dir: splunk
+  user: splunk 
   wildcard_license: false
-splunk_home_ownership_enforcement: false 
+splunk_home_ownership_enforcement: true
 

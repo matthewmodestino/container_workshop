@@ -11,16 +11,16 @@ services:
       splunknet:
         aliases:
           - uf1
-    image: ${UF_IMAGE:-splunk/universalforwarder:7.2.1}
+    #image: ${UF_IMAGE:-splunk/universalforwarder:7.2.1}
+    image: splunk/universalforwarder:7.3.0-redhat
+    #user: root
     hostname: uf1
     container_name: uf1
-    user: root
     environment:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_STANDALONE_URL=so1
       - DEBUG=true
       - SPLUNK_PASSWORD=helloworld
-      - SPLUNK_HOME_OWNERSHIP_ENFORCEMENT=false
     ports:
       - 8089
     volumes:
