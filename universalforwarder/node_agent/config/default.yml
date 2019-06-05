@@ -29,7 +29,7 @@ splunk:
     shc: /opt/splunk/etc/shcluster/apps
   enable_service: false
   exec: /opt/splunk/bin/splunk
-  group: splunk
+  group: root 
   hec_disabled: 0
   hec_enableSSL: 1
   hec_port: 8088
@@ -66,7 +66,7 @@ splunk:
   smartstore: null
   svc_port: 8089
   tar_dir: splunk
-  user: splunk 
+  user: root 
   wildcard_license: false
-splunk_home_ownership_enforcement: true
+splunk_home_ownership_enforcement: true 
 

@@ -13,7 +13,7 @@ services:
           - uf1
     #image: ${UF_IMAGE:-splunk/universalforwarder:7.2.1}
     image: splunk/universalforwarder:7.3.0-redhat
-    #user: root
+    user: root
     hostname: uf1
     container_name: uf1
     environment:
