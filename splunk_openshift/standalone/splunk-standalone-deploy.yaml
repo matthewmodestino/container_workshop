@@ -16,9 +16,7 @@ spec:
       hostname: standalone
       containers:
         - name: standalone
-          image: matthewmodestino/container-workshop:7.2.6-redhat
-          #image: matthewmodestino/splunk-container-workshop:latest
-          imagePullPolicy: Always
+          image: matthewmodestino/container_workshop:7.3.0-redhat
           securityContext:
             privileged: true
             runAsUser: 0
@@ -32,7 +30,7 @@ spec:
             - name: SPLUNK_START_ARGS
               value: "--accept-license"
             - name: SPLUNK_APPS_URL
-              value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-metrics-workspace_101.tgz"
+              value: "/tmp/ta_container_workshop.tgz"
             - name: "SPLUNK_HEC_TOKEN"
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG

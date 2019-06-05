@@ -12,13 +12,14 @@ services:
       splunknet:
         aliases:
           - so1
-    image: ${SPLUNK_IMAGE:-splunk/splunk:latest}
+    image: ${SPLUNK_IMAGE:-matthewmodestino/container_workshop:7.3.0-redhat}
     container_name: so1
     environment:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=helloworld
       - SPLUNK_HEC_TOKEN=00000000-0000-0000-0000-000000000000
       - DEBUG=true
+      - SPLUNK_APPS_URL=/tmp/ta_container_workshop.tgz
     ports:
       - 9999:8000
       - 9089:8089
