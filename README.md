@@ -79,7 +79,7 @@ All the files you will need to run the demos are contained here.
 git clone https://github.com/matthewmodestino/container_workshop
 
 ## Docker Images
-In the following labs, we will deploy a splunk enterprise standalone instance, built on Red Hat’s Universal Base Image, that has been pre-configured to install metrics workspace and a custom app with configs to use with Splunk Connect for Kubernetes. 
+In the following labs, we will deploy splunk enterprise standalone instances, built on Red Hat’s Universal Base Image, that have been pre-configured to install a custom add-on to use with Splunk Connect for Kubernetes data. 
 
 
 ```
