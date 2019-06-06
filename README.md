@@ -83,45 +83,28 @@ In the following labs, we will deploy a splunk enterprise standalone instance, b
 
 
 ```
-docker build -t matthewmodestino/container-workshop:7.2.6-redhat -f ./Dockerfile .
+docker build -t matthewmodestino/container-workshop:7.3.0-redhat -f ./Dockerfile .
 ```
 
 ```
-docker push matthewmodestino/container-workshop:7.2.6-redhat
+docker push matthewmodestino/container-workshop:7.3.0-redhat
 ```
 
 ```
 docker build -t matthewmodestino/container-workshop:7.2.6-redhat -f ./Dockerfile .
-Sending build context to Docker daemon  20.64MB
-Step 1/3 : FROM splunk/splunk:7.2.6-redhat
-7.2.6-redhat: Pulling from splunk/splunk
-ed6b7e8623ef: Pull complete 
-5b86d995ed7f: Pull complete 
-590775e2dc38: Pull complete 
-c3e3238f19f9: Pull complete 
-62dfee69ddd6: Pull complete 
-028bcc8f36e7: Pull complete 
-e6b8e8e686ab: Pull complete 
-4faa98fbfe5a: Pull complete 
-cfe8b21f9c2e: Pull complete 
-7cfc59345f7a: Pull complete 
-8dad836b6dab: Pull complete 
-98d06aecab78: Pull complete 
-Digest: sha256:7cdb5cd20dceace95213426f40efdd8c7fc209d6ef2ff1b0a2a6e2a640b1ac1b
-Status: Downloaded newer image for splunk/splunk:7.2.6-redhat
- ---> 0e7bb95b6220
-Step 2/3 : COPY ta_container_workshop.tgz /tmp/
- ---> 46fa7e8487d2
-Step 3/3 : COPY splunk-metrics-workspace_101.tgz /tmp/
- ---> 390425126202
-Successfully built 390425126202
-Successfully tagged matthewmodestino/container-workshop:7.2.6-redhat
+Sending build context to Docker daemon  18.94kB
+Step 1/2 : FROM splunk/splunk:7.3.0-redhat
+ ---> 533cc44ac5d6
+Step 2/2 : COPY ta_container_workshop.tgz /tmp/
+ ---> Using cache
+ ---> 0396a2aaa34e
+Successfully built 0396a2aaa34e
 ```
 
 
 # Labs
 
-Now that you have your environment ready, you can dive into the labs. 
+Now that you have your environments ready, you can dive into the labs. For beginners, I recommend doing them in succession, as knowledge in Docker images and Docker concepts translates well into k8s and Openshift, but feel free to choose your own adventure! 
 
 
 * [Docker](docs/01-docker-lab.md)
