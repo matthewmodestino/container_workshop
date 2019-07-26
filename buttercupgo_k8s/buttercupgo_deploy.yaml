@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: butercupgo 
+  name: buttercupgo 
 spec:
   replicas: 1
   template:

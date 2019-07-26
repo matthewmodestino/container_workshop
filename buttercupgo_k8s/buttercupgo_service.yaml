@@ -11,7 +11,7 @@ spec:
   ports:
     - name: web
       port: 3040 
-      targetPort: 8000
+      targetPort: 3040 
     - name: port2 
       port: 3000
       targetPort: 3000

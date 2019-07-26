@@ -8,6 +8,7 @@ metadata:
     role: standalone
     tier: standalone
 spec:
+  type: LoadBalancer
   selector:
     app: splunk
     role: standalone
@@ -25,4 +26,25 @@ spec:
     - name: hec
       port: 8088
       targetPort: 8088
-  clusterIP: None
+
+
+#apiVersion: v1
+#kind: Service
+#metadata:
+#  name: search 
+#  #namespace: splunk
+#  labels:
+#    app: splunk
+#    tier: search 
+#spec:
+#  #type: LoadBalancer
+#  selector:
+#    app: splunk
+#    role: splunk_search_head
+#  ports:
+#    - name: splunkweb
+#      port: 80
+#      targetPort: 8000
+#    - name: splunkd
+#      port: 8089
+#      targetPort: 8089

@@ -16,6 +16,7 @@ spec:
       containers:
         - name: standalone
           image: matthewmodestino/container_workshop:7.3.0-redhat
+          imagePullPolicy: Always
           env:
             - name: SPLUNK_HOME
               value: /opt/splunk
@@ -26,7 +27,7 @@ spec:
             - name: SPLUNK_START_ARGS
               value: "--accept-license"
             - name: SPLUNK_APPS_URL
-              value: /tmp/ta_container_workshop.tgz
+              value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-app-for-infrastructure_140.tgz,/tmp/splunk-business-flow_102.tgz"
             - name: "SPLUNK_HEC_TOKEN"
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG
