@@ -1,0 +1,2236 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-03-18 21:35+0000\n"
+"PO-Revision-Date: 2019-04-23 18:58+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:533 apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:585
+#, python-format
+msgid "%(gigabytes)s GB"
+msgstr "%(gigabytes)s GB"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:253
+#, python-format
+msgid "%(group_title)s already exists"
+msgstr "%(group_title)s はすでに存在します"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:256
+#, python-format
+msgid "%(group_title)s: group name cannot contain | or = or left empty"
+msgstr "%(group_title)s: グループ名は、| や = を使ったり、空のままにしたりすることはできません"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:560
+#, python-format
+msgid "%(numberOfDays)s days"
+msgstr "%(numberOfDays)s 日"
+
+#: packages/ui/utils/commonUtils.js:29
+#, python-format
+msgid "%(numberOfDays)sd ago"
+msgstr "%(numberOfDays)sd 日前"
+
+#: packages/ui/utils/commonUtils.js:27
+#, python-format
+msgid "%(numberOfHours)sh ago"
+msgstr "%(numberOfHours)sh 時間前"
+
+#: packages/ui/utils/commonUtils.js:25
+#, python-format
+msgid "%(numberOfMinutes)sm ago"
+msgstr "%(numberOfMinutes)sm 分前"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:347
+#, python-format
+msgid "%d Available"
+msgstr "%d 個利用可能"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:330
+#, python-format
+msgid "%d Entity"
+msgid_plural "%d Entities"
+msgstr[0] "%d エンティティ"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:350
+#, python-format
+msgid "%d Entity Selected"
+msgid_plural "%d Entities Selected"
+msgstr[0] "%d 件のエンティティが選択されました"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupControlBar.js:157
+#, python-format
+msgid "%d Group"
+msgid_plural "%d Groups"
+msgstr[0] "%d グループ"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:269
+#, python-format
+msgid "%d Group Selected"
+msgid_plural "%d Groups Selected"
+msgstr[0] "%d 件のグループが選択されました"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:347
+#, python-format
+msgid "%d Healthy"
+msgstr "%d 件が健全"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:396
+#, python-format
+msgid "%d Log Source Selected"
+msgid_plural "%d Log Sources Selected"
+msgstr[0] "%d 件のログソースが選択されました"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:236 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:267
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:255
+#, python-format
+msgid "%d Log source"
+msgid_plural "%d Log sources"
+msgstr[0] "%d 件のログソース"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:231 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:262
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:250
+#, python-format
+msgid "%d Metric"
+msgid_plural "%d Metrics"
+msgstr[0] "%d 件のメトリックス"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:369
+#, python-format
+msgid "%d Metric Selected"
+msgid_plural "%d Metrics Selected"
+msgstr[0] "%d 件のメトリクスが選択されました"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:354
+#, python-format
+msgid "%d N/A"
+msgstr "%d 件が非該当"
+
+#: packages/ui/components/NumberOfItemsPerPageDropDown.js:67
+#, python-format
+msgid "%d Per Page"
+msgstr "%d/ページ"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:351
+#, python-format
+msgid "%d Unavailable"
+msgstr "%d 件が利用不可"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:351
+#, python-format
+msgid "%d Unhealthy"
+msgstr "%d 件が不健全"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:76
+#, python-format
+msgid "%d%% of the servers are inactive"
+msgstr "%d%% のサービスが非アクティブ"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:452
+msgid "+ Add Custom Source"
+msgstr "+ カスタムソースの追加"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:656
+msgid "+ Add New Threshold"
+msgstr "+ 新しい閾値の追加"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:667
+msgid "+ Alert Notification"
+msgstr "+ アラート通知"
+
+#: packages/ui/utils/stateConstants.js:216
+msgid "10 seconds"
+msgstr "10 秒"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:78
+msgid "100% of the servers are active"
+msgstr "100% のサービスがアクティブです"
+
+#: packages/ui/utils/stateConstants.js:219
+msgid "3 minutes"
+msgstr "3 分"
+
+#: packages/ui/utils/stateConstants.js:217
+msgid "30 seconds"
+msgstr "30 秒"
+
+#: packages/ui/utils/stateConstants.js:220
+msgid "5 minutes"
+msgstr "5 分"
+
+#: packages/ui/utils/stateConstants.js:218
+msgid "60 seconds"
+msgstr "60 秒"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:243
+msgid "API Key"
+msgstr "API キー"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:244
+msgid "API key obtained through the VictorOps Splunk integration."
+msgstr "VictorOps Splunk 統合によって取得された API キー。"
+
+#: packages/ui/components/RefreshControl.js:169
+msgid "AUTO REFRESH"
+msgstr "自動更新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:137
+msgid "AWS Entity Types"
+msgstr "AWS エンティティ タイプ"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:150
+msgid "AWS Regions"
+msgstr "AWS リージョン"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:548 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:350
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:578
+msgid "Action"
+msgstr "アクション"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:585 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:386
+msgid "Actions"
+msgstr "アクション"
+
+#: packages/ui/components/ObjectStatus.js:36
+msgid "Active"
+msgstr "アクティブ"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:235
+msgid "Add AWS account"
+msgstr "AWS アカウントを追加"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:125
+msgid "Add AWS data source"
+msgstr "AWS データソースを追加"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:23
+msgid "After you run the script, the entity will appear as inactive. You must manually delete the entity to remove it from the instance."
+msgstr "スクリプトを実行すると、エンティティが非アクティブとして表示されます。インスタンスからエンティティを削除するには、エンティティを手動で削除する必要があります。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:94
+msgid "Aggregation method is missing from metric SPL"
+msgstr "集計方法がメトリックス SPL にありません"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:335 packages/ui/utils/stateConstants.js:362
+msgid "Alert Count"
+msgstr "アラートカウント"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:382
+msgid "Alert Creation Error"
+msgstr "アラート作成エラー"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:124
+msgid "Alert with the specified name already exists."
+msgstr "指定された名前のアラートがすでに存在しています。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:430
+msgid "All data is retained until storage is full"
+msgstr "すべてのデータはストレージが一杯になるまで保持されます"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:232
+msgid "All fields required"
+msgstr "すべてのフィールドが必須です"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:63
+msgid "All inputs related to this account will also be deleted."
+msgstr "このアカウントに関連するすべての入力も削除されます。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:387
+msgid "An alert can not have multiple aggregations."
+msgstr "アラートに複数の集計を含めることはできません。"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:365
+msgid "Analysis"
+msgstr "分析"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:312
+msgid "Anonymized Usage Data"
+msgstr "匿名化された使用量データ"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:315 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:62
+#, python-format
+msgid "Are you sure you want to delete %(name)s?"
+msgstr "%(name)s を削除してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:382
+#, python-format
+msgid "Are you sure you want to delete all %d entities in this filter from your environment?"
+msgstr "このフィルタ内の %d エンティティをすべて環境から削除してよろしいですか？"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:303
+#, python-format
+msgid "Are you sure you want to delete all %d groups in this filter from your environment?"
+msgstr "このフィルタ内の %d グループをすべて環境から削除してよろしいですか？"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:394
+#, python-format
+msgid "Are you sure you want to delete the %d selected entities?"
+msgstr "選択した %d エンティティを削除してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:323
+#, python-format
+msgid "Are you sure you want to delete the %d selected groups?"
+msgstr "選択した %d グループを削除してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:400
+#, python-format
+msgid "Are you sure you want to delete the entity %(name)s?"
+msgstr "エンティティ %(name)s を削除してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:331
+#, python-format
+msgid "Are you sure you want to delete the group %(name)s?"
+msgstr "グループ %(name)s を削除してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:104
+msgid "Are you sure you want to remove your VictorOps credentials?"
+msgstr "VictorOps 認証情報を削除してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:141
+msgid "Are you sure you want to restart Splunk?"
+msgstr "Splunk を再起動してもよろしいですか？"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:26
+msgid "Attach IAM role"
+msgstr "IAM ロールの付加"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:143
+msgid "Authenticated Install"
+msgstr "認証インストール"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:131 packages/ui/components/RefreshControl.js:147
+#, python-format
+msgid "Auto refresh in %(numberOfSeconds)ss"
+msgstr "%(numberOfSeconds)ss 秒で自動更新"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:259
+msgid "Automatically share license usage data"
+msgstr "ライセンス使用状況データの自動共有"
+
+#: apps/sii/src/main/resources/splunk/bin/em_constants.py:33
+msgid "Availability"
+msgstr "利用可能"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:170
+msgid "Bad Request"
+msgstr "無効な要求"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:432
+msgid "Based on current ingestion rate."
+msgstr "現在の取り込み速度に基づきます。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_entity_migration.py:141
+msgid "Batch saving failed: Batch is empty."
+msgstr "バッチ保存に失敗しました: バッチが空です。"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:65
+msgid "Build"
+msgstr "ビルド"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:678 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:567
+msgid "Bulk Actions"
+msgstr "一括アクション"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:525
+msgid "Buy More Storage"
+msgstr "追加のストレージを購入"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:362
+msgid "Calculating daily data ingestion, Please Wait"
+msgstr "毎日のデータ取得量を計算しています。しばらくお待ちください"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:698 apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:294
+#: packages/ui/components/ConfirmationDialog.js:144
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:364
+msgid "Cannot create alert without data."
+msgstr "データなしにアラートを作成することはできません。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:33
+msgid "Cannot create more than one VictorOps settings"
+msgstr "複数の VictorOps 設定を作成することはできません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:174
+msgid "Cannot delete a group that does not exist"
+msgstr "存在しないグループは削除できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:55
+#, python-format
+msgid "Cannot delete alert with name %(alert_name)s"
+msgstr "名前が %(alert_name)s のアラートは削除できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:221
+#, python-format
+msgid "Cannot delete entity with id %(entity_id)s"
+msgstr "ID が %(entity_id)s のエンティティは削除できません"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:375
+msgid "Cannot delete the selected entities!"
+msgstr "選択したエンティティを削除できません！"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:374
+msgid "Cannot delete the selected entity!"
+msgstr "選択したエンティティを削除できません！"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:294
+msgid "Cannot delete the selected group!"
+msgstr "選択したグループを削除できません！"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:295
+msgid "Cannot delete the selected groups!"
+msgstr "選択したグループを削除できません！"
+
+#: apps/sii/src/main/resources/splunk/bin/em_collector_configuration_interface_impl.py:96
+#, python-format
+msgid "Cannot find the collector configuration with id %(id)s!"
+msgstr "ID が %(id)s のコレクタ設定が見つかりませんでした！"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:506
+#, python-format
+msgid "Cannot find the entity with id %(entity_id)s."
+msgstr "ID が %(entity_id)s のエンティティが見つかりませんでした。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:180 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:290
+#, python-format
+msgid "Cannot find the group with id %(group_id)s"
+msgstr "ID が %(group_id)s のグループが見つかりませんでした"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:303
+#, python-format
+msgid "Cannot get collector or entities info from group '%(group_name)s'"
+msgstr "グループ '%(group_name)s' からコレクタまたはエンティティの情報を取得できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:354
+msgid "Cannot get count of groups"
+msgstr "グループのカウントを取得できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:296
+#, python-format
+msgid "Cannot get entities within group '%(group_name)s'"
+msgstr "グループ '%(group_name)s' 内のエンティティを取得できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:347
+msgid "Cannot get matching groups with given entity information"
+msgstr "与えられたエンティティ情報と一致するグループを取得できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_collector_configuration_interface_impl.py:105
+msgid "Cannot list all of the collector configurations saved!"
+msgstr "保存されている一部のコレクタ設定をリストに表示できません！"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:499
+msgid "Cannot list all of the collector configurations saved."
+msgstr "保存されている一部のコレクタ設定をリストに表示できません。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:519
+msgid "Cannot list all of the entities saved."
+msgstr "保存されている一部のエンティティをリストに表示できません。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:284
+msgid "Cannot list all of the groups saved"
+msgstr "保存されている一部のグループをリストに表示できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:332
+msgid "Cannot list collector configs"
+msgstr "コレクタの設定をリストに表示できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:157
+msgid "Cannot modify a group that does not exist"
+msgstr "存在しないグループは変更できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:437
+msgid "Cannot parse query parameter. Expected format is {<dimension name>: [ <dimension values, wildcards>]}"
+msgstr "クエリパラメータを解析できません。想定される形式は、{<dimension name>: [ <dimension values, wildcards>]} です"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:459
+msgid "Cannot parse query parameter. Expected format is {metric_name: <metric_name>, dimensions: {<dimension name>: [<dimension values, wildcards>]}}"
+msgstr "クエリパラメータを解析できません。想定される形式は、{metric_name: <metric_name>, dimensions: {<dimension name>: [<dimension values, wildcards>]}} です。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:132
+msgid "Cannot prefix a dimension name with a \"_\", \":\" or \"=\""
+msgstr "ディメンション名の前に \"_\"、\":\"、または \"=\" を付けることはできません"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:102
+msgid "Certain features and functionalities of this Software are or may be protected by patents owned by Splunk Inc."
+msgstr "本ソフトウェアの特定の特徴や機能は Splunk Inc. 所有の特許権で保護されている場合があります。"
+
+#: packages/ui/components/chart-with-slider/ChartSettings.js:91
+msgid "Chart Options"
+msgstr "グラフオプション"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:191
+msgid "Check with SMTP server admin. When SSL is enabled, mail host should include the port. IE: smtp.splunk.com:465"
+msgstr "SMTP サーバー管理で確認します。 SSL を有効にした場合、メールホストにはポートを指定する必要があります。例: smtp.splunk.com:465"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:320 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:238
+msgid "Clear Selection"
+msgstr "選択のクリア"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:88 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:96
+msgid "Close"
+msgstr "閉じる"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:162
+msgid "CloudWatch Logs"
+msgstr "CloudWatch ログ"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:288 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:325
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:367
+msgid "Collect"
+msgstr "収集"
+
+#: packages/ui/utils/stateConstants.js:51 packages/ui/utils/stateConstants.js:68 packages/ui/utils/stateConstants.js:86
+msgid "Collect data for each CPU"
+msgstr "CPU ごとにデータを収集"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:134
+msgid "Collect data from"
+msgstr "データの収集元:"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:439
+msgid "Collect internal logs for debugging"
+msgstr "デバッグ用に内部ログを収集"
+
+#: packages/ui/utils/stateConstants.js:52 packages/ui/utils/stateConstants.js:69 packages/ui/utils/stateConstants.js:87
+msgid "Collect sum for all CPUs"
+msgstr "すべての CPU の合計を収集"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:396
+msgid "Color by"
+msgstr "色分けの基準"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:398
+#, python-format
+msgid "Color by: %(label)s"
+msgstr "色分けの基準: %(label)s"
+
+#: packages/ui/components/ThresholdControl.js:210
+msgid "Color by: Percent Available"
+msgstr "色分けの基準: 使用可能なパーセンテージ"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:36
+msgid "Configure Identity and Access Management"
+msgstr "ID とアクセス管理を設定"
+
+#: apps/sii/src/main/webapp/configure/common/components/Configure.js:107
+msgid "Configure Integrations"
+msgstr "統合を設定"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:221
+msgid "Confirm Password"
+msgstr "パスワードの確認"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:83
+#, python-format
+msgid "Congratulations, you've got %d entity coming in."
+msgid_plural "Congratulations, you've got %d entities coming in."
+msgstr[0] "おめでとうございます、%d エンティティを取得しました。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:254
+msgid "Connect to your AWS account"
+msgstr "AWS アカウントへの接続"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:120
+msgid "Connecting to AWS Account, Please Wait"
+msgstr "AWS アカウントに接続しています。しばらくお待ちください"
+
+#: packages/ui/components/CopyableConfigText.js:98
+msgid "Copied!"
+msgstr "コピーが完了しました！"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:277 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:311
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:356
+msgid "Copy and paste the following into the command line of your entity"
+msgstr "以下をコピーしてエンティティのコマンドラインに貼り付けます"
+
+#: packages/ui/components/CopyableConfigText.js:97
+msgid "Copy to clipboard"
+msgstr "クリップボードにコピー"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:592 apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:306
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:168
+msgid "Create Alert"
+msgstr "アラートの作成"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:181
+msgid "Create group from filter"
+msgstr "フィルタからグループを作成"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:82
+msgid "Credentials could not be authenticated with VictorOps"
+msgstr "資格情報を VictorOps で認証できませんでした"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:574 packages/ui/utils/stateConstants.js:210
+msgid "Critical"
+msgstr "致命的"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:374
+msgid "Critical has to be greater than Warning."
+msgstr "「致命的」は「警告」よりも大きくなければなりません。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:375
+msgid "Critical has to be less than Warning."
+msgstr "「致命的」は「警告」よりも小さくなければなりません。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:571
+msgid "Current License"
+msgstr "現在のライセンス"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:327 packages/ui/utils/stateConstants.js:361
+msgid "Current Severity"
+msgstr "現在の重大度"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:244 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:275
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:263
+msgid "Customize"
+msgstr "カスタマイズ"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:362
+msgid "Customize Data Collection"
+msgstr "データコレクションのカスタマイズ"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:544
+msgid "Daily Data Ingestion per Data Type (GB)"
+msgstr "データタイプ別の 1 日当たりのデータ取得量 (GB)"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:227 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:258
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:246
+msgid "Data to be collected"
+msgstr "取得されるデータ"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:551
+msgid "Days of Data Retention"
+msgstr "データ保持日数"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:344 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:70
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:289 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:545
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:213 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:347
+msgid "Delete"
+msgstr "削除"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:392
+#, python-format
+msgid "Delete %d Entities"
+msgstr "%d エンティティを削除"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:319
+#, python-format
+msgid "Delete %d Groups"
+msgstr "%d グループを削除"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:127
+msgid "Delete AWS data source"
+msgstr "AWS データソースを削除"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:61 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:84
+msgid "Delete Account"
+msgstr "アカウントを削除"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:312
+msgid "Delete Alert"
+msgstr "アラートの削除"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:380
+msgid "Delete All Entities"
+msgstr "すべてのエンティティを削除"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:301
+msgid "Delete All Groups"
+msgstr "すべてのグループを削除"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:398
+msgid "Delete Entity"
+msgstr "エンティティを削除"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:320
+msgid "Delete Failure"
+msgstr "失敗を削除"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:317 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:329
+msgid "Delete Group"
+msgstr "グループを削除"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:674
+msgid "Delete Selected Entities"
+msgstr "選択したエンティティを削除"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:564
+msgid "Delete Selected Groups"
+msgstr "選択したグループを削除"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:192 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:206
+msgid "Delete query can not be empty"
+msgstr "削除クエリは空にできません"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:255
+msgid "Delete this account"
+msgstr "このアカウントを削除"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:306
+msgid "Deleting all groups will only remove them from the list. All associated alerts will also be deleted."
+msgstr "グループをすべて削除しても、それらはリストから削除されるだけです。関連付けられているすべてのアラートも削除されます。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:406
+msgid "Deleting an entity will only remove it from the list. If an entity is still sending data, it will reappear after you delete it from the list."
+msgstr "エンティティを削除してもリストから削除されるだけです。エンティティがまだデータを送信している場合は、リストから削除した後に再度表示されます。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:86
+msgid "Deleting the account. Do not refresh this page."
+msgstr "アカウントを削除しています。このページを更新しないでください。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:326
+msgid "Deleting these groups will only remove them from the list. All associated alerts will also be deleted."
+msgstr "これらのグループを削除しても、リストから削除されるだけです。関連付けられているすべてのアラートも削除されます。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:334
+msgid "Deleting this group will only remove it from the list. All associated alerts will also be deleted."
+msgstr "このグループを削除しても、リストから削除されるだけです。関連付けられているすべてのアラートも削除されます。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:329 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:274
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:198
+msgid "Deleting..."
+msgstr "削除しています..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:76 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:268
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:192
+msgid "Deletion Failed"
+msgstr "削除失敗"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:94
+msgid "Deletion Successful"
+msgstr "削除成功"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:269 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:193
+msgid "Deletion failed!"
+msgstr "削除に失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:387 apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:414
+msgid "Deselect All"
+msgstr "すべて選択解除"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:41
+msgid "Detected role: "
+msgstr "検出されたロール:"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:239
+msgid "Dimension Names"
+msgstr "ディメンション名"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:254
+msgid "Dimension Values"
+msgstr "ディメンション値"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:359
+msgid "Dimension provided does not exist in dimensions object"
+msgstr "指定されたディメンションはディメンションオブジェクトに存在しません"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:249 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:280
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:268 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:584
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:385 apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:231
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:346
+msgid "Dimensions"
+msgstr "ディメンション"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:252 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:283
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:271
+msgid "Dimensions are key/value pairs used for troubleshooting, analysis, and filtering hosts, e.g. location:seattle or role:webserver."
+msgstr "ディメンションは、ホストのトラブルシューティング、分析、フィルタリングに使用されるキーと値のペアです。たとえば、location:seattle や role:webserver のように記述します。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:345
+msgid "Dimensions provided should be JSON object"
+msgstr "指定されるディメンションは JSON オブジェクトでなければなりません"
+
+#: packages/ui/components/ObjectStatus.js:37
+msgid "Disabled"
+msgstr "無効"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:280
+msgid "Don't have a license yet?"
+msgstr "ライセンスをお持ちではありませんか？"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:447
+msgid "ENTITIES"
+msgstr "エンティティ"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:346
+msgid "Edit"
+msgstr "編集"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:592 apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:299
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:161
+msgid "Edit Alert"
+msgstr "アラートの編集"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:409
+msgid "Email"
+msgstr "メール"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:673
+msgid "Email Recipients"
+msgstr "メール受信者"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:244 apps/sii/src/main/webapp/settings/email/components/Email.js:173
+msgid "Email Server Settings"
+msgstr "メールサーバー設定"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:234
+msgid "Email address(es) format is incorrect."
+msgstr "メールアドレスの形式が正しくありません。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:101
+msgid "Email notification criteria is not one of the supported criteria"
+msgstr "メール通知の基準はサポートされている基準には含まれていません"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:190
+msgid "Email security"
+msgstr "メールのセキュリティ"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:114
+msgid "Email settings saved."
+msgstr "メール設定が保存されました。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:195
+msgid "Enable SSL"
+msgstr "SSL を有効にする"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:196
+msgid "Enable TLS"
+msgstr "TLS を有効にする"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/sagas.js:36
+#, python-format
+msgid "Endpoint failed to update: %(element)s:%(expectedElement)s"
+msgstr "エンドポイントの更新に失敗しました: %(element)s:%(expectedElement)s"
+
+#: packages/ui/components/ToggleButtonGroup.js:66
+msgid "Entities"
+msgstr "エンティティ"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:104
+msgid "Entity Alerts"
+msgstr "エンティティアラート"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:221 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:319
+#: packages/ui/utils/stateConstants.js:360
+msgid "Entity Name"
+msgstr "エンティティの名前"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:113
+#, python-format
+msgid "Entity with id %(entity_id)s already exists."
+msgstr "ID が %(entity_id)s のエンティティはすでに存在します。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:101 apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:143
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:216
+#, python-format
+msgid "Entity with id %(entity_id)s not found."
+msgstr "ID が %(entity_id)s のエンティティが見つかりません。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:163
+msgid "Error deleting VictorOps settings."
+msgstr "VictorOps 設定の削除中にエラーが発生しました。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:169
+msgid "Error loading VictorOps settings."
+msgstr "VictorOps 設定の読み込み中にエラーが発生しました。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:153
+msgid "Error saving VictorOps settings."
+msgstr "VictorOps 設定の保存中にエラーが発生しました。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:144
+msgid "Error: Could not create account."
+msgstr "エラー: アカウントを作成できませんでした。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:66
+msgid "Error: Could not create input."
+msgstr "エラー: 入力を作成できませんでした。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:145
+msgid "Error: Could not update account."
+msgstr "エラー: アカウントを更新できませんでした。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:126
+msgid "Error: Could not update email settings."
+msgstr "エラー: メール設定を更新できませんでした。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:67
+msgid "Error: Could not update input."
+msgstr "エラー: 入力を更新できませんでした。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:373
+msgid "Error: Failed to calculate daily data ingestion"
+msgstr "エラー: 毎日のデータ取得量の計算に失敗しました"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:345
+msgid "Error: Failed to upload license"
+msgstr "エラー: ライセンスをアップロードできませんでした"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:481
+msgid "Expected dimensions to be a dict."
+msgstr "想定されるディメンションは辞書になります。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:487
+msgid "Expected each key in dimensions to be a string, each value to be a list"
+msgstr "想定されるディメンションの各キーは文字列、各値はリストになります"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:477
+msgid "Expected metric name to be a string."
+msgstr "想定されるメトリックス名は文字列になります。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:490
+msgid "Expected query param to be a dict"
+msgstr "想定されるクエリパラメータは辞書になります"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:577
+msgid "Expired Date"
+msgstr "失効日"
+
+#: packages/ui/components/ObjectStatus.js:42
+msgid "Failed"
+msgstr "失敗"
+
+#: packages/ui/utils/servicesUtils.js:3
+#, python-format
+msgid "Failed to %(method)s %(fullUrl)s"
+msgstr "%(fullUrl)s に対する %(method)s の実行に失敗しました"
+
+#: packages/ui/utils/servicesUtils.js:74
+#, python-format
+msgid "Failed to POST %(fullUrl)s"
+msgstr "%(fullUrl)s に対する POST の実行に失敗しました"
+
+#: packages/ui/utils/servicesUtils.js:14
+#, python-format
+msgid "Failed to bulk delete %(items)s"
+msgstr "%(items)s の一括削除に失敗しました"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:208
+msgid "Failed to bulk delete entities"
+msgstr "エンティティの一括削除に失敗しました"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:60
+msgid "Failed to create HEC token"
+msgstr "HEC トークンの作成に失敗しました"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:124
+#, python-format
+msgid "Failed to create HEC token: %(message)s"
+msgstr "HEC トークンの作成に失敗しました: %(message)s"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:138
+#, python-format
+msgid "Failed to create entity %(entity_id)s."
+msgstr "エンティティ %(entity_id)s の作成に失敗しました。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:150
+#, python-format
+msgid "Failed to create the group %(group_title)s."
+msgstr "グループ %(group_title)s の作成に失敗しました。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:323
+#, python-format
+msgid "Failed to delete %(name)s."
+msgstr "%(name)s の削除に失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:77
+msgid "Failed to delete this account."
+msgstr "このアカウントを削除できませんでした。"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:99
+msgid "Failed to enable HEC."
+msgstr "HEC の有効化に失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:131
+#, python-format
+msgid "Failed to fetch HEC token: %(message)s"
+msgstr "HEC トークンの取得に失敗しました: %(message)s"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:37
+msgid "Failed to fetch existing HEC tokens"
+msgstr "既存の HEC トークンの取得に失敗しました"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:197
+msgid "Failed to fetch info about the presence of Splunk Add-on for Amazon Web Services."
+msgstr "Amazon Web Services 用の Splunk アドオンの存在に関する情報の取得に失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:22
+msgid "Failed to get HTTP Input settings"
+msgstr "HTTP 入力設定の取得に失敗しました"
+
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.js:41 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:106
+msgid "Failed to load entity information."
+msgstr "エンティティ情報の読み込みに失敗しました。"
+
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.js:48 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:208
+msgid "Failed to load group information."
+msgstr "グループ情報の読み込みに失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:101
+#, python-format
+msgid "Failed to update HEC token: %(message)s"
+msgstr "HEC トークンの更新に失敗しました: %(message)s"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:167
+#, python-format
+msgid "Failed to update entity %(entity_id)s."
+msgstr "エンティティ %(entity_id)s の更新に失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:83
+msgid "Failed to update existing token information"
+msgstr "既存のトークン情報の更新に失敗しました"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:167
+#, python-format
+msgid "Failed to update the group %(group_title)s."
+msgstr "グループ %(group_title)s の更新に失敗しました。"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:145 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:156
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:142 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:165
+msgid "Fill in empty fields."
+msgstr "空のフィールドに入力してください。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_search_manager.py:330
+msgid "Filter criteria specified is not allowed!"
+msgstr "指定されたフィルタ基準は許可されていません！"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:93
+msgid "Filter dimensions"
+msgstr "ディメンションをフィルタリング"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:165
+msgid "Filter/options are expected to be a dict"
+msgstr "フィルタ/オプションは辞書であることが想定されます"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:287
+msgid "Find out more here"
+msgstr "詳細はこちら"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:182
+msgid "First check App for Infrustructure system requirements."
+msgstr "最初に、App for Infrustructure のシステム要件を確認してください。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:249
+msgid "Follow the instructions to collect data from your AWS instances."
+msgstr "説明に従って AWS インスタンスからデータを収集します。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:236
+msgid "Follow the instructions to install an agent on your Linux machine."
+msgstr "説明に従って Linux マシンにエージェントをインストールします。"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:217
+msgid "Follow the instructions to install an agent on your OSX machine."
+msgstr "説明に従って OSX マシンにエージェントをインストールします。"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:236
+msgid "Follow the instructions to install an agent on your Windows machine."
+msgstr "説明に従って Windows マシンにエージェントをインストールします。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:226
+msgid "For further info check App for Infrustructure system requirements."
+msgstr "詳細情報については、App for Infrustructure のシステム要件を確認してください。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:244
+msgid "For specific version support see documentation."
+msgstr "特定のバージョンのサポートについては、ドキュメントを参照してください。"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:447
+msgid "GROUPED IN"
+msgstr "グループ化"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:326
+msgid "Get better Support!"
+msgstr "是非優れたサポートを受けてください！"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesEmpty.js:45
+msgid "Go to Add Data page to get started monitoring your infrastructure entities."
+msgstr "インフラストラクチャエンティティのモニターを開始するには、[データの追加] ページに移動します。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:219
+msgid "Go to Manage Apps > In the list of apps find: Splunk Add-on for Amazon Web Services App > Click Enable"
+msgstr "[App の管理] に移動します > App のリストで「Amazon Web Services 用の Splunk アドオン」を見つけます > [有効] をクリックします"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:274
+#, python-format
+msgid "Group %(name)s is created. Switch to group view to view all your saved groups."
+msgstr "グループ %(name)s が作成されました。保存されているすべてのグループを表示するには、グループビューに切り替えます。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:278
+#, python-format
+msgid "Group %(name)s is updated. Switch to group view to view all your saved groups."
+msgstr "グループ %(name)s が更新されました。保存されているすべてのグループを表示するには、グループビューに切り替えます。"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:106
+msgid "Group Alerts"
+msgstr "アラートのグループ化"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:144 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:319
+msgid "Group Name"
+msgstr "グループ名"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:141
+#, python-format
+msgid "Group id %(group_id)s already exists"
+msgstr "グループ ID %(group_id)s はすでに存在します"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:273
+msgid "Group saved"
+msgstr "グループが保存されました"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:277
+msgid "Group updated"
+msgstr "グループが更新されました"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:71
+#, python-format
+msgid "Group with id %(group_id)s cannot be found"
+msgstr "ID が %(group_id)s のグループが見つかりませんでした。"
+
+#: packages/ui/components/ToggleButtonGroup.js:75
+msgid "Groups"
+msgstr "グループ"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:72 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:88
+msgid "HEC port"
+msgstr "HEC ポート"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:75
+msgid "HEC port is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script を使用するには、HEC ポートが必要です"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:120 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:133
+msgid "HEC token"
+msgstr "HEC トークン"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:123
+msgid "HEC token is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script を使用するには、HEC トークンが必要です"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:201
+msgid "Help improve Splunk products, services, and support for this deployment by automatically sending Splunk performance data"
+msgstr "Splunk のパフォーマンスデータを自動的に送信することで、Splunk 製品とサービス、およびこれらの導入サポートの改善にご協力ください"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:295
+msgid "Help make Splunk software better!"
+msgstr "Splunk ソフトフェアをより良いものにしましょう！"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:139 apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:453
+msgid "Help us improve Splunk software"
+msgstr "Splunk ソフトフェアの改善を助ける"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:183
+msgid "Help us improve your Splunk experience by sharing information about your Splunk software usage. Searches are run to collect this information."
+msgstr "Splunk ソフトウェアの使用に関する情報を共有して、Splunk のエクスペリエンス向上を支援してください。サーチがこの情報を収集するために実行されます。"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:52 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:287
+msgid "Host name is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script を使用するには、ホスト名が必要です"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:65 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:301
+msgid "Hostname or IP address"
+msgstr "ホスト名または IP アドレス"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:247
+msgid "How to upgrade"
+msgstr "アップグレード方法"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:59
+msgid "Http Event Collector already enabled."
+msgstr "HTTP イベントコレクタはすでに有効になっています。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:302
+msgid "I authorize collection of anonymized information about software usage so Splunk can improve its products and services."
+msgstr "Splunk が製品とサービスの改良を行うため、ソフトウェアの使用状況に関する匿名情報の収集を許可します。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:333
+msgid ""
+"I authorize collection of information about software usage so Splunk can provide improved support and services for my deployment. Data will be linked to my account based on my "
+"installed licenses."
+msgstr ""
+"私は、Splunk がデプロイのサポートとサービスの改良を行うために、ソフトウェアの使用状況に関する情報を収集することを許可します。データは、インストールされたライセンスに基づいて、私のア"
+"カウントにリンクされます。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:350
+msgid "Identifier dimensions provided should be list"
+msgstr "指定された ID のディメンションはリストでなければなりません"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:627
+msgid "If"
+msgstr "次の場合"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:169
+msgid ""
+"If you do not want to participate, you may purchase a license to the product at which time you will have the ability opt out of data collection as described in the documentation."
+msgstr "参加しない場合は、製品のライセンスを購入することができます。その場合、ドキュメントで説明されているようにデータ収集をオプトアウトできます。"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:145
+msgid "Import signing keys when installing on Debian/Ubuntu (recommended)"
+msgstr "Debian/Ubuntu でのインストール時に署名キーをインポートする (推奨)"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:238
+msgid "In order to receive alert emails, you may need to update your email settings."
+msgstr "アラートメールを受信する場合、メール設定の更新が必要になることがあります。"
+
+#: packages/ui/components/ObjectStatus.js:38
+msgid "Inactive"
+msgstr "非アクティブ"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:49
+msgid "Inconsistency detected in account info. Attempting to update AWS data source."
+msgstr "アカウント情報で不整合が検出されました。AWS データソースの更新を試みています。"
+
+#: packages/ui/utils/stateConstants.js:208
+msgid "Info"
+msgstr "情報"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:348
+msgid "Informational dimensions provided should be list"
+msgstr "指定されたディメンション情報はリストでなければなりません"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:328
+msgid "Install Location"
+msgstr "インストールの場所"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:345
+msgid "Install directory"
+msgstr "インストールディレクトリ"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:330
+msgid "Install location is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script を使用するには、インストールの場所が必要です"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:333
+#, python-format
+msgid "Install location of %(packageName)s agent"
+msgstr "%(packageName)s エージェントのインストール場所"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:496
+msgid "Instrumentation options are not available to non-admin users."
+msgstr "インストルメンテーションオプションは、管理者以外のユーザーは使用できません。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:358
+msgid "Instrumentation settings failed to update!"
+msgstr "インストルメンテーション設定の更新に失敗しました！"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:361
+msgid "Instrumentation settings updated successfully!"
+msgstr "インストルメンテーション設定が正常に更新されました！"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:146 packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:175
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:179
+msgid "Internal Server Error"
+msgstr "内部サーバーエラー"
+
+#: packages/ui/utils/stateConstants.js:265 packages/ui/utils/stateConstants.js:270 packages/ui/utils/stateConstants.js:281
+msgid "Internet access"
+msgstr "インターネットアクセス"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:66
+msgid "Invalid API key"
+msgstr "API キーが無効です"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:101 apps/sii/src/main/resources/splunk/bin/em_common.py:123
+msgid "Invalid JSON supplied as part of query!"
+msgstr "クエリ内で指定された JSON が無効です！"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:340
+msgid "Invalid JSON supplied to REST handler!"
+msgstr "REST ハンドラに指定された JSON が無効です！"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:204
+msgid "Invalid alert. Missing required arguments."
+msgstr "アラートが無効です。必須の引数がありません。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:109
+msgid "Invalid email address provided"
+msgstr "指定されたメールアドレスが無効です"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:314
+msgid "Invalid entity state"
+msgstr "エンティティの状態が無効です"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:443
+msgid "Invalid filter"
+msgstr "フィルタが無効です"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:265
+msgid "Invalid response from loadAverageMetricValue"
+msgstr "loadAverageMetricValue からの応答が無効です"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:185
+msgid "Invalid response returning group information!"
+msgstr "グループ情報を返す応答が無効です！"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:70
+msgid "Invalid routing key"
+msgstr "ルーティングキーが無効です"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_threshold.py:40
+msgid "Invalid values for thresholds provided"
+msgstr "閾値に指定された値が無効です"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:120 apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChart.js:91
+msgid "Investigate"
+msgstr "調査"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:180
+msgid "Investigate Entity"
+msgstr "エンティティの調査"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:300 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:338
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:379
+msgid "It may take up to 5 minutes to show entities in the UI."
+msgstr "UI にエンティティが表示されるまでに最大 5 分かかります。"
+
+#: packages/ui/utils/commonUtils.js:23
+msgid "Just now"
+msgstr "ちょうど今"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:189
+msgid "Key ID"
+msgstr "キー ID"
+
+#: packages/ui/components/TimeRange.js:19
+#, python-format
+msgid "Last %d day"
+msgid_plural "Last %d days"
+msgstr[0] "過去 %d 日間"
+
+#: packages/ui/components/TimeRange.js:18
+#, python-format
+msgid "Last %d hour"
+msgid_plural "Last %d hours"
+msgstr[0] "過去 %d 時間"
+
+#: packages/ui/components/TimeRange.js:15
+#, python-format
+msgid "Last %d minute"
+msgid_plural "Last %d minutes"
+msgstr[0] "過去 %d 分間"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:345 packages/ui/utils/stateConstants.js:364
+msgid "Last Triggered Metric"
+msgstr "最後にトリガされたメトリックス"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:223
+msgid "Last time data collected"
+msgstr "最後に収集されたデータ"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:166 apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:190
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:208
+msgid "Learn More"
+msgstr "詳細"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:575
+msgid "License Name"
+msgstr "ライセンス名"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:278
+msgid "License Usage Data"
+msgstr "ライセンス使用量データ"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:576
+msgid "License Volume"
+msgstr "ライセンス容量"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:246
+msgid "Loading AWS Account Information"
+msgstr "AWS アカウント情報を読み込んでいます"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:256
+msgid "Loading AWS Data Source Options"
+msgstr "AWS データソースオプションを読み込んでいます"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:53
+msgid "Loading IAM role Information"
+msgstr "IAM ロール情報を読み込んでいます"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:418 apps/sii/src/main/webapp/metrics-analysis/reducer.js:34
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:44 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:131
+msgid "Loading..."
+msgstr "ロード中..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:214
+msgid "Log Group Name"
+msgstr "ロググループ名"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:178
+msgid "Mail host"
+msgstr "メールホスト"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/sagas.js:85
+msgid "Malformed response received (readUserPrefs)"
+msgstr "無効な形式の応答を受信しました (readUserPrefs)"
+
+#: apps/sii/src/main/webapp/settings/licensing/sagas.js:78
+msgid "Malformed response received (uploadLicense, userPrefs)"
+msgstr "無効な形式の応答を受信しました (uploadLicense、userPrefs)"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:223
+msgid "Manage app and add-on objects"
+msgstr "アプリとアドオンオブジェクトを管理"
+
+#: packages/ui/components/ThresholdControl.js:259 packages/ui/components/chart-with-slider/ChartSettings.js:94
+msgid "Maximum"
+msgstr "最大"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:324
+#, python-format
+msgid "Message: %(message)s"
+msgstr "メッセージ: %(message)s"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:619
+msgid "Metric"
+msgstr "メトリックス"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:113
+msgid "Metric name is missing from metric SPL"
+msgstr "メトリックス名がメトリック SPL にありません"
+
+#: packages/ui/components/ThresholdControl.js:237 packages/ui/components/chart-with-slider/ChartSettings.js:109
+msgid "Minimum"
+msgstr "最小"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:472
+msgid "Missing required key: metric_name"
+msgstr "必須のキー (metric_name) がありません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:270
+msgid "Missing required query parameter: query"
+msgstr "必須のクエリパラメータ (query) がありません"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:49 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:285
+msgid "Monitoring machine"
+msgstr "マシンをモニターしています"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:597 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:176
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:226
+msgid "Name"
+msgstr "名前"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:62
+msgid "Name cannot be empty"
+msgstr "名前は空欄にできません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:105
+msgid "No email_to provided"
+msgstr "email_to が指定されていません"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:71
+msgid "No new entities connected yet..."
+msgstr "新しいエンティティはまだ接続されていません..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:42
+msgid "None"
+msgstr "なし"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:162
+msgid "Not Found"
+msgstr "見つかりません"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:383
+msgid "Notify If"
+msgstr "次の場合に通知:"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:145
+msgid "Number of Entities"
+msgstr "エンティティ数"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:464 packages/ui/components/ConfirmationDialog.js:75
+msgid "OK"
+msgstr "OK"
+
+#: packages/ui/utils/stateConstants.js:215
+msgid "Off"
+msgstr "オフ"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:299 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:336
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:378
+msgid "Once the script finishes running, verify your data connection."
+msgstr "スクリプトの実行が終了したら、データ接続を確認してください。"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:15
+msgid "Once the script finishes running, your entities will appear as inactive."
+msgstr "スクリプトの実行が終了すると、エンティティが非アクティブと表示されます。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:276
+msgid "Once your AWS account is added, verify your data connection"
+msgstr "AWS アカウントを追加したら、データ接続を確認してください"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:159
+msgid "Only Admin user can access AWS configuration page."
+msgstr "AWS 設定ページにアクセスできるのは、管理ユーザーのみです。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:378
+msgid "Only admin can delete the selected entities!"
+msgstr "選択したエンティティを削除できるのは管理者のみです！"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:377
+msgid "Only admin can delete the selected entity!"
+msgstr "選択したエンティティを削除できるのは管理者のみです！"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:297
+msgid "Only admin can delete the selected group!"
+msgstr "選択したグループを削除できるのは管理者のみです！"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:298
+msgid "Only admin can delete the selected groups!"
+msgstr "選択したグループを削除できるのは管理者のみです！"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:133
+msgid "Only alphanumeric characters, dash and underscore are allowed."
+msgstr "英数字、ダッシュおよびアンダースコアのみ使用できます。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:134
+msgid "Only alphanumeric characters, dash, underscore, dot and dollar sign are allowed."
+msgstr "英数字、ダッシュ、アンダースコア、ピリオド、ドル記号のみ使用できます。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:135
+msgid "Only alphanumeric characters, dash, underscore, dot, dollar sign, space and wildcard filter values are allowed."
+msgstr "英数字、ダッシュ、アンダースコア、ピリオド、ドル記号、スペース、およびワイルドカードのフィルタ値のみ使用できます。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:128 packages/ui/components/WildcardMultiSelect.js:85
+msgid "Only one wildcard character allowed."
+msgstr "ワイルドカード文字は 1 つだけ使用できます。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:601
+msgid "Only the characters A-Z, a-z, 0-9, -, _, . are allowed in the name."
+msgstr "名前に使用できる文字や記号は、A～Z、a～z、0～9、-、_、. (ピリオド) のみです。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:250
+msgid "Operating system support for data collection"
+msgstr "データ収集用のオペレーティングシステムサポート"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:364
+msgid "Overview"
+msgstr "概要"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:160
+msgid "Participation in our analytics program is required at the free tier."
+msgstr "無料サービスの場合、分析プログラムに参加する必要があります。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:210
+msgid "Password"
+msgstr "パスワード"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:223
+msgid "Password does not match."
+msgstr "パスワードが一致していません。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:211
+msgid "Password to use when authenticating with the SMTP server"
+msgstr "SMTP サーバーで認証する際に使用するパスワード"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:99
+msgid "Patents"
+msgstr "特許権"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:110
+msgid "Patents owned by Splunk Inc."
+msgstr "Splunk Inc. が所有する特許"
+
+#: packages/ui/components/ObjectStatus.js:39
+msgid "Pending"
+msgstr "保留"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:198
+msgid "Please check your network connection."
+msgstr "ネットワーク接続を確認してください。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:181
+msgid "Please install Splunk Add-on for Amazon Web Services app version that is supported by the App for Infrustructure."
+msgstr "App for Infrustructure でサポートされている Amazon Web Services アプリバージョン用の Splunk アドオンをインストールしてください。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:170
+msgid "Please reinstall Splunk Insights for Infrastructure. If the problem persists, contact Splunk support."
+msgstr "Splunk Insights for Infrastructure を再インストールしてください。問題が解決しない場合は、Splunk サポートまでお問い合わせください。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:224
+msgid "Please select notification condition and method."
+msgstr "通知条件とメソッドを選択してください。"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:158
+#, python-format
+msgid "REST method %(method)s not allowed"
+msgstr "REST メソッド %(method)s は使用できません"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:398
+msgid "Reading settings... Please wait..."
+msgstr "設定を読み込んでいます... しばらくお待ちください..."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:95 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:111
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:308 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:321
+msgid "Receiver port"
+msgstr "受信ポート"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:98 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:310
+msgid "Receiver port is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script を使用するには、受信ポートが必要です"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:133 packages/ui/components/RefreshControl.js:133
+msgid "Refresh"
+msgstr "更新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:216
+msgid "Region Category"
+msgstr "リージョンのカテゴリ"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:291 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:328
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:370 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:109
+msgid "Remove"
+msgstr "削除"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:103 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:278
+msgid "Remove Credentials"
+msgstr "認証情報を削除"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:175 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:191
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:204 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:218
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:180 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:227
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:244 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:256
+msgid "Required Field."
+msgstr "必須フィールド。"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:134
+msgid "Restart"
+msgstr "再起動"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:124 apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:133
+msgid "Restart Splunk"
+msgstr "Splunk の再起動"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:141
+msgid "Restart in progress..."
+msgstr "再起動しています..."
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:397
+msgid "Return to Investigate page"
+msgstr "[調査] ページに戻る"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:220
+msgid "Review the documentation for managing apps."
+msgstr "App の管理についてのドキュメントを参照してください。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:255
+msgid "Routing Key"
+msgstr "ルーティングキー"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:256
+msgid "Routing key obtained through the VictorOps Splunk integration."
+msgstr "VictorOps Splunk 統合によって取得されたルーティングキー。"
+
+#: packages/ui/components/ObjectStatus.js:40
+msgid "Running"
+msgstr "実行中"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:18
+msgid ""
+"Running the removal script stops all Splunk agents and removes all packages on the monitored entity. This process cannot be undone, and you will have to manually add new agents and "
+"packages to start collecting data again."
+msgstr ""
+"削除スクリプトを実行すると、すべての Splunk エージェントが停止し、モニター対象エンティティのすべてのパッケージが削除されます。このプロセスを元に戻すことはできません。データの収集を"
+"再開するには、新しいエージェントとパッケージを手動で追加する必要があります。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:196
+msgid "Save"
+msgstr "保存"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:270
+msgid "Save Credentials"
+msgstr "認証情報を保存"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:476
+msgid "Save Preferences"
+msgstr "設定を保存"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:313
+msgid "Save as group"
+msgstr "グループとして保存"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:219
+msgid "Save as new group"
+msgstr "新しいグループとして保存"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:202
+msgid "Secret Key"
+msgstr "秘密キー"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:212
+msgid "See all"
+msgstr "すべて表示"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:379 apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:406
+msgid "Select All"
+msgstr "すべて選択"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:316
+#, python-format
+msgid "Select All %d Entities"
+msgstr "%d エンティティをすべて選択"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:237
+#, python-format
+msgid "Select All %d Groups"
+msgstr "%d グループをすべて選択"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:389 apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:403
+msgid "Select..."
+msgstr "選択..."
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:67
+msgid "Server"
+msgstr "サーバー"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:105
+msgid "Server Logging"
+msgstr "サーバーログ"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:113
+msgid "Server Name:"
+msgstr "サーバー名:"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:368
+msgid "Server error"
+msgstr "サーバーエラー"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:180
+msgid "Set the host that sends mail for this Splunk instance."
+msgstr "この Splunk インスタンスにメールを送信するホストを設定してください。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:50
+msgid "Setting up AWS data collection - this could take up to 2 minutes"
+msgstr "AWS データ収集を設定しています - これには最大 2 分かかります"
+
+#: packages/ui/components/chart-with-slider/ChartSettings.js:131
+msgid "Show Legend"
+msgstr "凡例を表示"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:77
+msgid "Specify HEC port of the machine you want to send metric data to, e.g. 8088"
+msgstr "メトリックスデータの送信先マシンの HEC ポートを指定します (例: 8088)"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:124
+msgid "Specify HEC token of the machine you want to send metric data to"
+msgstr "メトリックスデータの送信先マシンの HEC トークンを指定します"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:226 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:257
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:245
+msgid "Specify configuration options"
+msgstr "設定オプションを指定します"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:100 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:312
+msgid "Specify receiver port of the machine you want to send log data to, e.g. 9997"
+msgstr "ログデータの送信先マシンの受信ポートを指定します (例: 9997)"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:53 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:290
+msgid "Specify the hostname or IP address of the machine you want to send data to, e.g. my.instance.domain.name"
+msgstr "データの送信先マシンのホスト名と IP アドレスを指定します (例: my.instance.domain.name)"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:187
+msgid "Splunk Add-on for Amazon Web Services"
+msgstr "Amazon Web Services 用の Splunk アドオン"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:233
+msgid "Splunk Add-on for Amazon Web Services is disabled. It must be enabled to configure AWS."
+msgstr "Amazon Web Services 用の Splunk アドオンは無効です。AWS を設定するには、有効にする必要があります。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:209
+msgid "Splunk Add-on for Amazon Web Services is not installed. It must be enabled to configure AWS."
+msgstr "Amazon Web Services 用の Splunk アドオンはインストールされていません。AWS を設定するには、有効にする必要があります。"
+
+#: apps/sii/src/main/webapp/utils/commonUtils.js:5
+msgid "Splunk App for Infrastructure"
+msgstr "Splunk App for Infrastructure"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:77
+msgid "Splunk Build"
+msgstr "Splunk ビルド"
+
+#: apps/sii/src/main/webapp/utils/commonUtils.js:5
+msgid "Splunk Insights for Infrastructure"
+msgstr "Splunk Insights for Infrastructure"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:125
+msgid "Splunk Software License Agreement."
+msgstr "Splunk ソフトウェア利用規約の条項にすべて従います。"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:73
+msgid "Splunk TA AWS Version"
+msgstr "Splunk TA AWS バージョン"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:75
+msgid "Splunk Version"
+msgstr "Splunk バージョン"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:93
+msgid ""
+"Splunk®, Splunk>®, Listen to Your Data®, The Engine for Machine Data®, Splunk Cloud™, Splunk Light® and SPL™ are trademarks and registered trademarks of Splunk Inc. and/or its "
+"subsidiaries in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners."
+msgstr ""
+"Splunk®、Splunk>®、Listen to Your Data®、The Engine for Machine Data®、Splunk Cloud™、Splunk Light®、そして SPL™ は、Splunk Inc.または子会社の米国および他の国における商標および登録"
+"商標です。その他すべてのブランド、製品名、商標の所有権は各所有者に帰属します。"
+
+#: packages/ui/components/WildcardMultiSelect.js:70
+msgid "Start typing"
+msgstr "入力してください"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupControlBar.js:64 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:471
+msgid "Start typing to filter groups by name"
+msgstr "名前でグループをフィルタするには入力してください"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:366 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:461
+msgid "Start typing to filter through all dimensions"
+msgstr "すべてのディメンションをフィルタするには入力してください"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:222
+msgid "Status"
+msgstr "ステータス"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:415
+msgid "Stop or remove the data collection agents before you delete an entity to ensure that it is properly removed."
+msgstr "エンティティを削除する前にデータ収集エージェントを停止または削除して、エンティティが正しく削除されていることを確認します。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:703
+msgid "Submit"
+msgstr "実行"
+
+#: packages/ui/components/ObjectStatus.js:41
+msgid "Succeeded"
+msgstr "成功しました"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:131 apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:79
+msgid "Success"
+msgstr "成功"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:159
+msgid "Success deleting VictorOps settings."
+msgstr "VictorOps 設定の削除に成功しました。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:149
+msgid "Success saving VictorOps settings."
+msgstr "VictorOps 設定の保存に成功しました。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:328
+#, python-format
+msgid "Success: Increased license to %(gigabytes)d GB with expiration of %(expirationDate)s"
+msgstr "成功: %(expirationDate)s の有効期限で、ライセンスが %(gigabytes)d GB に増加しました"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:122
+msgid "Successfully created HEC token."
+msgstr "HEC トークンの作成に成功しました。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:95
+msgid "Successfully deleted the account."
+msgstr "アカウントの削除に成功しました。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:50
+msgid "Successfully enabled Http Event Collector."
+msgstr "HTTP イベントコレクタの有効化に成功しました。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:99 apps/sii/src/main/webapp/configure/common/sagas.js:109
+msgid "Successfully fetched HEC token."
+msgstr "HEC トークンの取得に成功しました。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:345
+msgid "Support Usage Data"
+msgstr "使用量データのサポート"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:173
+msgid "Support and Services"
+msgstr "サポートとサービス"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:221 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:241
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:240
+#, python-format
+msgid "Supported OS types: %(types)s"
+msgstr "サポートされる OS タイプ: %(types)s"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:226
+msgid "System"
+msgstr "システム"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:189
+msgid "System Information"
+msgstr "システム情報"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:164
+msgid "System Requirements for Splunk App for Infrastructure"
+msgstr "Splunk App for Infrastructure のシステム要件"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:127
+msgid "Take a look now"
+msgstr "今すぐ見てみましょう"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:221
+#, python-format
+msgid ""
+"The license you are uploading is expired:\n"
+"%(expirationDate)s"
+msgstr ""
+"アップロードしているライセンスは期限切れです:\n"
+"%(expirationDate)s"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:216
+msgid "The license you are uploading is not compatible with Splunk Insights. Please upgrade to Splunk Enterprise and upload again."
+msgstr "アップロードするライセンスは Splunk Insights と互換性がありません。Splunk Enterprise にアップグレードして、再度アップロードしてください。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:397
+msgid "The severity degrades"
+msgstr "重大度が低下します"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:396
+msgid "The severity improves"
+msgstr "重大度が向上します"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:398
+msgid "The severity improves/degrades"
+msgstr "重大度が向上または低下します"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:184
+msgid "Then install the Splunk Add-on for Amazon Web Services from Splunkbase."
+msgstr "次に、SplunkBase から Amazon Web Services 用の Splunk アドオンをインストールします。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:136
+#, python-format
+msgid "These reserved words cannot be used: %(reservedWords)s"
+msgstr "次の予約語は使用できません: %(reservedWords)s"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:86
+msgid "Third-Party Software Credits and Attribution"
+msgstr "サードパーティ製ソフトウェアのクレジットと帰属"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:153
+msgid "This alert no longer exists."
+msgstr "このアラートは存在しません。"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:279 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:358
+msgid "This script must be run by user with administrator privileges, and it should also have the following dependencies available on the entity:"
+msgstr "このスクリプトは、管理者権限を持つユーザーが実行する必要があり、エンティティに対して使用できる次の依存関係も必要です。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:313
+msgid "This script must be run by user with root privileges, and it should also have the following dependencies available on the entity:"
+msgstr "このスクリプトは、root 権限を持つユーザーが実行する必要があり、エンティティに対して使用できる次の依存関係も必要です。"
+
+#: packages/ui/components/ThresholdControl.js:248
+msgid "Threshold"
+msgstr "閾値"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_threshold.py:43
+msgid "Threshold min can not be greater than max"
+msgstr "閾値の最小値を最大値より大きくすることはできません"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:30
+msgid "To attach or modify IAM role, see instructions."
+msgstr "IAM ロールを付加または変更するには、手順を参照してください。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:263
+msgid "To install a license, drop or upload a license file here (license files end with .lic):"
+msgstr "ライセンスをインストールするには、ここにライセンスファイル (拡張子 .lic) をドロップするかアップロードしてください: "
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:214
+msgid "To learn about using SII and VictorOps to solve your infrastructure problems "
+msgstr "SII と VictorOps を使用してインフラストラクチャの問題を解決する方法については"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:538
+msgid "Total Data Stored by Type (metric vs. log/event)"
+msgstr "タイプ別 (メトリックスまたはログ/イベント) に保管された合計データ"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:518
+msgid "Total Storage Used"
+msgstr "使用されている合計ストレージ"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:90
+msgid "Trademarks"
+msgstr "商標"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:343 packages/ui/utils/stateConstants.js:363
+msgid "Triggered Time"
+msgstr "生成された時刻"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:78
+msgid "Try Again"
+msgstr "再試行"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:615
+msgid "Type Id"
+msgstr "タイプ ID"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:80
+#, python-format
+msgid "Type: %(managed_by_type)s is not allowed."
+msgstr "タイプ: %(managed_by_type)s は使用できません。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:52
+#, python-format
+msgid "Unable to enable Http Event Collector: %(message)s"
+msgstr "HTTP イベントコレクタを有効にできません: %(message)s"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:121
+msgid "Unable to fetch collector URL."
+msgstr "コレクタ URL を取得できません。"
+
+#: packages/ui/utils/messageConstants.js:3
+msgid "Unable to fetch install agent URL. Please make sure you have correct settings in collectors.conf."
+msgstr "インストールエージェントの URL を取得できません。collectors.conf で正しく設定されていることを確認してください。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:73
+msgid "Unable to get alert definition with given name"
+msgstr "指定された名前のアラート定義を取得できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:47
+msgid "Unable to update alert"
+msgstr "アラートを更新できません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:84
+msgid "Unexpected metric_filter keys"
+msgstr "metric_filter キーは想定されていません"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:227
+msgid "Unique name for this combination of API Key and Routing Key."
+msgstr "この API キーとルーティングキーの組み合わせについての一意の名前。"
+
+#: packages/ui/components/ObjectStatus.js:43
+msgid "Unknown"
+msgstr "不明"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:131
+msgid "Unknown dimension name or value."
+msgstr "ディメンションの名前または値が不明です。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:130
+msgid "Unknown dimension name."
+msgstr "ディメンションの名前が不明です。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:86
+msgid "Unknown metric_filter type"
+msgstr "metric_filter タイプが不明です"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:212
+msgid "Update"
+msgstr "更新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:235
+msgid "Update AWS account"
+msgstr "AWS アカウントを更新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:129
+msgid "Update AWS data source"
+msgstr "AWS データソースを更新"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:236
+msgid "Update Email Server Settings"
+msgstr "メールサーバー設定を更新"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:204
+msgid "Update this group"
+msgstr "このグループを更新"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:104
+msgid "Updating email settings, please wait..."
+msgstr "メール設定を更新しています。しばらくお待ちください..."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:299
+msgid "Upload"
+msgstr "アップロード"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:594
+msgid "Upload License"
+msgstr "ライセンスをアップロード"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:313
+msgid "Uploading license, Please Wait"
+msgstr "ライセンスをアップロードしています。しばらくお待ちください"
+
+#: apps/sii/src/main/webapp/settings/licensing/sagas.js:82
+msgid "User preferences failed to update on license upload"
+msgstr "ライセンスのアップロード時にユーザー設定を更新できませんでした"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:200
+msgid "Username"
+msgstr "ユーザー名"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:201
+msgid "Username to use when authenticating with the SMTP server. Leave empty for no authentication."
+msgstr "SMTP サーバーで認証する際に使用するユーザー名。認証しない場合は、空欄にしてください。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:189
+msgid "Value needs to be a string or list"
+msgstr "値は文字列またはリストである必要があります"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:371
+msgid "Values for Warning and Critical are empty/invalid."
+msgstr "警告と致命的の値が空または無効です。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:47
+msgid "Verify IAM role attachment"
+msgstr "IAM ロールの添付を検証"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:63
+msgid "Version"
+msgstr "バージョン"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:259 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:212
+msgid "VictorOps Settings"
+msgstr "VictorOps 設定"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:254
+msgid "VictorOps is not configured correctly. Please check notification settings."
+msgstr "VictorOps が正しく構成されていません。通知設定を確認してください。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:72
+msgid "VictorOps notification criteria is not one of the supported criteria"
+msgstr "VictorOps 通知の基準はサポートされている基準には含まれていません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_send_victorops.py:44
+msgid "VictorOps setting does not exist"
+msgstr "VictorOps 設定が存在しません"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:39
+#, python-format
+msgid "VictorOps setting with name %(name)s already exists"
+msgstr "%(name)s という名前の VictorOps 設定はすでに存在します"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:53 apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:62
+#, python-format
+msgid "VictorOps setting with name %(vo_id)s does not exist"
+msgstr "%(vo_id)s という名前の VictorOps 設定は存在しません"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:285
+msgid "View group now"
+msgstr "グループを今すく表示"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:108
+#, python-format
+msgid "View internal log data to troubleshoot an issue with %(packageName)s or restart Splunk."
+msgstr "内部ログデータを参照して、%(packageName)s の問題のトラブルシューティングを行うか、Splunk を再起動します。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:555 packages/ui/utils/stateConstants.js:209
+msgid "Warning"
+msgstr "警告"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:166
+msgid ""
+"When setting up CloudWatch Logs agent configuration in AWS, edit the log stream name (log_stream_name) with a unique name (instance_id) for each log group within the configuration "
+"file. This defines the log stream’s identity for correlation of logs to individual instances and metric data."
+msgstr ""
+"AWS で CloudWatch ログエージェントを設定するときは、設定ファイル内のロググループごとにログストリーム名 (log_stream_name) を編集して、一意の名前 (instance_id) にします。これにより、"
+"ログを個々のインスタンスおよびメトリックスデータに関連付けるログストリーム ID を定義します。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:420
+msgid "When you delete an entity, all associated alerts will also be deleted."
+msgstr "エンティティを削除すると、関連付けられているすべてのアラートも削除されます。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:129 packages/ui/components/WildcardMultiSelect.js:86
+msgid "Wildcard can only be at the end."
+msgstr "ワイルドカードは末尾にのみ指定できます。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:127
+msgid "Wildcard searches not supported for dimension names."
+msgstr "ディメンション名ではワイルドカードサーチはサポートされていません。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:175 apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:180
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:156
+msgid "Yes"
+msgstr "はい"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:241
+msgid "You cannot change the name after saving."
+msgstr "保存後に名前を変更することはできません。"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:77
+#, python-format
+msgid "You have removed %d entity"
+msgid_plural "You have removed %d entities"
+msgstr[0] "%d 個のエンティティを削除しました"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesEmpty.js:44
+msgid "You haven't added any entities."
+msgstr "エンティティを追加していません。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsEmpty.js:53
+msgid "You haven't created a group yet."
+msgstr "まだグループは作成されていません。"
+
+#: apps/sii/src/main/webapp/configure/common/components/Configure.js:89
+#, python-format
+msgid "You must be assigned admin permissions to use the 'Add Data' page. Please contact your %(packageName)s admin."
+msgstr "[データの追加] ページを使用するには管理者権限が割り当てられている必要があります。%(packageName)s の管理者にお問い合わせください。"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:430
+msgid "You must select at least one metric."
+msgstr "最低 1 つメトリックスを選択する必要があります。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:220
+msgid "click here."
+msgstr "ここをクリックします。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:610
+msgid "enter name of the alert"
+msgstr "アラートの名前を入力"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:635
+msgid "greater than"
+msgstr "次の値より大きい"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:110 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:137
+msgid "id is missing from request body."
+msgstr "要求の本文に ID がありません。"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:126
+msgid "invalid response"
+msgstr "無効な応答"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:636
+msgid "less than"
+msgstr "次の値未満"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:115
+msgid "missing entityId"
+msgstr "entityId がありません"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:290
+msgid "missing filters or name of the group"
+msgstr "フィルタまたはグループ名がありません"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:175
+msgid "missing groupId"
+msgstr "groupId がありません"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:129
+msgid "missing name of the group"
+msgstr "グループ名がありません"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:285
+msgid "missing target name of group"
+msgstr "グループのターゲット名がありません"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:122 apps/sii/src/main/webapp/metrics-analysis/components/common/DimensionInfo.js:65
+msgid "n/a"
+msgstr "N/A"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:194
+msgid "none"
+msgstr "なし"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:400
+msgid "via"
+msgstr "経由"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:115
+#, python-format
+msgid "© %(year)s Splunk Inc. All rights reserved. All use of this Software is subject to the terms and conditions of the Splunk Software License Agreement."
+msgstr "© %(year)s Splunk Inc. All rights reserved. 本ソフトウェアの使用は、Splunk ソフトウェア使用許諾契約書の条項にすべて従います。"

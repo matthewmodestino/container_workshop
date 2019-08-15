@@ -1,0 +1,60 @@
+<%!
+from splunk.appserver.mrsparkle.lib import util
+isLite = util.isLite()
+
+app_name = cherrypy.request.path_info.split('/')[3]
+app_root = "/" + "/".join(["static","app",app_name])
+
+if isLite:
+    faviconFile = 'favicon_lite.ico'
+    css_path = "/static/build/css/bootstrap-lite.css"
+else:
+    faviconFile = 'favicon.ico'
+    css_path = "/static/build/css/bootstrap-enterprise.css"
+
+faviconFilePath = app_root +'/img/' + faviconFile
+%>\
+
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>
+        Infrastructure
+    </title>
+    <meta name="description" content="Splunk App for Infrastructure">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="${make_url(faviconFilePath)}" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" type="text/css" href="${make_url(css_path, _qs=css_less_qs)}"/>
+</head>
+
+<body style="background-color: unset;">
+    <div id="app-container"/>
+    <%
+    config_qs = dict(autoload=1)
+    if hasattr(cherrypy.request, 'guest_pass') and cherrypy.request.guest_pass:
+        config_qs['guest_pass'] = 1
+    %>
+
+    <script src="${make_url('/config', _qs=config_qs)}"></script>
+    <script src="${make_url('/static/js/i18n.js')}"></script>
+    <script src="${make_url('/i18ncatalog?autoload=1')}"></script>
+    <script src="${make_url('/static/js/contrib/jquery-2.1.0.min.js')}"></script>
+    <%
+    page_path = "/static/app/" + app_name + "/build/" + page + ".js"
+    common_path = "/static/app/" + app_name + "/build/common.js"
+    %>
+    <script>
+      window.$C = window.$C || {};
+      window.$C.IS_LITE = ${json_decode(isLite)};
+    </script>
+    <script src="${make_url(common_path)}"></script>
+    <script src="${make_url(page_path)}"></script>
+
+</body>
+
+</html>

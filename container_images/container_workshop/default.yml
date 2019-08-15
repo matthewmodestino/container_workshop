@@ -1,6 +1,7 @@
 ---
 ansible_post_tasks: null
 ansible_pre_tasks: null
+cert_prefix: https
 config:
   baked: default.yml
   defaults_dir: /tmp/defaults
@@ -41,7 +42,7 @@ splunk:
   hec_disabled: 0
   hec_enableSSL: 1
   hec_port: 8088
-  hec_token: 00000000-0000-0000-0000-000000000000
+  hec_token: 00000000-0000-0000-0000-000000000000 
   home: /opt/splunk
   http_enableSSL: 0
   http_enableSSL_cert: null
@@ -54,13 +55,18 @@ splunk:
     replication_factor: 3
     replication_port: 9887
     search_factor: 3
-    secret: uUZlah2uh9YF1xn4UjsmyyBZbRnsDCGe
+    secret: SMbQnJM0E4Ax8s5RPTeS9pdXQ9/pf9sw
   ignore_license: false
   license_download_dest: /tmp/splunk.lic
+  multisite_replication_factor_origin: 3
+  multisite_replication_factor_total: 3
+  multisite_search_factor_origin: 3
+  multisite_search_factor_total: 3
   nfr_license: /tmp/nfr_enterprise.lic
   opt: /opt
-  password: helloworld
+  password: BN5Ihl55FpmnsZ3VZlsv1TzxhftMMK05
   pid: /opt/splunk/var/run/splunk/splunkd.pid
+  root_endpoint: null
   s2s_enable: true
   s2s_port: 9997
   search_head_cluster_url: null
@@ -70,7 +76,7 @@ splunk:
     label: shc_label
     replication_factor: 3
     replication_port: 9887
-    secret: laOcPskTuM6mNP1dmiBWKSQUc1Nwsoyp
+    secret: eTegW/1FB8Gvq1wQVxRuOERZucXsO1a1
   smartstore: null
   svc_port: 8089
   tar_dir: splunk

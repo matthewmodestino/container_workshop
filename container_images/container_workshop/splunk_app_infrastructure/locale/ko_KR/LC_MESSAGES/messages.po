@@ -1,0 +1,2226 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-03-18 21:35+0000\n"
+"PO-Revision-Date: 2019-04-23 19:03+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:533 apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:585
+#, python-format
+msgid "%(gigabytes)s GB"
+msgstr "%(gigabytes)sGB"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:253
+#, python-format
+msgid "%(group_title)s already exists"
+msgstr "%(group_title)s이(가) 이미 있음"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:256
+#, python-format
+msgid "%(group_title)s: group name cannot contain | or = or left empty"
+msgstr "%(group_title)s: 그룹 이름에 | 또는 =이 포함되거나 비워둘 수 없음"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:560
+#, python-format
+msgid "%(numberOfDays)s days"
+msgstr "%(numberOfDays)s일"
+
+#: packages/ui/utils/commonUtils.js:29
+#, python-format
+msgid "%(numberOfDays)sd ago"
+msgstr "%(numberOfDays)sd 이전"
+
+#: packages/ui/utils/commonUtils.js:27
+#, python-format
+msgid "%(numberOfHours)sh ago"
+msgstr "%(numberOfHours)sh 이전"
+
+#: packages/ui/utils/commonUtils.js:25
+#, python-format
+msgid "%(numberOfMinutes)sm ago"
+msgstr "%(numberOfMinutes)sm 이전"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:347
+#, python-format
+msgid "%d Available"
+msgstr "%d개 사용 가능"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:330
+#, python-format
+msgid "%d Entity"
+msgid_plural "%d Entities"
+msgstr[0] "%d개의 엔티티"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:350
+#, python-format
+msgid "%d Entity Selected"
+msgid_plural "%d Entities Selected"
+msgstr[0] "%d개의 엔티티가 선택됨"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupControlBar.js:157
+#, python-format
+msgid "%d Group"
+msgid_plural "%d Groups"
+msgstr[0] "%d개의 그룹"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:269
+#, python-format
+msgid "%d Group Selected"
+msgid_plural "%d Groups Selected"
+msgstr[0] "%d개의 그룹이 선택됨"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:347
+#, python-format
+msgid "%d Healthy"
+msgstr "%d개 양호함"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:396
+#, python-format
+msgid "%d Log Source Selected"
+msgid_plural "%d Log Sources Selected"
+msgstr[0] "%d개의 로그 원본이 선택됨"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:236 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:267
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:255
+#, python-format
+msgid "%d Log source"
+msgid_plural "%d Log sources"
+msgstr[0] "%d개의 로그 원본"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:231 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:262
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:250
+#, python-format
+msgid "%d Metric"
+msgid_plural "%d Metrics"
+msgstr[0] "%d개의 메트릭"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:369
+#, python-format
+msgid "%d Metric Selected"
+msgid_plural "%d Metrics Selected"
+msgstr[0] "%d개의 메트릭이 선택됨"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:354
+#, python-format
+msgid "%d N/A"
+msgstr "%d개 항목 해당 사항 없음"
+
+#: packages/ui/components/NumberOfItemsPerPageDropDown.js:67
+#, python-format
+msgid "%d Per Page"
+msgstr "페이지당 %d개"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:351
+#, python-format
+msgid "%d Unavailable"
+msgstr "%d개 사용할 수 없음"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:351
+#, python-format
+msgid "%d Unhealthy"
+msgstr "%d개 양호하지 않음"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:76
+#, python-format
+msgid "%d%% of the servers are inactive"
+msgstr "서비스 중 %d%%이(가) 비활성화됨"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:452
+msgid "+ Add Custom Source"
+msgstr "+ 사용자 지정 원본 추가"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:656
+msgid "+ Add New Threshold"
+msgstr "+ 새 임계값 추가"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:667
+msgid "+ Alert Notification"
+msgstr "+ 경고 알림"
+
+#: packages/ui/utils/stateConstants.js:216
+msgid "10 seconds"
+msgstr "10초"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:78
+msgid "100% of the servers are active"
+msgstr "서비스가 100% 활성화됨"
+
+#: packages/ui/utils/stateConstants.js:219
+msgid "3 minutes"
+msgstr "3분"
+
+#: packages/ui/utils/stateConstants.js:217
+msgid "30 seconds"
+msgstr "30초"
+
+#: packages/ui/utils/stateConstants.js:220
+msgid "5 minutes"
+msgstr "5분"
+
+#: packages/ui/utils/stateConstants.js:218
+msgid "60 seconds"
+msgstr "60초"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:243
+msgid "API Key"
+msgstr "API 키"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:244
+msgid "API key obtained through the VictorOps Splunk integration."
+msgstr "VictorOps Splunk 통합을 통해 얻은 API 키입니다."
+
+#: packages/ui/components/RefreshControl.js:169
+msgid "AUTO REFRESH"
+msgstr "자동 새로 고침"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:137
+msgid "AWS Entity Types"
+msgstr "AWS 엔티티 유형"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:150
+msgid "AWS Regions"
+msgstr "AWS 영역"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:548 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:350
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:578
+msgid "Action"
+msgstr "작업"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:585 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:386
+msgid "Actions"
+msgstr "작업"
+
+#: packages/ui/components/ObjectStatus.js:36
+msgid "Active"
+msgstr "활성"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:235
+msgid "Add AWS account"
+msgstr "AWS 계정 추가"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:125
+msgid "Add AWS data source"
+msgstr "AWS 데이터 원본 추가"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:23
+msgid "After you run the script, the entity will appear as inactive. You must manually delete the entity to remove it from the instance."
+msgstr "스크립트를 실행하면 엔티티가 비활성 상태로 나타납니다. 엔티티를 수동으로 삭제하여 인스턴스에서 제거해야 합니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:94
+msgid "Aggregation method is missing from metric SPL"
+msgstr "메트릭 SPL에서 집계 메소드가 누락되었습니다."
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:335 packages/ui/utils/stateConstants.js:362
+msgid "Alert Count"
+msgstr "경고 횟수"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:382
+msgid "Alert Creation Error"
+msgstr "경고 만들기 오류"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:124
+msgid "Alert with the specified name already exists."
+msgstr "지정한 이름의 경고가 이미 있습니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:430
+msgid "All data is retained until storage is full"
+msgstr "모든 데이터는 저장소가 가득 찰 때까지 유지됩니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:232
+msgid "All fields required"
+msgstr "모든 필드가 필요함"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:63
+msgid "All inputs related to this account will also be deleted."
+msgstr "이 계정과 관련된 모든 입력 정보도 삭제됩니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:387
+msgid "An alert can not have multiple aggregations."
+msgstr "경고에 여러 집계를 사용할 수 없습니다."
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:365
+msgid "Analysis"
+msgstr "분석"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:312
+msgid "Anonymized Usage Data"
+msgstr "익명 사용 데이터"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:315 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:62
+#, python-format
+msgid "Are you sure you want to delete %(name)s?"
+msgstr "%(name)s(을)를 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:382
+#, python-format
+msgid "Are you sure you want to delete all %d entities in this filter from your environment?"
+msgstr "사용자 환경의 이 필터에 있는 %d개의 엔티티를 모두 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:303
+#, python-format
+msgid "Are you sure you want to delete all %d groups in this filter from your environment?"
+msgstr "사용자 환경의 이 필터에 있는 %d개의 그룹을 모두 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:394
+#, python-format
+msgid "Are you sure you want to delete the %d selected entities?"
+msgstr "%d개의 선택된 엔티티를 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:323
+#, python-format
+msgid "Are you sure you want to delete the %d selected groups?"
+msgstr "%d개의 선택된 그룹을 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:400
+#, python-format
+msgid "Are you sure you want to delete the entity %(name)s?"
+msgstr "엔티티 %(name)s을(를) 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:331
+#, python-format
+msgid "Are you sure you want to delete the group %(name)s?"
+msgstr "그룹 %(name)s을(를) 삭제하시겠습니까?"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:104
+msgid "Are you sure you want to remove your VictorOps credentials?"
+msgstr "VictorOps 자격 증명을 제거하시겠습니까?"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:141
+msgid "Are you sure you want to restart Splunk?"
+msgstr "Splunk를 다시 시작 하시겠습니까?"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:26
+msgid "Attach IAM role"
+msgstr "IAM 역할 첨부"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:143
+msgid "Authenticated Install"
+msgstr "인증된 설치"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:131 packages/ui/components/RefreshControl.js:147
+#, python-format
+msgid "Auto refresh in %(numberOfSeconds)ss"
+msgstr "%(numberOfSeconds)ss의 자동 새로 고침"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:259
+msgid "Automatically share license usage data"
+msgstr "라이선스 사용 데이터 자동 공유"
+
+#: apps/sii/src/main/resources/splunk/bin/em_constants.py:33
+msgid "Availability"
+msgstr "가용성"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:170
+msgid "Bad Request"
+msgstr "잘못된 요청"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:432
+msgid "Based on current ingestion rate."
+msgstr "현재 수집율을 기준으로 합니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_entity_migration.py:141
+msgid "Batch saving failed: Batch is empty."
+msgstr "일괄 저장 실패: 일괄 작업이 비어 있습니다."
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:65
+msgid "Build"
+msgstr "빌드"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:678 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:567
+msgid "Bulk Actions"
+msgstr "일괄 작업"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:525
+msgid "Buy More Storage"
+msgstr "추가 저장소 구입"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:362
+msgid "Calculating daily data ingestion, Please Wait"
+msgstr "일일 데이터 수집을 계산하는 중입니다. 잠시 기다려주십시오."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:698 apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:294 packages/ui/components/ConfirmationDialog.js:144
+msgid "Cancel"
+msgstr "취소"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:364
+msgid "Cannot create alert without data."
+msgstr "데이터 없이 경고를 만들 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:33
+msgid "Cannot create more than one VictorOps settings"
+msgstr "VictorOps 설정을 두 개 이상 만들 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:174
+msgid "Cannot delete a group that does not exist"
+msgstr "존재하지 않는 그룹을 삭제할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:55
+#, python-format
+msgid "Cannot delete alert with name %(alert_name)s"
+msgstr "이름이 %(alert_name)s인 경고를 삭제할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:221
+#, python-format
+msgid "Cannot delete entity with id %(entity_id)s"
+msgstr "ID가 %(entity_id)s인 엔티티를 삭제할 수 없습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:375
+msgid "Cannot delete the selected entities!"
+msgstr "선택한 엔티티를 삭제할 수 없습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:374
+msgid "Cannot delete the selected entity!"
+msgstr "선택한 엔티티를 삭제할 수 없습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:294
+msgid "Cannot delete the selected group!"
+msgstr "선택한 그룹을 삭제할 수 없습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:295
+msgid "Cannot delete the selected groups!"
+msgstr "선택한 그룹을 삭제할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_collector_configuration_interface_impl.py:96
+#, python-format
+msgid "Cannot find the collector configuration with id %(id)s!"
+msgstr "ID가 %(id)s인 컬렉터 설정을 찾을 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:506
+#, python-format
+msgid "Cannot find the entity with id %(entity_id)s."
+msgstr "ID가 %(entity_id)s인 엔티티를 찾을 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:180 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:290
+#, python-format
+msgid "Cannot find the group with id %(group_id)s"
+msgstr "ID가 %(group_id)s인 그룹을 찾을 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:303
+#, python-format
+msgid "Cannot get collector or entities info from group '%(group_name)s'"
+msgstr "'%(group_name)s’ 그룹에서 컬렉터나 엔티티 정보를 가져올 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:354
+msgid "Cannot get count of groups"
+msgstr "그룹 개수를 가져올 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:296
+#, python-format
+msgid "Cannot get entities within group '%(group_name)s'"
+msgstr "'%(group_name)s' 그룹의 엔티티를 가져올 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:347
+msgid "Cannot get matching groups with given entity information"
+msgstr "지정된 엔티티 정보와 일치하는 그룹을 가져올 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_collector_configuration_interface_impl.py:105
+msgid "Cannot list all of the collector configurations saved!"
+msgstr "저장된 모든 컬렉터 설정을 나열할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:499
+msgid "Cannot list all of the collector configurations saved."
+msgstr "저장된 모든 컬렉터 설정을 나열할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:519
+msgid "Cannot list all of the entities saved."
+msgstr "저장된 엔티티를 모두 나열할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:284
+msgid "Cannot list all of the groups saved"
+msgstr "저장된 모든 그룹을 나열할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:332
+msgid "Cannot list collector configs"
+msgstr "컬렉터 설정을 나열할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:157
+msgid "Cannot modify a group that does not exist"
+msgstr "존재하지 않는 그룹을 수정할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:437
+msgid "Cannot parse query parameter. Expected format is {<dimension name>: [ <dimension values, wildcards>]}"
+msgstr "쿼리 매개변수를 구문 분석할 수 없습니다. 예상되는 형식은 {<dimension name>: [ <dimension values, wildcards>]}입니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:459
+msgid "Cannot parse query parameter. Expected format is {metric_name: <metric_name>, dimensions: {<dimension name>: [<dimension values, wildcards>]}}"
+msgstr "쿼리 매개변수를 구문 분석할 수 없습니다. 예상되는 형식은 {metric_name: <metric_name>이며, 차원은 {<dimension name>: [<dimension values, wildcards>]}}입니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:132
+msgid "Cannot prefix a dimension name with a \"_\", \":\" or \"=\""
+msgstr "차원 이름 앞에 \\ \"_ \", \\ \": \\” 또는 \\ \"= \"을 붙일 수 없습니다."
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:102
+msgid "Certain features and functionalities of this Software are or may be protected by patents owned by Splunk Inc."
+msgstr "이 소프트웨어의 일부 기능은 Splunk, Inc. 소유의 특허에 의해 보호되거나 보호될 수 있습니다."
+
+#: packages/ui/components/chart-with-slider/ChartSettings.js:91
+msgid "Chart Options"
+msgstr "차트 옵션"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:191
+msgid "Check with SMTP server admin. When SSL is enabled, mail host should include the port. IE: smtp.splunk.com:465"
+msgstr "SMTP 서버 관리자에게 확인하십시오. SSL이 활성화된 경우, 메일 호스트 란에 포트 정보가 포함되어야 합니다. IE: smtp.splunk.com:465"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:320 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:238
+msgid "Clear Selection"
+msgstr "선택 항목 지우기"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:88 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:96
+msgid "Close"
+msgstr "닫기"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:162
+msgid "CloudWatch Logs"
+msgstr "CloudWatch 로그"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:288 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:325
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:367
+msgid "Collect"
+msgstr "수집"
+
+#: packages/ui/utils/stateConstants.js:51 packages/ui/utils/stateConstants.js:68 packages/ui/utils/stateConstants.js:86
+msgid "Collect data for each CPU"
+msgstr "각 CPU의 데이터 수집"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:134
+msgid "Collect data from"
+msgstr "데이터 수집"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:439
+msgid "Collect internal logs for debugging"
+msgstr "디버깅을 위한 내부 로그 수집"
+
+#: packages/ui/utils/stateConstants.js:52 packages/ui/utils/stateConstants.js:69 packages/ui/utils/stateConstants.js:87
+msgid "Collect sum for all CPUs"
+msgstr "모든 CPU에 대한 합계 수집"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:396
+msgid "Color by"
+msgstr "색상 기준"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:398
+#, python-format
+msgid "Color by: %(label)s"
+msgstr "색상 기준: %(label)s"
+
+#: packages/ui/components/ThresholdControl.js:210
+msgid "Color by: Percent Available"
+msgstr "색상 기준: 사용 가능한 비율"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:36
+msgid "Configure Identity and Access Management"
+msgstr "ID 및 액세스 관리 설정"
+
+#: apps/sii/src/main/webapp/configure/common/components/Configure.js:107
+msgid "Configure Integrations"
+msgstr "통합 설정"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:221
+msgid "Confirm Password"
+msgstr "암호 확인"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:83
+#, python-format
+msgid "Congratulations, you've got %d entity coming in."
+msgid_plural "Congratulations, you've got %d entities coming in."
+msgstr[0] "축하합니다. 수신 중인 %d개의 엔티티를 받았습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:254
+msgid "Connect to your AWS account"
+msgstr "AWS 계정에 연결"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:120
+msgid "Connecting to AWS Account, Please Wait"
+msgstr "AWS 계정에 연결 중입니다. 잠시 기다려주십시오."
+
+#: packages/ui/components/CopyableConfigText.js:98
+msgid "Copied!"
+msgstr "복사됨!"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:277 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:311
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:356
+msgid "Copy and paste the following into the command line of your entity"
+msgstr "엔티티의 명령줄에 다음을 복사하여 붙여넣으십시오."
+
+#: packages/ui/components/CopyableConfigText.js:97
+msgid "Copy to clipboard"
+msgstr "클립보드에 복사"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:592 apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:306
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:168
+msgid "Create Alert"
+msgstr "경고 만들기"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:181
+msgid "Create group from filter"
+msgstr "필터에서 그룹 만들기"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:82
+msgid "Credentials could not be authenticated with VictorOps"
+msgstr "VictorOps로 자격 증명을 인증할 수 없습니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:574 packages/ui/utils/stateConstants.js:210
+msgid "Critical"
+msgstr "심각함"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:374
+msgid "Critical has to be greater than Warning."
+msgstr "심각함은 경고보다 커야 합니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:375
+msgid "Critical has to be less than Warning."
+msgstr "심각함은 경고보다 작아야 합니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:571
+msgid "Current License"
+msgstr "현재 라이선스"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:327 packages/ui/utils/stateConstants.js:361
+msgid "Current Severity"
+msgstr "현재 심각도"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:244 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:275
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:263
+msgid "Customize"
+msgstr "사용자 지정"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:362
+msgid "Customize Data Collection"
+msgstr "데이터 컬렉션 사용자 지정"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:544
+msgid "Daily Data Ingestion per Data Type (GB)"
+msgstr "데이터 유형별 일일 데이터 수집량(GB)"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:227 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:258
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:246
+msgid "Data to be collected"
+msgstr "수집할 데이터"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:551
+msgid "Days of Data Retention"
+msgstr "데이터 보유 일수"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:344 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:70
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:289 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:545
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:213 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:347
+msgid "Delete"
+msgstr "삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:392
+#, python-format
+msgid "Delete %d Entities"
+msgstr "%d개의 엔티티 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:319
+#, python-format
+msgid "Delete %d Groups"
+msgstr "%d개의 그룹 삭제"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:127
+msgid "Delete AWS data source"
+msgstr "AWS 데이터 원본 삭제"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:61 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:84
+msgid "Delete Account"
+msgstr "계정 삭제"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:312
+msgid "Delete Alert"
+msgstr "경고 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:380
+msgid "Delete All Entities"
+msgstr "모든 엔티티 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:301
+msgid "Delete All Groups"
+msgstr "모든 그룹 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:398
+msgid "Delete Entity"
+msgstr "엔티티 삭제"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:320
+msgid "Delete Failure"
+msgstr "실패 항목 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:317 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:329
+msgid "Delete Group"
+msgstr "그룹 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:674
+msgid "Delete Selected Entities"
+msgstr "선택한 엔티티 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:564
+msgid "Delete Selected Groups"
+msgstr "선택한 그룹 삭제"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:192 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:206
+msgid "Delete query can not be empty"
+msgstr "삭제 쿼리는 비워둘 수 없습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:255
+msgid "Delete this account"
+msgstr "이 계정 삭제"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:306
+msgid "Deleting all groups will only remove them from the list. All associated alerts will also be deleted."
+msgstr "모든 그룹을 삭제하면 리스트에서 해당 그룹뿐 아니라 관련된 모든 경고도 삭제됩니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:406
+msgid "Deleting an entity will only remove it from the list. If an entity is still sending data, it will reappear after you delete it from the list."
+msgstr "엔티티를 삭제하면 리스트에서 해당 엔티티가 삭제됩니다. 엔티티가 데이터를 전송하는 경우 리스트에서 삭제한 후에 다시 나타납니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:86
+msgid "Deleting the account. Do not refresh this page."
+msgstr "계정을 삭제하는 중입니다. 이 페이지를 새로 고치지 마십시오."
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:326
+msgid "Deleting these groups will only remove them from the list. All associated alerts will also be deleted."
+msgstr "이 그룹을 삭제하면 리스트에서 해당 그룹뿐 아니라 관련된 모든 경고도 삭제됩니다."
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:334
+msgid "Deleting this group will only remove it from the list. All associated alerts will also be deleted."
+msgstr "이 그룹을 삭제하면 리스트에서 해당 그룹뿐 아니라 관련된 모든 경고도 삭제됩니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:329 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:274
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:198
+msgid "Deleting..."
+msgstr "삭제 중..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:76 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:268
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:192
+msgid "Deletion Failed"
+msgstr "삭제 실패"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:94
+msgid "Deletion Successful"
+msgstr "삭제 성공"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:269 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:193
+msgid "Deletion failed!"
+msgstr "삭제 실패!"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:387 apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:414
+msgid "Deselect All"
+msgstr "모두 선택 취소"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:41
+msgid "Detected role: "
+msgstr "삭제된 역할:"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:239
+msgid "Dimension Names"
+msgstr "차원 이름"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:254
+msgid "Dimension Values"
+msgstr "차원 값"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:359
+msgid "Dimension provided does not exist in dimensions object"
+msgstr "차원 개체에 존재하는 차원이 없습니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:249 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:280
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:268 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:584
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:385 apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:231
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:346
+msgid "Dimensions"
+msgstr "차원"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:252 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:283
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:271
+msgid "Dimensions are key/value pairs used for troubleshooting, analysis, and filtering hosts, e.g. location:seattle or role:webserver."
+msgstr "차원은 문제 해결, 분석 및 필터링 호스트(예: 위치: seattle 또는 역할: webserver)에 사용되는 키/값 쌍입니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:345
+msgid "Dimensions provided should be JSON object"
+msgstr "제공된 치수는 JSON 개체여야 합니다."
+
+#: packages/ui/components/ObjectStatus.js:37
+msgid "Disabled"
+msgstr "사용 불가능"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:280
+msgid "Don't have a license yet?"
+msgstr "라이선스가 아직 없습니까?"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:447
+msgid "ENTITIES"
+msgstr "엔티티"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:346
+msgid "Edit"
+msgstr "편집"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:592 apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:299
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:161
+msgid "Edit Alert"
+msgstr "경고 편집"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:409
+msgid "Email"
+msgstr "이메일"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:673
+msgid "Email Recipients"
+msgstr "이메일 수신자"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:244 apps/sii/src/main/webapp/settings/email/components/Email.js:173
+msgid "Email Server Settings"
+msgstr "이메일 서버 설정"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:234
+msgid "Email address(es) format is incorrect."
+msgstr "이메일 주소 형식이 올바르지 않습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:101
+msgid "Email notification criteria is not one of the supported criteria"
+msgstr "이메일 알림 기준은 지원되는 기준 중 하나가 아닙니다."
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:190
+msgid "Email security"
+msgstr "이메일 보안"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:114
+msgid "Email settings saved."
+msgstr "이메일 설정이 저장되었습니다."
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:195
+msgid "Enable SSL"
+msgstr "SSL 사용"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:196
+msgid "Enable TLS"
+msgstr "TLS 사용"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/sagas.js:36
+#, python-format
+msgid "Endpoint failed to update: %(element)s:%(expectedElement)s"
+msgstr "엔드포인트 업데이트 실패: %(element)s: %(expectedElement)s"
+
+#: packages/ui/components/ToggleButtonGroup.js:66
+msgid "Entities"
+msgstr "엔티티"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:104
+msgid "Entity Alerts"
+msgstr "엔티티 경고"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:221 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:319 packages/ui/utils/stateConstants.js:360
+msgid "Entity Name"
+msgstr "엔티티 이름"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:113
+#, python-format
+msgid "Entity with id %(entity_id)s already exists."
+msgstr "ID가 %(entity_id)s인 엔티티가 이미 있습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:101 apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:143 apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:216
+#, python-format
+msgid "Entity with id %(entity_id)s not found."
+msgstr "ID가 %(entity_id)s인 엔티티를 찾을 수 없습니다."
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:163
+msgid "Error deleting VictorOps settings."
+msgstr "VictorOps 설정을 삭제하는 중 오류가 발생했습니다."
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:169
+msgid "Error loading VictorOps settings."
+msgstr "VictorOps 설정을 로드하는 중 오류가 발생했습니다."
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:153
+msgid "Error saving VictorOps settings."
+msgstr "VictorOps 설정을 저장하는 중 오류가 발생했습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:144
+msgid "Error: Could not create account."
+msgstr "오류: 계정을 만들 수 없습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:66
+msgid "Error: Could not create input."
+msgstr "오류: 입력 정보를 만들 수 없습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:145
+msgid "Error: Could not update account."
+msgstr "오류: 계정을 업데이트할 수 없습니다."
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:126
+msgid "Error: Could not update email settings."
+msgstr "오류: 이메일 설정을 업데이트할 수 없습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:67
+msgid "Error: Could not update input."
+msgstr "오류: 입력 정보를 업데이트할 수 없습니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:373
+msgid "Error: Failed to calculate daily data ingestion"
+msgstr "오류: 일일 데이터 수집량을 계산할 수 없습니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:345
+msgid "Error: Failed to upload license"
+msgstr "오류: 라이선스를 업로드할 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:481
+msgid "Expected dimensions to be a dict."
+msgstr "예상되는 차원은 dict입니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:487
+msgid "Expected each key in dimensions to be a string, each value to be a list"
+msgstr "차원에서 예상되는 각 키는 string이며, 각 값은 list입니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:477
+msgid "Expected metric name to be a string."
+msgstr "예상되는 메트릭 이름은 string입니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:490
+msgid "Expected query param to be a dict"
+msgstr "예상되는 쿼리 매개변수는 dict입니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:577
+msgid "Expired Date"
+msgstr "만료 날짜"
+
+#: packages/ui/components/ObjectStatus.js:42
+msgid "Failed"
+msgstr "실패"
+
+#: packages/ui/utils/servicesUtils.js:3
+#, python-format
+msgid "Failed to %(method)s %(fullUrl)s"
+msgstr "실패: %(method)s %(fullUrl)s"
+
+#: packages/ui/utils/servicesUtils.js:74
+#, python-format
+msgid "Failed to POST %(fullUrl)s"
+msgstr "실패: POST %(fullUrl)s"
+
+#: packages/ui/utils/servicesUtils.js:14
+#, python-format
+msgid "Failed to bulk delete %(items)s"
+msgstr "%(items)s개 항목 일괄 삭제 실패"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:208
+msgid "Failed to bulk delete entities"
+msgstr "엔티티 일괄 삭제 실패"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:60
+msgid "Failed to create HEC token"
+msgstr "HEC 토큰 만들기 실패"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:124
+#, python-format
+msgid "Failed to create HEC token: %(message)s"
+msgstr "HEC 토큰 만들기 실패: %(message)s"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:138
+#, python-format
+msgid "Failed to create entity %(entity_id)s."
+msgstr "엔티티 %(entity_id)s(을)를 만들지 못했습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:150
+#, python-format
+msgid "Failed to create the group %(group_title)s."
+msgstr "그룹 %(group_title)s(을)를 만들지 못했습니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:323
+#, python-format
+msgid "Failed to delete %(name)s."
+msgstr "%(name)s(을)를 삭제하지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:77
+msgid "Failed to delete this account."
+msgstr "이 계정을 삭제하지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/services.js:99
+msgid "Failed to enable HEC."
+msgstr "HEC를 활성화하지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:131
+#, python-format
+msgid "Failed to fetch HEC token: %(message)s"
+msgstr "HEC 토큰 가져오기 실패: %(message)s"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:37
+msgid "Failed to fetch existing HEC tokens"
+msgstr "기존 HEC 토큰 가져오기 실패"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:197
+msgid "Failed to fetch info about the presence of Splunk Add-on for Amazon Web Services."
+msgstr "Splunk Add-on for Amazon Web Services에 대한 정보를 가져오지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/services.js:22
+msgid "Failed to get HTTP Input settings"
+msgstr "HTTP 입력 설정을 가져오지 못했습니다."
+
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.js:41 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:106
+msgid "Failed to load entity information."
+msgstr "엔티티 정보를 로드하지 못했습니다."
+
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.js:48 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:208
+msgid "Failed to load group information."
+msgstr "그룹 정보를 로드하지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:101
+#, python-format
+msgid "Failed to update HEC token: %(message)s"
+msgstr "HEC 토큰 업데이트 실패: %(message)s"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:167
+#, python-format
+msgid "Failed to update entity %(entity_id)s."
+msgstr "엔티티 %(entity_id)s(을)를 업데이트하지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/services.js:83
+msgid "Failed to update existing token information"
+msgstr "기존 토큰 정보 업데이트 실패"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:167
+#, python-format
+msgid "Failed to update the group %(group_title)s."
+msgstr "그룹 %(group_title)s(을)를 업데이트하지 못했습니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:145 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:156
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:142 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:165
+msgid "Fill in empty fields."
+msgstr "빈 필드를 채웁니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_search_manager.py:330
+msgid "Filter criteria specified is not allowed!"
+msgstr "지정된 필터 기준이 허용되지 않습니다!"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:93
+msgid "Filter dimensions"
+msgstr "필터 크기"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:165
+msgid "Filter/options are expected to be a dict"
+msgstr "필터/옵션은 dict일 것으로 예상됩니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:287
+msgid "Find out more here"
+msgstr "여기서 더 알아보기"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:182
+msgid "First check App for Infrustructure system requirements."
+msgstr "먼저 App for Infrustructure 시스템 요구 사항을 확인하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:249
+msgid "Follow the instructions to collect data from your AWS instances."
+msgstr "지침에 따라 AWS 인스턴스에서 데이터를 수집하십시오."
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:236
+msgid "Follow the instructions to install an agent on your Linux machine."
+msgstr "지침에 따라 Linux 컴퓨터에 에이전트를 설치하십시오."
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:217
+msgid "Follow the instructions to install an agent on your OSX machine."
+msgstr "지침에 따라 OSX 컴퓨터에 에이전트를 설치하십시오."
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:236
+msgid "Follow the instructions to install an agent on your Windows machine."
+msgstr "지침에 따라 Windows 컴퓨터에 에이전트를 설치하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:226
+msgid "For further info check App for Infrustructure system requirements."
+msgstr "추가 정보는 App for Infrustructure 시스템 요구 사항을 확인하십시오."
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:244
+msgid "For specific version support see documentation."
+msgstr "특정 버전 지원에 대한 내용은 설명서를 참조하십시오."
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:447
+msgid "GROUPED IN"
+msgstr "그룹화됨"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:326
+msgid "Get better Support!"
+msgstr "더 나은 지원을 받으십시오!"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesEmpty.js:45
+msgid "Go to Add Data page to get started monitoring your infrastructure entities."
+msgstr "인프라 엔티티 모니터링을 시작하려면 데이터 추가 페이지로 이동하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:219
+msgid "Go to Manage Apps > In the list of apps find: Splunk Add-on for Amazon Web Services App > Click Enable"
+msgstr "앱 관리로 이동한 후, 앱 목록에서 Splunk Add-on for Amazon Web Services App을 찾은 다음, 활성화를 클릭하세요."
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:274
+#, python-format
+msgid "Group %(name)s is created. Switch to group view to view all your saved groups."
+msgstr "그룹 %(name)s이(가) 생성됩니다. 저장된 모든 그룹을 보려면 그룹 보기로 전환하십시오."
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:278
+#, python-format
+msgid "Group %(name)s is updated. Switch to group view to view all your saved groups."
+msgstr "그룹 %(name)s이(가) 업데이트됩니다. 저장된 모든 그룹을 보려면 그룹 보기로 전환하십시오."
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:106
+msgid "Group Alerts"
+msgstr "그룹 경고"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:144 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:319
+msgid "Group Name"
+msgstr "그룹 이름"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:141
+#, python-format
+msgid "Group id %(group_id)s already exists"
+msgstr "그룹 ID %(group_id)s이(가) 이미 있습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:273
+msgid "Group saved"
+msgstr "그룹이 저장됨"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:277
+msgid "Group updated"
+msgstr "그룹이 업데이트됨"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:71
+#, python-format
+msgid "Group with id %(group_id)s cannot be found"
+msgstr "ID %(group_id)s이(가) 있는 그룹을 찾을 수 없음"
+
+#: packages/ui/components/ToggleButtonGroup.js:75
+msgid "Groups"
+msgstr "그룹"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:72 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:88
+msgid "HEC port"
+msgstr "HEC 포트"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:75
+msgid "HEC port is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script를 사용하려면 HEC 포트가 필요합니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:120 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:133
+msgid "HEC token"
+msgstr "HEC 토큰"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:123
+msgid "HEC token is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script를 사용하려면 HEC 토큰이 필요합니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:201
+msgid "Help improve Splunk products, services, and support for this deployment by automatically sending Splunk performance data"
+msgstr "Splunk 성능 데이터를 자동으로 전송하여 이 배포에 대한 Splunk 제품, 서비스 및 지원 서비스를 향상시킬 수 있습니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:295
+msgid "Help make Splunk software better!"
+msgstr "Splunk 소프트웨어를 개선할 수 있도록 도와주십시오!"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:139 apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:453
+msgid "Help us improve Splunk software"
+msgstr "Splunk 소프트웨어 개선에 함께해 주십시오."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:183
+msgid "Help us improve your Splunk experience by sharing information about your Splunk software usage. Searches are run to collect this information."
+msgstr "더 나은 Splunk 경험을 선사해 드릴 수 있도록 Splunk 소프트웨어 사용에 대한 정보를 공유해 주십시오! 이 정보를 수집하기 위해 검색이 실행됩니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:52 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:287
+msgid "Host name is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script를 사용하려면 호스트 이름이 필요합니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:65 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:301
+msgid "Hostname or IP address"
+msgstr "호스트 이름 또는 IP 주소"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:247
+msgid "How to upgrade"
+msgstr "업그레이드 방법"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:59
+msgid "Http Event Collector already enabled."
+msgstr "HTTP Event Collector가 이미 활성화되었습니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:302
+msgid "I authorize collection of anonymized information about software usage so Splunk can improve its products and services."
+msgstr "Splunk가 자사 제품 및 서비스를 개선할 수 있도록 소프트웨어 사용에 대한 익명 정보를 수집하는 데 동의합니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:333
+msgid "I authorize collection of information about software usage so Splunk can provide improved support and services for my deployment. Data will be linked to my account based on my installed licenses."
+msgstr "Splunk가 내 배포 환경을 위해 개선된 지원과 서비스를 제공할 수 있도록 소프트웨어 사용에 대한 정보를 수집하는 데 동의합니다. 데이터는 내가 설치한 라이선스에 따라 내 계정에 연결됩니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:350
+msgid "Identifier dimensions provided should be list"
+msgstr "제공된 식별자 크기는 list여야 합니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:627
+msgid "If"
+msgstr "다음과 같은 경우:"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:169
+msgid "If you do not want to participate, you may purchase a license to the product at which time you will have the ability opt out of data collection as described in the documentation."
+msgstr "참여하지 않으려는 경우 제품에 대한 라이선스를 구입하여 문서에 설명된 대로 데이터 컬렉션을 사용하지 않을 수 있습니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:145
+msgid "Import signing keys when installing on Debian/Ubuntu (recommended)"
+msgstr "Debian/Ubuntu에 설치할 때 서명 키 가져오기(권장됨)"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:238
+msgid "In order to receive alert emails, you may need to update your email settings."
+msgstr "알림 이메일을 받으려면 이메일 설정을 업데이트해야 할 수 있습니다."
+
+#: packages/ui/components/ObjectStatus.js:38
+msgid "Inactive"
+msgstr "비활성"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:49
+msgid "Inconsistency detected in account info. Attempting to update AWS data source."
+msgstr "계정 정보에서 불일치 항목이 탐지되었습니다. AWS 데이터 원본 업데이트를 시도하는 중입니다."
+
+#: packages/ui/utils/stateConstants.js:208
+msgid "Info"
+msgstr "정보"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:348
+msgid "Informational dimensions provided should be list"
+msgstr "제공된 정보 크기는 list여야 합니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:328
+msgid "Install Location"
+msgstr "설치 위치"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:345
+msgid "Install directory"
+msgstr "설치 디렉터리"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:330
+msgid "Install location is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script를 사용하려면 설치 위치가 필요합니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:333
+#, python-format
+msgid "Install location of %(packageName)s agent"
+msgstr "설치 위치: %(packageName)s 에이전트"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:496
+msgid "Instrumentation options are not available to non-admin users."
+msgstr "관리자가 아닌 사용자는 계측 옵션을 사용할 수 없습니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:358
+msgid "Instrumentation settings failed to update!"
+msgstr "계측 설정을 업데이트하지 못했습니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:361
+msgid "Instrumentation settings updated successfully!"
+msgstr "계측 설정이 성공적으로 업데이트되었습니다."
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:146 packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:175 packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:179
+msgid "Internal Server Error"
+msgstr "내부 서버 오류"
+
+#: packages/ui/utils/stateConstants.js:265 packages/ui/utils/stateConstants.js:270 packages/ui/utils/stateConstants.js:281
+msgid "Internet access"
+msgstr "인터넷 액세스"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:66
+msgid "Invalid API key"
+msgstr "잘못된 API 키"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:101 apps/sii/src/main/resources/splunk/bin/em_common.py:123
+msgid "Invalid JSON supplied as part of query!"
+msgstr "잘못된 JSON이 쿼리의 일부로 제공되었습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:340
+msgid "Invalid JSON supplied to REST handler!"
+msgstr "REST 핸들러에 잘못된 JSON이 제공되었습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:204
+msgid "Invalid alert. Missing required arguments."
+msgstr "잘못된 경고입니다. 필수 인수가 누락되었습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:109
+msgid "Invalid email address provided"
+msgstr "잘못된 이메일 주소가 제공됨"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:314
+msgid "Invalid entity state"
+msgstr "잘못된 엔티티 상태"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:443
+msgid "Invalid filter"
+msgstr "잘못된 필터"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:265
+msgid "Invalid response from loadAverageMetricValue"
+msgstr "잘못된 loadAverageMetricValue의 응답"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:185
+msgid "Invalid response returning group information!"
+msgstr "그룹 정보를 반환하는 잘못된 응답"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:70
+msgid "Invalid routing key"
+msgstr "잘못된 라우팅 키"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_threshold.py:40
+msgid "Invalid values for thresholds provided"
+msgstr "제공된 임계값에 대한 잘못된 값"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:120 apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChart.js:91
+msgid "Investigate"
+msgstr "조사"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:180
+msgid "Investigate Entity"
+msgstr "엔티티 조사"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:300 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:338
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:379
+msgid "It may take up to 5 minutes to show entities in the UI."
+msgstr "UI에 엔티티를 표시하는 데 최대 5분이 소요될 수 있습니다."
+
+#: packages/ui/utils/commonUtils.js:23
+msgid "Just now"
+msgstr "지금"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:189
+msgid "Key ID"
+msgstr "키 ID"
+
+#: packages/ui/components/TimeRange.js:19
+#, python-format
+msgid "Last %d day"
+msgid_plural "Last %d days"
+msgstr[0] "최근 %d일"
+
+#: packages/ui/components/TimeRange.js:18
+#, python-format
+msgid "Last %d hour"
+msgid_plural "Last %d hours"
+msgstr[0] "최근 %d시간"
+
+#: packages/ui/components/TimeRange.js:15
+#, python-format
+msgid "Last %d minute"
+msgid_plural "Last %d minutes"
+msgstr[0] "최근 %d분"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:345 packages/ui/utils/stateConstants.js:364
+msgid "Last Triggered Metric"
+msgstr "마지막으로 트리거된 메트릭"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:223
+msgid "Last time data collected"
+msgstr "마지막으로 수집된 시간 데이터"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:166 apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:190
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:208
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:575
+msgid "License Name"
+msgstr "라이선스 이름"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:278
+msgid "License Usage Data"
+msgstr "라이선스 사용량 데이터"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:576
+msgid "License Volume"
+msgstr "라이선스 볼륨"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:246
+msgid "Loading AWS Account Information"
+msgstr "AWS 계정 정보 로드 중"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:256
+msgid "Loading AWS Data Source Options"
+msgstr "AWS 데이터 원본 옵션 로드 중"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:53
+msgid "Loading IAM role Information"
+msgstr "IAM 역할 정보 로드 중"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:418 apps/sii/src/main/webapp/metrics-analysis/reducer.js:34 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:44
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:131
+msgid "Loading..."
+msgstr "로드 중..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:214
+msgid "Log Group Name"
+msgstr "로그 그룹 이름"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:178
+msgid "Mail host"
+msgstr "메일 호스트"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/sagas.js:85
+msgid "Malformed response received (readUserPrefs)"
+msgstr "잘못된 응답이 수신됨(readUserPrefs)."
+
+#: apps/sii/src/main/webapp/settings/licensing/sagas.js:78
+msgid "Malformed response received (uploadLicense, userPrefs)"
+msgstr "잘못된 응답이 수신됨(uploadLicense, userPrefs)"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:223
+msgid "Manage app and add-on objects"
+msgstr "앱 및 추가 기능 개체 관리"
+
+#: packages/ui/components/ThresholdControl.js:259 packages/ui/components/chart-with-slider/ChartSettings.js:94
+msgid "Maximum"
+msgstr "최대값"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:324
+#, python-format
+msgid "Message: %(message)s"
+msgstr "메시지: %(message)s"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:619
+msgid "Metric"
+msgstr "메트릭"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:113
+msgid "Metric name is missing from metric SPL"
+msgstr "메트릭 SPL에서 메트릭 이름이 누락됨"
+
+#: packages/ui/components/ThresholdControl.js:237 packages/ui/components/chart-with-slider/ChartSettings.js:109
+msgid "Minimum"
+msgstr "최소값"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:472
+msgid "Missing required key: metric_name"
+msgstr "누락된 필수 키: metric_name"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:270
+msgid "Missing required query parameter: query"
+msgstr "누락된 필수 쿼리 매개변수: query"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:49 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:285
+msgid "Monitoring machine"
+msgstr "모니터링 컴퓨터"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:597 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:176
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:226
+msgid "Name"
+msgstr "이름"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:62
+msgid "Name cannot be empty"
+msgstr "이름을 비워둘 수 없음"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:105
+msgid "No email_to provided"
+msgstr "제공된 email_to 없음"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:71
+msgid "No new entities connected yet..."
+msgstr "아직 연결된 새 엔티티가 없습니다..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:42
+msgid "None"
+msgstr "없음"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:162
+msgid "Not Found"
+msgstr "찾을 수 없음"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:383
+msgid "Notify If"
+msgstr "알림"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:145
+msgid "Number of Entities"
+msgstr "엔티티 수"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:464 packages/ui/components/ConfirmationDialog.js:75
+msgid "OK"
+msgstr "확인"
+
+#: packages/ui/utils/stateConstants.js:215
+msgid "Off"
+msgstr "끄기"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:299 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:336
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:378
+msgid "Once the script finishes running, verify your data connection."
+msgstr "스크립트 실행이 완료되면 데이터 연결을 확인하십시오."
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:15
+msgid "Once the script finishes running, your entities will appear as inactive."
+msgstr "스크립트 실행이 완료되면 엔티티는 비활성 상태로 표시됩니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:276
+msgid "Once your AWS account is added, verify your data connection"
+msgstr "AWS 계정이 추가되면 데이터 연결을 확인하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:159
+msgid "Only Admin user can access AWS configuration page."
+msgstr "관리자만 AWS 설정 페이지에 액세스할 수 있습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:378
+msgid "Only admin can delete the selected entities!"
+msgstr "관리자만 선택한 엔티티를 삭제할 수 있습니다!"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:377
+msgid "Only admin can delete the selected entity!"
+msgstr "관리자만 선택한 엔티티를 삭제할 수 있습니다!"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:297
+msgid "Only admin can delete the selected group!"
+msgstr "관리자만 선택한 그룹을 삭제할 수 있습니다!"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:298
+msgid "Only admin can delete the selected groups!"
+msgstr "관리자만 선택한 그룹을 삭제할 수 있습니다!"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:133
+msgid "Only alphanumeric characters, dash and underscore are allowed."
+msgstr "영숫자, 대시 및 밑줄만 사용할 수 있습니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:134
+msgid "Only alphanumeric characters, dash, underscore, dot and dollar sign are allowed."
+msgstr "영숫자, 대시, 밑줄, 점 및 달러 기호만 사용할 수 있습니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:135
+msgid "Only alphanumeric characters, dash, underscore, dot, dollar sign, space and wildcard filter values are allowed."
+msgstr "영숫자, 대시, 밑줄, 점, 달러 기호, 공백 및 와일드카드 필터값만 사용할 수 있습니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:128 packages/ui/components/WildcardMultiSelect.js:85
+msgid "Only one wildcard character allowed."
+msgstr "하나의 와일드카드 문자만 허용됩니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:601
+msgid "Only the characters A-Z, a-z, 0-9, -, _, . are allowed in the name."
+msgstr "문자 A-Z, a-z, 0-9, -, _, .만 이름에 허용됩니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:250
+msgid "Operating system support for data collection"
+msgstr "데이터 수집을 위한 운영 체제 지원"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:364
+msgid "Overview"
+msgstr "개요"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:160
+msgid "Participation in our analytics program is required at the free tier."
+msgstr "무료 계층에서는 분석 프로그램에 참여해야 합니다."
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:210
+msgid "Password"
+msgstr "암호"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:223
+msgid "Password does not match."
+msgstr "암호가 일치하지 않습니다."
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:211
+msgid "Password to use when authenticating with the SMTP server"
+msgstr "SMTP 서버로 인증할 때 사용하는 암호입니다."
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:99
+msgid "Patents"
+msgstr "특허"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:110
+msgid "Patents owned by Splunk Inc."
+msgstr "Splunk, Inc. 소유의 특허"
+
+#: packages/ui/components/ObjectStatus.js:39
+msgid "Pending"
+msgstr "보류 중"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:198
+msgid "Please check your network connection."
+msgstr "네트워크 연결을 확인하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:181
+msgid "Please install Splunk Add-on for Amazon Web Services app version that is supported by the App for Infrustructure."
+msgstr "App for Infrastructure에서 지원하는 Splunk Add-on for Amazon Web Services App 버전을 설치하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:170
+msgid "Please reinstall Splunk Insights for Infrastructure. If the problem persists, contact Splunk support."
+msgstr "Splunk Insights for Infrastructure를 다시 설치하십시오. 문제가 지속되면 Splunk 서포트에 문의하십시오."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:224
+msgid "Please select notification condition and method."
+msgstr "알림 조건 및 방법을 선택하십시오."
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:158
+#, python-format
+msgid "REST method %(method)s not allowed"
+msgstr "REST 방법 %(method)s이(가) 허용되지 않음"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:398
+msgid "Reading settings... Please wait..."
+msgstr "설정을 읽는 중... 잠시만 기다려 주십시오..."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:95 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:111
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:308 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:321
+msgid "Receiver port"
+msgstr "수신자 포트"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:98 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:310
+msgid "Receiver port is required to use the Easy Deployment Script"
+msgstr "Easy Deployment Script를 사용하려면 수신자 포트가 필요합니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:133 packages/ui/components/RefreshControl.js:133
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:216
+msgid "Region Category"
+msgstr "영역 카테고리"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:291 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:328
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:370 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:109
+msgid "Remove"
+msgstr "제거"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:103 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:278
+msgid "Remove Credentials"
+msgstr "자격 증명 제거"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:175 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:191
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:204 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:218 apps/sii/src/main/webapp/settings/email/components/Email.js:180
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:227 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:244 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:256
+msgid "Required Field."
+msgstr "필수 필드입니다."
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:134
+msgid "Restart"
+msgstr "다시 시작"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:124 apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:133
+msgid "Restart Splunk"
+msgstr "Splunk 다시 시작"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:141
+msgid "Restart in progress..."
+msgstr "다시 시작하는 중..."
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:397
+msgid "Return to Investigate page"
+msgstr "조사 페이지로 돌아가기"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:220
+msgid "Review the documentation for managing apps."
+msgstr "앱 관리에 대한 매뉴얼을 검토하십시오."
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:255
+msgid "Routing Key"
+msgstr "라우팅 키"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:256
+msgid "Routing key obtained through the VictorOps Splunk integration."
+msgstr "VictorOps Splunk 통합을 통해 얻은 라우팅 키입니다."
+
+#: packages/ui/components/ObjectStatus.js:40
+msgid "Running"
+msgstr "실행 중"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:18
+msgid ""
+"Running the removal script stops all Splunk agents and removes all packages on the monitored entity. This process cannot be undone, and you will have to manually add new agents and packages to start collecting "
+"data again."
+msgstr ""
+"제거 스크립트를 실행하면 모든 Splunk 에이전트가 중지되고 모니터링 대상 엔티티의 모든 패키지가 제거됩니다. 이 프로세스는 실행 취소할 수 없으므로 새로운 에이전트와 패키지를 수동으로 추가하여 데이터 수집을 다시 시"
+"작해야 합니다."
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:196
+msgid "Save"
+msgstr "저장"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:270
+msgid "Save Credentials"
+msgstr "자격 증명 저장"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:476
+msgid "Save Preferences"
+msgstr "기본 설정 저장"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:313
+msgid "Save as group"
+msgstr "그룹으로 저장"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:219
+msgid "Save as new group"
+msgstr "새 그룹으로 저장"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:202
+msgid "Secret Key"
+msgstr "비밀 키"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:212
+msgid "See all"
+msgstr "모두 보기"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:379 apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:406
+msgid "Select All"
+msgstr "모두 선택"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:316
+#, python-format
+msgid "Select All %d Entities"
+msgstr "%d개의 엔티티 모두 선택"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:237
+#, python-format
+msgid "Select All %d Groups"
+msgstr "%d개의 그룹 모두 선택"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:389 apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:403
+msgid "Select..."
+msgstr "선택..."
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:67
+msgid "Server"
+msgstr "서버"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:105
+msgid "Server Logging"
+msgstr "서버 로깅"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:113
+msgid "Server Name:"
+msgstr "서버 이름:"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:368
+msgid "Server error"
+msgstr "서버 오류"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:180
+msgid "Set the host that sends mail for this Splunk instance."
+msgstr "이 Splunk 인스턴스가 메일을 보낼 때 사용할 메일 서버의 호스트명을 입력하십시오."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:50
+msgid "Setting up AWS data collection - this could take up to 2 minutes"
+msgstr "AWS 데이터 컬렉션 설정 - 최대 2분이 소요될 수 있음"
+
+#: packages/ui/components/chart-with-slider/ChartSettings.js:131
+msgid "Show Legend"
+msgstr "범례 표시"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:77
+msgid "Specify HEC port of the machine you want to send metric data to, e.g. 8088"
+msgstr "메트릭 데이터를 전송할 컴퓨터의 HEC 포트 지정(예: 8088)"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:124
+msgid "Specify HEC token of the machine you want to send metric data to"
+msgstr "메트릭 데이터를 전송할 컴퓨터의 HEC 토큰 지정"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:226 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:257
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:245
+msgid "Specify configuration options"
+msgstr "설정 옵션 지정"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:100 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:312
+msgid "Specify receiver port of the machine you want to send log data to, e.g. 9997"
+msgstr "로그 데이터를 전송할 컴퓨터의 수신자 포트 지정(예: 9997)"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:53 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:290
+msgid "Specify the hostname or IP address of the machine you want to send data to, e.g. my.instance.domain.name"
+msgstr "데이터를 전송할 컴퓨터의 호스트 이름 또는 IP 주소 지정(예: my.instance.domain.name)"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:187
+msgid "Splunk Add-on for Amazon Web Services"
+msgstr "Splunk Add-on for Amazon Web Services"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:233
+msgid "Splunk Add-on for Amazon Web Services is disabled. It must be enabled to configure AWS."
+msgstr "Splunk Add-on for Amazon Web Services가 비활성화되었습니다. AWS를 설정하려면 이 기능을 활성화해야 합니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:209
+msgid "Splunk Add-on for Amazon Web Services is not installed. It must be enabled to configure AWS."
+msgstr "Splunk Add-on for Amazon Web Services가 설치되어 있지 않습니다. AWS를 설정하려면 이 기능을 활성화해야 합니다."
+
+#: apps/sii/src/main/webapp/utils/commonUtils.js:5
+msgid "Splunk App for Infrastructure"
+msgstr "Splunk App for Infrastructure"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:77
+msgid "Splunk Build"
+msgstr "Splunk 빌드"
+
+#: apps/sii/src/main/webapp/utils/commonUtils.js:5
+msgid "Splunk Insights for Infrastructure"
+msgstr "Splunk Insights for Infrastructure"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:125
+msgid "Splunk Software License Agreement."
+msgstr "Splunk 소프트웨어 라이선스 계약의 사용 약관에 따릅니다."
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:73
+msgid "Splunk TA AWS Version"
+msgstr "Splunk TA AWS 버전"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:75
+msgid "Splunk Version"
+msgstr "Splunk 버전"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:93
+msgid ""
+"Splunk®, Splunk>®, Listen to Your Data®, The Engine for Machine Data®, Splunk Cloud™, Splunk Light® and SPL™ are trademarks and registered trademarks of Splunk Inc. and/or its subsidiaries in the United States "
+"and other countries. All other brand names, product names, or trademarks belong to their respective owners."
+msgstr ""
+"Splunk®, Splunk>®, Listen to Your Data®, The Engine for Machine Data®, Splunk Cloud™, Splunk Light® 및 SPL™은 미국을 비롯한 여러 국가에서 Splunk Inc. 및/또는 Splunk Inc. 자회사의 등록 상표 또는 상표입니다. 다"
+"른 모든 브랜드명, 제품명 또는 상표는 해당 업체의 소유입니다."
+
+#: packages/ui/components/WildcardMultiSelect.js:70
+msgid "Start typing"
+msgstr "입력 시작"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupControlBar.js:64 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:471
+msgid "Start typing to filter groups by name"
+msgstr "이름별로 그룹을 필터링하려면 입력하십시오."
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:366 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:461
+msgid "Start typing to filter through all dimensions"
+msgstr "모든 차원 항목을 통해 필터링하려면 입력하십시오."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:222
+msgid "Status"
+msgstr "상태"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:415
+msgid "Stop or remove the data collection agents before you delete an entity to ensure that it is properly removed."
+msgstr "엔티티를 삭제하기 전에 데이터 컬렉션 에이전트를 중지하거나 제거하여 엔티티가 올바르게 제거되었는지 확인하십시오."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:703
+msgid "Submit"
+msgstr "제출"
+
+#: packages/ui/components/ObjectStatus.js:41
+msgid "Succeeded"
+msgstr "성공함"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:131 apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:79
+msgid "Success"
+msgstr "성공"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:159
+msgid "Success deleting VictorOps settings."
+msgstr "VictorOps 설정 삭제 성공"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:149
+msgid "Success saving VictorOps settings."
+msgstr "VictorOps 설정을 저장하는 데 성공했습니다."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:328
+#, python-format
+msgid "Success: Increased license to %(gigabytes)d GB with expiration of %(expirationDate)s"
+msgstr "성공: 라이선스 %(gigabytes)dGB 증액, %(expirationDate)s에 만료"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:122
+msgid "Successfully created HEC token."
+msgstr "HEC 토큰을 성공적으로 만들었습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:95
+msgid "Successfully deleted the account."
+msgstr "계정을 성공적으로 삭제했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:50
+msgid "Successfully enabled Http Event Collector."
+msgstr "HTTP Event Collector를 성공적으로 활성화했습니다."
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:99 apps/sii/src/main/webapp/configure/common/sagas.js:109
+msgid "Successfully fetched HEC token."
+msgstr "HEC 토큰을 성공적으로 가져왔습니다."
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:345
+msgid "Support Usage Data"
+msgstr "사용 데이터 지원"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:173
+msgid "Support and Services"
+msgstr "지원 및 서비스"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:221 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:241
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:240
+#, python-format
+msgid "Supported OS types: %(types)s"
+msgstr "지원되는 OS 유형: %(types)s"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:226
+msgid "System"
+msgstr "시스템"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:189
+msgid "System Information"
+msgstr "시스템 정보"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:164
+msgid "System Requirements for Splunk App for Infrastructure"
+msgstr "Splunk App for Infrastructure의 시스템 요구 사항"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:127
+msgid "Take a look now"
+msgstr "지금 살펴보기"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:221
+#, python-format
+msgid ""
+"The license you are uploading is expired:\n"
+"%(expirationDate)s"
+msgstr ""
+"업로드 중인 라이선스가 다음 날짜에 만료되었습니다.\n"
+"%(expirationDate)s"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:216
+msgid "The license you are uploading is not compatible with Splunk Insights. Please upgrade to Splunk Enterprise and upload again."
+msgstr "업로드 중인 라이선스는 Splunk Insights와 호환되지 않습니다. Splunk Enterprise로 업그레이드한 후 다시 업로드하십시오."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:397
+msgid "The severity degrades"
+msgstr "심각도가 저하됨"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:396
+msgid "The severity improves"
+msgstr "심각도가 향상됨"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:398
+msgid "The severity improves/degrades"
+msgstr "심각도가 향상/저하됨"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:184
+msgid "Then install the Splunk Add-on for Amazon Web Services from Splunkbase."
+msgstr "그런 다음 Splunkbase에서 Splunk Add-on for Amazon Web Services를 설치하십시오."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:136
+#, python-format
+msgid "These reserved words cannot be used: %(reservedWords)s"
+msgstr "다음 예약어는 사용할 수 없음: %(reservedWords)s"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:86
+msgid "Third-Party Software Credits and Attribution"
+msgstr "타사 소프트웨어 크레딧 및 속성"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:153
+msgid "This alert no longer exists."
+msgstr "이 경고는 더 이상 없습니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:279 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:358
+msgid "This script must be run by user with administrator privileges, and it should also have the following dependencies available on the entity:"
+msgstr "이 스크립트는 관리자 권한으로 사용자가 실행해야 하며 엔티티에서 사용할 수 있는 다음 종속성도 있어야 합니다."
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:313
+msgid "This script must be run by user with root privileges, and it should also have the following dependencies available on the entity:"
+msgstr "이 스크립트는 루트 권한을 가진 사용자가 실행해야 하며 엔티티에서 사용할 수 있는 다음 종속성도 있어야 합니다."
+
+#: packages/ui/components/ThresholdControl.js:248
+msgid "Threshold"
+msgstr "임계값"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_threshold.py:43
+msgid "Threshold min can not be greater than max"
+msgstr "임계값 최소값은 최대값보다 클 수 없습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:30
+msgid "To attach or modify IAM role, see instructions."
+msgstr "IAM 역할을 첨부하거나 수정하려면 지침을 참조하십시오."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:263
+msgid "To install a license, drop or upload a license file here (license files end with .lic):"
+msgstr "라이선스를 설치하려면 여기서 라이선스 파일(.lic으로 끝남)을 업로드하십시오."
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:214
+msgid "To learn about using SII and VictorOps to solve your infrastructure problems "
+msgstr "SII 및 VictorOps를 사용하여 인프라 문제를 해결하는 방법을 알아보려면"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:538
+msgid "Total Data Stored by Type (metric vs. log/event)"
+msgstr "유형별로 저장된 총 데이터(메트릭과 로그/이벤트 비교)"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:518
+msgid "Total Storage Used"
+msgstr "총 사용 저장 용량"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:90
+msgid "Trademarks"
+msgstr "상표"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:343 packages/ui/utils/stateConstants.js:363
+msgid "Triggered Time"
+msgstr "트리거된 시간"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:78
+msgid "Try Again"
+msgstr "다시 시도"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:615
+msgid "Type Id"
+msgstr "유형 ID"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:80
+#, python-format
+msgid "Type: %(managed_by_type)s is not allowed."
+msgstr "유형: %(managed_by_type)s이(가) 허용되지 않음"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:52
+#, python-format
+msgid "Unable to enable Http Event Collector: %(message)s"
+msgstr "HTTP Event Collector를 활성화할 수 없음: %(message)s"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:121
+msgid "Unable to fetch collector URL."
+msgstr "컬렉터 URL을 가져올 수 없습니다."
+
+#: packages/ui/utils/messageConstants.js:3
+msgid "Unable to fetch install agent URL. Please make sure you have correct settings in collectors.conf."
+msgstr "설치 에이전트 URL을 가져올 수 없습니다. collectors.conf의 설정이 올바른지 확인하십시오."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:73
+msgid "Unable to get alert definition with given name"
+msgstr "지정된 이름으로 경고 정의를 가져올 수 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:47
+msgid "Unable to update alert"
+msgstr "경고를 업데이트할 수 없음"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:84
+msgid "Unexpected metric_filter keys"
+msgstr "예기치 않은 metric_filter 키"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:227
+msgid "Unique name for this combination of API Key and Routing Key."
+msgstr "API 키와 라우팅 키의 조합에 대한 고유 이름입니다."
+
+#: packages/ui/components/ObjectStatus.js:43
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:131
+msgid "Unknown dimension name or value."
+msgstr "알 수 없는 차원 이름 또는 값입니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:130
+msgid "Unknown dimension name."
+msgstr "알 수 없는 차원 이름입니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:86
+msgid "Unknown metric_filter type"
+msgstr "알 수 없는 metric_filter 유형"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:212
+msgid "Update"
+msgstr "업데이트"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:235
+msgid "Update AWS account"
+msgstr "AWS 계정 업데이트"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:129
+msgid "Update AWS data source"
+msgstr "AWS 데이터 원본 업데이트"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:236
+msgid "Update Email Server Settings"
+msgstr "이메일 서버 설정 업데이트"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:204
+msgid "Update this group"
+msgstr "이 그룹 업데이트"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:104
+msgid "Updating email settings, please wait..."
+msgstr "이메일 설정을 업데이트하는 중입니다. 잠시 기다려주십시오..."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:299
+msgid "Upload"
+msgstr "업로드"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:594
+msgid "Upload License"
+msgstr "라이선스 업로드"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:313
+msgid "Uploading license, Please Wait"
+msgstr "라이선스를 업로드하는 중입니다. 잠시 기다려주십시오."
+
+#: apps/sii/src/main/webapp/settings/licensing/sagas.js:82
+msgid "User preferences failed to update on license upload"
+msgstr "라이선스 업로드 시 사용자 기본 설정을 업데이트하지 못했습니다."
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:200
+msgid "Username"
+msgstr "사용자 이름"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:201
+msgid "Username to use when authenticating with the SMTP server. Leave empty for no authentication."
+msgstr "SMTP 서버로 인증할 때 사용하는 사용자 이름입니다. 인증하지 않으려면 이 이름을 비워 두십시오."
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:189
+msgid "Value needs to be a string or list"
+msgstr "값은 string 또는 list여야 합니다."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:371
+msgid "Values for Warning and Critical are empty/invalid."
+msgstr "경고 및 심각함에 대한 값이 비어 있거나 잘못된 값입니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:47
+msgid "Verify IAM role attachment"
+msgstr "IAM 역할 첨부 확인"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:63
+msgid "Version"
+msgstr "버전"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:259 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:212
+msgid "VictorOps Settings"
+msgstr "VictorOps 설정"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:254
+msgid "VictorOps is not configured correctly. Please check notification settings."
+msgstr "VictorOps가 올바르게 구성되지 않았습니다. 알림 설정을 확인하십시오."
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:72
+msgid "VictorOps notification criteria is not one of the supported criteria"
+msgstr "VictorOps 알림 조건이 지원되는 기준이 아닙니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_send_victorops.py:44
+msgid "VictorOps setting does not exist"
+msgstr "VictorOps 설정이 없습니다."
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:39
+#, python-format
+msgid "VictorOps setting with name %(name)s already exists"
+msgstr "이름이 %(name)s인 VictorOps 설정이 이미 있음"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:53 apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:62
+#, python-format
+msgid "VictorOps setting with name %(vo_id)s does not exist"
+msgstr "이름이 %(vo_id)s인 VictorOps 설정이 없음"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:285
+msgid "View group now"
+msgstr "지금 그룹 보기"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:108
+#, python-format
+msgid "View internal log data to troubleshoot an issue with %(packageName)s or restart Splunk."
+msgstr "%(packageName)s 문제가 있는 내부 로그 데이터를 확인하고 문제를 해결하거나 Splunk를 다시 시작하십시오."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:555 packages/ui/utils/stateConstants.js:209
+msgid "Warning"
+msgstr "경고"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:166
+msgid ""
+"When setting up CloudWatch Logs agent configuration in AWS, edit the log stream name (log_stream_name) with a unique name (instance_id) for each log group within the configuration file. This defines the log "
+"stream’s identity for correlation of logs to individual instances and metric data."
+msgstr ""
+"AWS에서 CloudWatch Logs 에이전트 구성을 설정할 경우 설정 파일 내의 각 로그 그룹에 고유 이름(instance_id)을 가진 로그 스트림 이름(log_stream_name)을 편집하십시오. 이렇게 하면 로그와 개별 인스턴스 및 메트릭 데이"
+"터의 상관(correlation)에 대한 로그 스트림 ID가 정의됩니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:420
+msgid "When you delete an entity, all associated alerts will also be deleted."
+msgstr "엔티티를 삭제하면 관련된 모든 경고도 삭제됩니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:129 packages/ui/components/WildcardMultiSelect.js:86
+msgid "Wildcard can only be at the end."
+msgstr "와일드카드는 끝 부분에만 배치할 수 있습니다."
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:127
+msgid "Wildcard searches not supported for dimension names."
+msgstr "차원 이름에 대한 와일드카드 검색이 지원되지 않습니다."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:175 apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:180
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:156
+msgid "Yes"
+msgstr "예"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:241
+msgid "You cannot change the name after saving."
+msgstr "저장 후 이름을 변경할 수 없습니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:77
+#, python-format
+msgid "You have removed %d entity"
+msgid_plural "You have removed %d entities"
+msgstr[0] "%d개의 엔티티를 제거했습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesEmpty.js:44
+msgid "You haven't added any entities."
+msgstr "엔티티를 추가하지 않았습니다."
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsEmpty.js:53
+msgid "You haven't created a group yet."
+msgstr "아직 그룹을 만들지 않았습니다."
+
+#: apps/sii/src/main/webapp/configure/common/components/Configure.js:89
+#, python-format
+msgid "You must be assigned admin permissions to use the 'Add Data' page. Please contact your %(packageName)s admin."
+msgstr "'데이터 추가’ 페이지를 사용하려면 관리자 권한이 할당되어야 합니다. 해당 %(packageName)s 관리자에게 문의하십시오."
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:430
+msgid "You must select at least one metric."
+msgstr "하나 이상의 메트릭을 선택해야 합니다."
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:220
+msgid "click here."
+msgstr "여기를 클릭하십시오."
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:610
+msgid "enter name of the alert"
+msgstr "경고 이름 입력"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:635
+msgid "greater than"
+msgstr "보다 큼"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:110 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:137
+msgid "id is missing from request body."
+msgstr "요청 본문에서 ID가 누락되었습니다."
+
+#: apps/sii/src/main/webapp/entities/sagas.js:126
+msgid "invalid response"
+msgstr "잘못된 응답"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:636
+msgid "less than"
+msgstr "보다 작음"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:115
+msgid "missing entityId"
+msgstr "entityId 누락"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:290
+msgid "missing filters or name of the group"
+msgstr "그룹의 이름 또는 필터 누락"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:175
+msgid "missing groupId"
+msgstr "groupId 누락"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:129
+msgid "missing name of the group"
+msgstr "그룹 이름 누락"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:285
+msgid "missing target name of group"
+msgstr "그룹의 대상 이름 누락"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:122 apps/sii/src/main/webapp/metrics-analysis/components/common/DimensionInfo.js:65
+msgid "n/a"
+msgstr "해당 사항 없음"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:194
+msgid "none"
+msgstr "없음"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:400
+msgid "via"
+msgstr "방식"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:115
+#, python-format
+msgid "© %(year)s Splunk Inc. All rights reserved. All use of this Software is subject to the terms and conditions of the Splunk Software License Agreement."
+msgstr "© %(year)s Splunk Inc. All rights reserved. 이 소프트웨어의 모든 사용은 Splunk 소프트웨어 라이선스 계약의 사용 약관에 따릅니다."
