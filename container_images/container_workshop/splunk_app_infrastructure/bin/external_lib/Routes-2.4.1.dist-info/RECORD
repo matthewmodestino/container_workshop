@@ -1,0 +1,13 @@
+Routes-2.4.1.dist-info/DESCRIPTION.rst,sha256=Wyw3x5lRIg4TSkBfjBg3V5hOR68ZeeevaGmecRYdzDQ,23228
+Routes-2.4.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+Routes-2.4.1.dist-info/METADATA,sha256=Lr4S46aJQ5BaTyoLEomi-lWX6o7e0vGLqnn0_L5Q3Ck,24454
+Routes-2.4.1.dist-info/RECORD,,
+Routes-2.4.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+Routes-2.4.1.dist-info/metadata.json,sha256=Ll7c_POlVPH00zYoYWz8UJoLFRhhXOScetbuoVYskyc,1386
+Routes-2.4.1.dist-info/top_level.txt,sha256=X0IsYfGZPW6lNH8wyJiaSyH7PrsKbBUZaUOgwdt4V6Q,7
+routes/__init__.py,sha256=rrpWr0110dQks26SvtCh6OeS7s5jFnvZTEtZ7BuS-Rg,5541
+routes/base.py,sha256=deoEwjOZqQfaoonw1q0_J7Bcnr6V5_xr044Jjo9hUm8,134
+routes/mapper.py,sha256=11ge3DXJiP53g2BOQ-TEpMMKVVsB8fScdfsE-Yx-UlI,49248
+routes/middleware.py,sha256=21zkcw9C-OnRM4TyRqJaSgfP013OLKY9jFKUVkXCi_M,6246
+routes/route.py,sha256=kAVEeUXAiYRkdBnhzqYp3H7nevkcMAKgE1AyTkNMkqk,29114
+routes/util.py,sha256=72-DqZ8BxxnjlzPr2XvJdDQe4NsFRlfQCRVK7pbf4R0,19895

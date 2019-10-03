@@ -1,0 +1,7 @@
+<nav color="#444444">
+    <view name="investigate" default="true" />
+    <view name="alerts"/>
+    <view name="configure"/>
+    <view name="settings"/>
+    <view name="dashboards"/>
+</nav>

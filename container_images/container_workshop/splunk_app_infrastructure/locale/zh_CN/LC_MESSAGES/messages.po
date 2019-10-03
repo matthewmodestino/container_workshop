@@ -1,0 +1,2233 @@
+# Translations template for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-03-18 21:35+0000\n"
+"PO-Revision-Date: 2019-04-15 10:30+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:533 apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:585
+#, python-format
+msgid "%(gigabytes)s GB"
+msgstr "%(gigabytes)s GB"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:253
+#, python-format
+msgid "%(group_title)s already exists"
+msgstr "%(group_title)s 已存在"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:256
+#, python-format
+msgid "%(group_title)s: group name cannot contain | or = or left empty"
+msgstr "%(group_title)s: 组名称不能包含 |、= 或留空"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:560
+#, python-format
+msgid "%(numberOfDays)s days"
+msgstr "%(numberOfDays)s 天"
+
+#: packages/ui/utils/commonUtils.js:29
+#, python-format
+msgid "%(numberOfDays)sd ago"
+msgstr "%(numberOfDays)sd 前"
+
+#: packages/ui/utils/commonUtils.js:27
+#, python-format
+msgid "%(numberOfHours)sh ago"
+msgstr "%(numberOfHours)sh 前"
+
+#: packages/ui/utils/commonUtils.js:25
+#, python-format
+msgid "%(numberOfMinutes)sm ago"
+msgstr "%(numberOfMinutes)sm 前"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:347
+#, python-format
+msgid "%d Available"
+msgstr "%d 可用"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:330
+#, python-format
+msgid "%d Entity"
+msgid_plural "%d Entities"
+msgstr[0] "%d 个实体"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:350
+#, python-format
+msgid "%d Entity Selected"
+msgid_plural "%d Entities Selected"
+msgstr[0] "已选 %d 个实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupControlBar.js:157
+#, python-format
+msgid "%d Group"
+msgid_plural "%d Groups"
+msgstr[0] "%d 组"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:269
+#, python-format
+msgid "%d Group Selected"
+msgid_plural "%d Groups Selected"
+msgstr[0] "已选 %d 组"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:347
+#, python-format
+msgid "%d Healthy"
+msgstr "%d 健康"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:396
+#, python-format
+msgid "%d Log Source Selected"
+msgid_plural "%d Log Sources Selected"
+msgstr[0] "已选 %d 个日志源"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:236 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:267
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:255
+#, python-format
+msgid "%d Log source"
+msgid_plural "%d Log sources"
+msgstr[0] "%d 个日志源"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:231 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:262
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:250
+#, python-format
+msgid "%d Metric"
+msgid_plural "%d Metrics"
+msgstr[0] "%d 个指标"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:369
+#, python-format
+msgid "%d Metric Selected"
+msgid_plural "%d Metrics Selected"
+msgstr[0] "已选 %d 个指标"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:354
+#, python-format
+msgid "%d N/A"
+msgstr "%d N/A"
+
+#: packages/ui/components/NumberOfItemsPerPageDropDown.js:67
+#, python-format
+msgid "%d Per Page"
+msgstr "每页 %d"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:351
+#, python-format
+msgid "%d Unavailable"
+msgstr "%d 不可用"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:351
+#, python-format
+msgid "%d Unhealthy"
+msgstr "%d 不健康"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:76
+#, python-format
+msgid "%d%% of the servers are inactive"
+msgstr "%d%% 的服务器不活跃"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:452
+msgid "+ Add Custom Source"
+msgstr "+ 添加自定义源"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:656
+msgid "+ Add New Threshold"
+msgstr "+ 添加新阈值"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:667
+msgid "+ Alert Notification"
+msgstr "+ 告警通知"
+
+#: packages/ui/utils/stateConstants.js:216
+msgid "10 seconds"
+msgstr "10 秒"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:78
+msgid "100% of the servers are active"
+msgstr "100% 的服务器活跃"
+
+#: packages/ui/utils/stateConstants.js:219
+msgid "3 minutes"
+msgstr "3 分钟"
+
+#: packages/ui/utils/stateConstants.js:217
+msgid "30 seconds"
+msgstr "30 秒"
+
+#: packages/ui/utils/stateConstants.js:220
+msgid "5 minutes"
+msgstr "5 分钟"
+
+#: packages/ui/utils/stateConstants.js:218
+msgid "60 seconds"
+msgstr "60 秒"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:243
+msgid "API Key"
+msgstr "API 密钥"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:244
+msgid "API key obtained through the VictorOps Splunk integration."
+msgstr "通过 VictorOps Splunk 集成获取 API 密钥。"
+
+#: packages/ui/components/RefreshControl.js:169
+msgid "AUTO REFRESH"
+msgstr "自动刷新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:137
+msgid "AWS Entity Types"
+msgstr "AWS 实体类型"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:150
+msgid "AWS Regions"
+msgstr "AWS 区域"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:548 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:350
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:578
+msgid "Action"
+msgstr "操作"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:585 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:386
+msgid "Actions"
+msgstr "操作"
+
+#: packages/ui/components/ObjectStatus.js:36
+msgid "Active"
+msgstr "活动"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:235
+msgid "Add AWS account"
+msgstr "添加 AWS 帐户"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:125
+msgid "Add AWS data source"
+msgstr "添加 AWS 数据源"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:23
+msgid "After you run the script, the entity will appear as inactive. You must manually delete the entity to remove it from the instance."
+msgstr "运行脚本后，实体显示为不活跃。您必须手动删除实体以将其从实例中删除。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:94
+msgid "Aggregation method is missing from metric SPL"
+msgstr "指标 SPL 缺少聚合方法"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:335 packages/ui/utils/stateConstants.js:362
+msgid "Alert Count"
+msgstr "告警计数"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:382
+msgid "Alert Creation Error"
+msgstr "告警创建错误"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:124
+msgid "Alert with the specified name already exists."
+msgstr "具有指定名称的告警已存在。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:430
+msgid "All data is retained until storage is full"
+msgstr "将保留所有数据，直至存满"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:232
+msgid "All fields required"
+msgstr "所有字段均为必填项"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:63
+msgid "All inputs related to this account will also be deleted."
+msgstr "将删除所有与此帐户有关的输入。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:387
+msgid "An alert can not have multiple aggregations."
+msgstr "一个告警不能有多个聚合。"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:365
+msgid "Analysis"
+msgstr "分析"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:312
+msgid "Anonymized Usage Data"
+msgstr "匿名用量数据"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:315 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:62
+#, python-format
+msgid "Are you sure you want to delete %(name)s?"
+msgstr "确定要删除 %(name)s 吗?"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:382
+#, python-format
+msgid "Are you sure you want to delete all %d entities in this filter from your environment?"
+msgstr "确定要从您的环境中删除此筛选器中的所有 %d 个实体吗?"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:303
+#, python-format
+msgid "Are you sure you want to delete all %d groups in this filter from your environment?"
+msgstr "确定要从您的环境中删除此筛选器中的所有 %d 个组吗?"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:394
+#, python-format
+msgid "Are you sure you want to delete the %d selected entities?"
+msgstr "确定要删除选定的 %d 个实体吗?"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:323
+#, python-format
+msgid "Are you sure you want to delete the %d selected groups?"
+msgstr "确定要删除选定的 %d 个组吗?"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:400
+#, python-format
+msgid "Are you sure you want to delete the entity %(name)s?"
+msgstr "确定要删除实体 %(name)s 吗?"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:331
+#, python-format
+msgid "Are you sure you want to delete the group %(name)s?"
+msgstr "确定要删除组 %(name)s 吗?"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:104
+msgid "Are you sure you want to remove your VictorOps credentials?"
+msgstr "确定要删除 VictorOps 凭据吗?"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:141
+msgid "Are you sure you want to restart Splunk?"
+msgstr "确定要重新启动 Splunk 吗?"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:26
+msgid "Attach IAM role"
+msgstr "添加 IAM 角色"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:143
+msgid "Authenticated Install"
+msgstr "已验证安装"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:131 packages/ui/components/RefreshControl.js:147
+#, python-format
+msgid "Auto refresh in %(numberOfSeconds)ss"
+msgstr "%(numberOfSeconds)ss 内自动刷新"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:259
+msgid "Automatically share license usage data"
+msgstr "自动共享许可证使用情况数据"
+
+#: apps/sii/src/main/resources/splunk/bin/em_constants.py:33
+msgid "Availability"
+msgstr "可用性"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:170
+msgid "Bad Request"
+msgstr "错误的请求"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:432
+msgid "Based on current ingestion rate."
+msgstr "基于当前引入率。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_entity_migration.py:141
+msgid "Batch saving failed: Batch is empty."
+msgstr "批量保存失败: 批为空。"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:65
+msgid "Build"
+msgstr "内部版本"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:678 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:567
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:525
+msgid "Buy More Storage"
+msgstr "购买更多存储"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:362
+msgid "Calculating daily data ingestion, Please Wait"
+msgstr "正在计算每日数据引入，请稍候"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:698 apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:294
+#: packages/ui/components/ConfirmationDialog.js:144
+msgid "Cancel"
+msgstr "取消"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:364
+msgid "Cannot create alert without data."
+msgstr "无数据的情况下无法创建告警。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:33
+msgid "Cannot create more than one VictorOps settings"
+msgstr "无法创建多个 VictorOps 设置"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:174
+msgid "Cannot delete a group that does not exist"
+msgstr "无法删除不存在的组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:55
+#, python-format
+msgid "Cannot delete alert with name %(alert_name)s"
+msgstr "无法删除名为 %(alert_name)s 的告警"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:221
+#, python-format
+msgid "Cannot delete entity with id %(entity_id)s"
+msgstr "无法删除 ID 为 %(entity_id)s 的实体"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:375
+msgid "Cannot delete the selected entities!"
+msgstr "无法删除所选实体!"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:374
+msgid "Cannot delete the selected entity!"
+msgstr "无法删除所选实体!"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:294
+msgid "Cannot delete the selected group!"
+msgstr "无法删除所选组!"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:295
+msgid "Cannot delete the selected groups!"
+msgstr "无法删除所选组!"
+
+#: apps/sii/src/main/resources/splunk/bin/em_collector_configuration_interface_impl.py:96
+#, python-format
+msgid "Cannot find the collector configuration with id %(id)s!"
+msgstr "无法找到 ID 为 %(id)s 的收集器配置!"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:506
+#, python-format
+msgid "Cannot find the entity with id %(entity_id)s."
+msgstr "无法找到 ID 为 %(entity_id)s 的实体。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:180 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:290
+#, python-format
+msgid "Cannot find the group with id %(group_id)s"
+msgstr "无法找到 ID 为 %(group_id)s 的组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:303
+#, python-format
+msgid "Cannot get collector or entities info from group '%(group_name)s'"
+msgstr "无法从组 '%(group_name)s’ 获取收集器或实体信息"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:354
+msgid "Cannot get count of groups"
+msgstr "无法获取组计数"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:296
+#, python-format
+msgid "Cannot get entities within group '%(group_name)s'"
+msgstr "无法获取组 '%(group_name)s’ 中的实体"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:347
+msgid "Cannot get matching groups with given entity information"
+msgstr "无法获取具有给定实体信息的匹配组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_collector_configuration_interface_impl.py:105
+msgid "Cannot list all of the collector configurations saved!"
+msgstr "无法列出保存的所有收集器配置!"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:499
+msgid "Cannot list all of the collector configurations saved."
+msgstr "无法列出保存的所有收集器配置。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:519
+msgid "Cannot list all of the entities saved."
+msgstr "无法列出保存的所有实体。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:284
+msgid "Cannot list all of the groups saved"
+msgstr "无法列出保存的所有组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:332
+msgid "Cannot list collector configs"
+msgstr "无法列出收集器配置"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:157
+msgid "Cannot modify a group that does not exist"
+msgstr "无法修改不存在的组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:437
+msgid "Cannot parse query parameter. Expected format is {<dimension name>: [ <dimension values, wildcards>]}"
+msgstr "无法解析查询参数。正常格式为 {<dimension name>: [ <dimension values, wildcards>]}"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:459
+msgid "Cannot parse query parameter. Expected format is {metric_name: <metric_name>, dimensions: {<dimension name>: [<dimension values, wildcards>]}}"
+msgstr "无法解析查询参数。正常格式为 {metric_name: <metric_name>, dimensions: {<dimension name>: [<dimension values, wildcards>]}}"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:132
+msgid "Cannot prefix a dimension name with a \"_\", \":\" or \"=\""
+msgstr "无法对维度名称加前缀 \"_\"、\":\\” 或 \"=\\”"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:102
+msgid "Certain features and functionalities of this Software are or may be protected by patents owned by Splunk Inc."
+msgstr "该软件的特定特征和功能(可能)受 Splunk Inc. 所拥有的专利保护。"
+
+#: packages/ui/components/chart-with-slider/ChartSettings.js:91
+msgid "Chart Options"
+msgstr "图表选项"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:191
+msgid "Check with SMTP server admin. When SSL is enabled, mail host should include the port. IE: smtp.splunk.com:465"
+msgstr "咨询 SMTP 服务器管理员。启用 SSL 时，邮件主机应包括端口。即: smtp.splunk.com:465"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:320 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:238
+msgid "Clear Selection"
+msgstr "清除选择"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:88 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:96
+msgid "Close"
+msgstr "关闭"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:162
+msgid "CloudWatch Logs"
+msgstr "CloudWatch 日志"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:288 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:325
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:367
+msgid "Collect"
+msgstr "收集"
+
+#: packages/ui/utils/stateConstants.js:51 packages/ui/utils/stateConstants.js:68 packages/ui/utils/stateConstants.js:86
+msgid "Collect data for each CPU"
+msgstr "收集每个 CPU 的数据"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:134
+msgid "Collect data from"
+msgstr "收集数据来自"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:439
+msgid "Collect internal logs for debugging"
+msgstr "收集内部日志用于调试"
+
+#: packages/ui/utils/stateConstants.js:52 packages/ui/utils/stateConstants.js:69 packages/ui/utils/stateConstants.js:87
+msgid "Collect sum for all CPUs"
+msgstr "收集所有 CPU 的汇总"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:396
+msgid "Color by"
+msgstr "涂色条件"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:398
+#, python-format
+msgid "Color by: %(label)s"
+msgstr "涂色条件: 按 %(label)s"
+
+#: packages/ui/components/ThresholdControl.js:210
+msgid "Color by: Percent Available"
+msgstr "涂色条件: 按可用百分比"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:36
+msgid "Configure Identity and Access Management"
+msgstr "配置身份和访问管理"
+
+#: apps/sii/src/main/webapp/configure/common/components/Configure.js:107
+msgid "Configure Integrations"
+msgstr "配置集成"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:221
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:83
+#, python-format
+msgid "Congratulations, you've got %d entity coming in."
+msgid_plural "Congratulations, you've got %d entities coming in."
+msgstr[0] "恭喜，您加入了 %d 个实体。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:254
+msgid "Connect to your AWS account"
+msgstr "连接您的 AWS 帐户"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:120
+msgid "Connecting to AWS Account, Please Wait"
+msgstr "正在连接 AWS 帐户，请稍候"
+
+#: packages/ui/components/CopyableConfigText.js:98
+msgid "Copied!"
+msgstr "已复制!"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:277 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:311
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:356
+msgid "Copy and paste the following into the command line of your entity"
+msgstr "将下列内容复制粘贴到实体的命令行中"
+
+#: packages/ui/components/CopyableConfigText.js:97
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:592 apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:306
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:168
+msgid "Create Alert"
+msgstr "新建告警"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:181
+msgid "Create group from filter"
+msgstr "通过筛选器创建组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:82
+msgid "Credentials could not be authenticated with VictorOps"
+msgstr "VictorOps 无法验证凭据"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:574 packages/ui/utils/stateConstants.js:210
+msgid "Critical"
+msgstr "严重"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:374
+msgid "Critical has to be greater than Warning."
+msgstr "“严重”程度要高于“警告”。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:375
+msgid "Critical has to be less than Warning."
+msgstr "“严重”程度要低于“警告”。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:571
+msgid "Current License"
+msgstr "当前许可证"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:327 packages/ui/utils/stateConstants.js:361
+msgid "Current Severity"
+msgstr "当前严重级别"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:244 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:275
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:263
+msgid "Customize"
+msgstr "自定义"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:362
+msgid "Customize Data Collection"
+msgstr "自定义数据集合"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:544
+msgid "Daily Data Ingestion per Data Type (GB)"
+msgstr "每个数据类型的每日数据引入量 (GB)"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:227 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:258
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:246
+msgid "Data to be collected"
+msgstr "要收集的数据"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:551
+msgid "Days of Data Retention"
+msgstr "数据保留天数"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:344 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:70
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:289 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:545
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:213 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:347
+msgid "Delete"
+msgstr "删除"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:392
+#, python-format
+msgid "Delete %d Entities"
+msgstr "删除 %d 个实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:319
+#, python-format
+msgid "Delete %d Groups"
+msgstr "删除 %d 个组"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:127
+msgid "Delete AWS data source"
+msgstr "删除 AWS 数据源"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:61 apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:84
+msgid "Delete Account"
+msgstr "删除帐户"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:312
+msgid "Delete Alert"
+msgstr "删除告警"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:380
+msgid "Delete All Entities"
+msgstr "删除所有实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:301
+msgid "Delete All Groups"
+msgstr "删除所有组"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:398
+msgid "Delete Entity"
+msgstr "删除实体"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:320
+msgid "Delete Failure"
+msgstr "删除失败"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:317 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:329
+msgid "Delete Group"
+msgstr "删除组"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:674
+msgid "Delete Selected Entities"
+msgstr "删除所选实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:564
+msgid "Delete Selected Groups"
+msgstr "删除所选组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:192 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:206
+msgid "Delete query can not be empty"
+msgstr "删除查询不能为空"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:255
+msgid "Delete this account"
+msgstr "删除此帐户"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:306
+msgid "Deleting all groups will only remove them from the list. All associated alerts will also be deleted."
+msgstr "删除所有组将仅从列表中删除它们。同时将删除所有关联的告警。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:406
+msgid "Deleting an entity will only remove it from the list. If an entity is still sending data, it will reappear after you delete it from the list."
+msgstr "删除一个实体将仅从列表中删除它。如果实体仍发送数据，该实体将在您从列表中删除它后重新显示。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:86
+msgid "Deleting the account. Do not refresh this page."
+msgstr "删除帐户。不刷新此页面。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:326
+msgid "Deleting these groups will only remove them from the list. All associated alerts will also be deleted."
+msgstr "删除这些组将仅从列表中删除它们。同时将删除所有关联的告警。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:334
+msgid "Deleting this group will only remove it from the list. All associated alerts will also be deleted."
+msgstr "删除此组将仅从列表中删除它。同时将删除所有关联的告警。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:329 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:274
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:198
+msgid "Deleting..."
+msgstr "正在删除..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:76 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:268
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:192
+msgid "Deletion Failed"
+msgstr "删除失败"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:94
+msgid "Deletion Successful"
+msgstr "删除成功"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:269 apps/sii/src/main/webapp/investigate/components/GroupsListing.js:193
+msgid "Deletion failed!"
+msgstr "删除失败!"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:387 apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:414
+msgid "Deselect All"
+msgstr "取消全选"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:41
+msgid "Detected role: "
+msgstr "检测到角色: "
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:239
+msgid "Dimension Names"
+msgstr "维度名称"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:254
+msgid "Dimension Values"
+msgstr "维度值"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:359
+msgid "Dimension provided does not exist in dimensions object"
+msgstr "提供的维度不存在于维度对象中"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:249 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:280
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:268 apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:584
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:385 apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:231
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:346
+msgid "Dimensions"
+msgstr "维度"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:252 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:283
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:271
+msgid "Dimensions are key/value pairs used for troubleshooting, analysis, and filtering hosts, e.g. location:seattle or role:webserver."
+msgstr "维度是用于故障排除、分析和筛选主机的键/值对，例如 location:seattle 或 role:webserver。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:345
+msgid "Dimensions provided should be JSON object"
+msgstr "提供的维度应该是 JSON 对象"
+
+#: packages/ui/components/ObjectStatus.js:37
+msgid "Disabled"
+msgstr "已禁用"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:280
+msgid "Don't have a license yet?"
+msgstr "还没有许可证？"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:447
+msgid "ENTITIES"
+msgstr "实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:346
+msgid "Edit"
+msgstr "编辑"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:592 apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:299
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:161
+msgid "Edit Alert"
+msgstr "编辑告警"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:409
+msgid "Email"
+msgstr "电子邮件"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:673
+msgid "Email Recipients"
+msgstr "电子邮件收件人"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:244 apps/sii/src/main/webapp/settings/email/components/Email.js:173
+msgid "Email Server Settings"
+msgstr "邮件服务器设置"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:234
+msgid "Email address(es) format is incorrect."
+msgstr "电子邮件地址格式不正确。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:101
+msgid "Email notification criteria is not one of the supported criteria"
+msgstr "电子邮件通知条件不是支持的条件之一"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:190
+msgid "Email security"
+msgstr "电子邮件安全"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:114
+msgid "Email settings saved."
+msgstr "电子邮件设置已保存。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:195
+msgid "Enable SSL"
+msgstr "启用 SSL"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:196
+msgid "Enable TLS"
+msgstr "启用 TLS"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/sagas.js:36
+#, python-format
+msgid "Endpoint failed to update: %(element)s:%(expectedElement)s"
+msgstr "端点更新失败: %(element)s:%(expectedElement)s"
+
+#: packages/ui/components/ToggleButtonGroup.js:66
+msgid "Entities"
+msgstr "实体"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:104
+msgid "Entity Alerts"
+msgstr "实体告警"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:221 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:319
+#: packages/ui/utils/stateConstants.js:360
+msgid "Entity Name"
+msgstr "实体名称"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:113
+#, python-format
+msgid "Entity with id %(entity_id)s already exists."
+msgstr "ID 为 %(entity_id)s 的实体已存在。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:101 apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:143
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:216
+#, python-format
+msgid "Entity with id %(entity_id)s not found."
+msgstr "未找到 ID 为 %(entity_id)s 的实体。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:163
+msgid "Error deleting VictorOps settings."
+msgstr "删除 VictorOps 设置时出错。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:169
+msgid "Error loading VictorOps settings."
+msgstr "加载 VictorOps 设置时出错。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:153
+msgid "Error saving VictorOps settings."
+msgstr "保存 VictorOps 设置时出错。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:144
+msgid "Error: Could not create account."
+msgstr "错误: 无法创建帐户。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:66
+msgid "Error: Could not create input."
+msgstr "错误: 无法创建输入。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:145
+msgid "Error: Could not update account."
+msgstr "错误: 无法更新帐户。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:126
+msgid "Error: Could not update email settings."
+msgstr "错误: 无法更新电子邮件设置。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:67
+msgid "Error: Could not update input."
+msgstr "错误: 无法更新输入。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:373
+msgid "Error: Failed to calculate daily data ingestion"
+msgstr "错误: 无法计算每日数据引入量"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:345
+msgid "Error: Failed to upload license"
+msgstr "错误: 无法上载许可证"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:481
+msgid "Expected dimensions to be a dict."
+msgstr "希望维度是字典。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:487
+msgid "Expected each key in dimensions to be a string, each value to be a list"
+msgstr "希望维度中每个键都是字符串，每个值都是列表"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:477
+msgid "Expected metric name to be a string."
+msgstr "希望指标名称是字符串。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:490
+msgid "Expected query param to be a dict"
+msgstr "希望查询参数是字典"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:577
+msgid "Expired Date"
+msgstr "到期日期"
+
+#: packages/ui/components/ObjectStatus.js:42
+msgid "Failed"
+msgstr "失败"
+
+#: packages/ui/utils/servicesUtils.js:3
+#, python-format
+msgid "Failed to %(method)s %(fullUrl)s"
+msgstr "%(method)s %(fullUrl)s 失败"
+
+#: packages/ui/utils/servicesUtils.js:74
+#, python-format
+msgid "Failed to POST %(fullUrl)s"
+msgstr "POST %(fullUrl)s 失败"
+
+#: packages/ui/utils/servicesUtils.js:14
+#, python-format
+msgid "Failed to bulk delete %(items)s"
+msgstr "批量删除 %(items)s 失败"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:208
+msgid "Failed to bulk delete entities"
+msgstr "批量删除实体失败"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:60
+msgid "Failed to create HEC token"
+msgstr "创建 HEC 令牌失败"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:124
+#, python-format
+msgid "Failed to create HEC token: %(message)s"
+msgstr "创建 HEC 令牌失败: %(message)s"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:138
+#, python-format
+msgid "Failed to create entity %(entity_id)s."
+msgstr "创建实体 %(entity_id)s 失败。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:150
+#, python-format
+msgid "Failed to create the group %(group_title)s."
+msgstr "创建组 %(group_title)s 失败。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:323
+#, python-format
+msgid "Failed to delete %(name)s."
+msgstr "删除 %(name)s 失败。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:77
+msgid "Failed to delete this account."
+msgstr "删除此帐户失败。"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:99
+msgid "Failed to enable HEC."
+msgstr "启用 HEC 失败。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:131
+#, python-format
+msgid "Failed to fetch HEC token: %(message)s"
+msgstr "获取 HEC 令牌失败: %(message)s"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:37
+msgid "Failed to fetch existing HEC tokens"
+msgstr "获取现有 HEC 令牌失败"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:197
+msgid "Failed to fetch info about the presence of Splunk Add-on for Amazon Web Services."
+msgstr "获取关于适用于 Amazon Web Services 的 Splunk 加载项是否存在的信息失败。"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:22
+msgid "Failed to get HTTP Input settings"
+msgstr "获取 HTTP 输入设置失败"
+
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.js:41 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:106
+msgid "Failed to load entity information."
+msgstr "加载实体信息失败。"
+
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.js:48 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:208
+msgid "Failed to load group information."
+msgstr "加载组信息失败。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:101
+#, python-format
+msgid "Failed to update HEC token: %(message)s"
+msgstr "更新 HEC 令牌失败: %(message)s"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:167
+#, python-format
+msgid "Failed to update entity %(entity_id)s."
+msgstr "更新实体 %(entity_id)s 失败。"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:83
+msgid "Failed to update existing token information"
+msgstr "更新现有令牌信息失败"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:167
+#, python-format
+msgid "Failed to update the group %(group_title)s."
+msgstr "更新组 %(group_title)s 失败。"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:145 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:156
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:142 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:165
+msgid "Fill in empty fields."
+msgstr "填写空字段。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_search_manager.py:330
+msgid "Filter criteria specified is not allowed!"
+msgstr "不允许指定的筛选器条件!"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:93
+msgid "Filter dimensions"
+msgstr "筛选器维度"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:165
+msgid "Filter/options are expected to be a dict"
+msgstr "希望筛选器/选项是字典"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:287
+msgid "Find out more here"
+msgstr "在此处了解更多内容"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:182
+msgid "First check App for Infrustructure system requirements."
+msgstr "首先查看 App for Infrustructure 系统要求。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:249
+msgid "Follow the instructions to collect data from your AWS instances."
+msgstr "按说明从 AWS 实例收集数据。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:236
+msgid "Follow the instructions to install an agent on your Linux machine."
+msgstr "按说明在 Linux 机器上安装代理。"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:217
+msgid "Follow the instructions to install an agent on your OSX machine."
+msgstr "按说明在 OSX 机器上安装代理。"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:236
+msgid "Follow the instructions to install an agent on your Windows machine."
+msgstr "按说明在 Windows 机器上安装代理。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:226
+msgid "For further info check App for Infrustructure system requirements."
+msgstr "有关更新信息，请查看 App for Infrustructure 系统要求。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:244
+msgid "For specific version support see documentation."
+msgstr "有关特定版本支持，请查看文档。"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:447
+msgid "GROUPED IN"
+msgstr "分组在"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:326
+msgid "Get better Support!"
+msgstr "获得更好的支持!"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesEmpty.js:45
+msgid "Go to Add Data page to get started monitoring your infrastructure entities."
+msgstr "转到“添加数据”页开始监控您的基础架构实体。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:219
+msgid "Go to Manage Apps > In the list of apps find: Splunk Add-on for Amazon Web Services App > Click Enable"
+msgstr "转到“管理应用” > 在应用列表中找到: 适用于 Amazon Web Services 的 Splunk 加载项应用 > 单击“启用”"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:274
+#, python-format
+msgid "Group %(name)s is created. Switch to group view to view all your saved groups."
+msgstr "已创建组 %(name)s。切换到组视图查看所有保存的组。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:278
+#, python-format
+msgid "Group %(name)s is updated. Switch to group view to view all your saved groups."
+msgstr "已更新组 %(name)s。切换到组视图查看所有保存的组。"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:106
+msgid "Group Alerts"
+msgstr "组告警"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:144 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:319
+msgid "Group Name"
+msgstr "组名"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:141
+#, python-format
+msgid "Group id %(group_id)s already exists"
+msgstr "组 ID %(group_id)s 已存在"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:273
+msgid "Group saved"
+msgstr "已保存组"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:277
+msgid "Group updated"
+msgstr "已更新组"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:71
+#, python-format
+msgid "Group with id %(group_id)s cannot be found"
+msgstr "无法找到 ID 为 %(group_id)s 的组"
+
+#: packages/ui/components/ToggleButtonGroup.js:75
+msgid "Groups"
+msgstr "组"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:72 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:88
+msgid "HEC port"
+msgstr "HEC 端口"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:75
+msgid "HEC port is required to use the Easy Deployment Script"
+msgstr "使用轻松部署脚本需要 HEC 端口"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:120 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:133
+msgid "HEC token"
+msgstr "HEC 令牌"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:123
+msgid "HEC token is required to use the Easy Deployment Script"
+msgstr "使用轻松部署脚本需要 HEC 令牌"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:201
+msgid "Help improve Splunk products, services, and support for this deployment by automatically sending Splunk performance data"
+msgstr "通过自动发送 Splunk 性能数据帮助改善 Splunk 产品、服务并支持此部署。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:295
+msgid "Help make Splunk software better!"
+msgstr "帮助 Splunk 软件变得更好!"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:139 apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:453
+msgid "Help us improve Splunk software"
+msgstr "帮助我们改进 Splunk 软件"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:183
+msgid "Help us improve your Splunk experience by sharing information about your Splunk software usage. Searches are run to collect this information."
+msgstr "通过共享有关 Splunk 软件使用情况的信息，帮助我们改善 Splunk 体验。将运行搜索来收集此信息。"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:52 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:287
+msgid "Host name is required to use the Easy Deployment Script"
+msgstr "使用轻松部署脚本需要主机名"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:65 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:301
+msgid "Hostname or IP address"
+msgstr "主机名或 IP 地址"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:247
+msgid "How to upgrade"
+msgstr "如何升级"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:59
+msgid "Http Event Collector already enabled."
+msgstr "已启用 Http 事件收集器。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:302
+msgid "I authorize collection of anonymized information about software usage so Splunk can improve its products and services."
+msgstr "我授权收集有关软件使用情况的匿名信息，这样 Splunk 就可以改善产品和服务。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:333
+msgid ""
+"I authorize collection of information about software usage so Splunk can provide improved support and services for my deployment. Data will be linked to my account "
+"based on my installed licenses."
+msgstr "我授权收集有关软件使用情况的信息，这样 Splunk 就可以为我的部署提供更好的支持和服务。根据已安装的许可证将数据链接到我的帐户。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:350
+msgid "Identifier dimensions provided should be list"
+msgstr "提供的标识维度应为列表"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:627
+msgid "If"
+msgstr "如果"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:169
+msgid ""
+"If you do not want to participate, you may purchase a license to the product at which time you will have the ability opt out of data collection as described in the "
+"documentation."
+msgstr "如果不想参与，您可以购买产品许可证，届时，您可以如文档所述，选择退出数据收集。"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:145
+msgid "Import signing keys when installing on Debian/Ubuntu (recommended)"
+msgstr "在 Debian/Ubuntu 上安装时导入签名密钥(推荐)"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:238
+msgid "In order to receive alert emails, you may need to update your email settings."
+msgstr "为接收告警电子邮件，您可能需要更新电子邮件设置。"
+
+#: packages/ui/components/ObjectStatus.js:38
+msgid "Inactive"
+msgstr "不活跃"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:49
+msgid "Inconsistency detected in account info. Attempting to update AWS data source."
+msgstr "检测到帐户信息不一致。尝试更新 AWS 数据源。"
+
+#: packages/ui/utils/stateConstants.js:208
+msgid "Info"
+msgstr "信息"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:348
+msgid "Informational dimensions provided should be list"
+msgstr "提供的信息维度应为列表"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:328
+msgid "Install Location"
+msgstr "安装位置"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:345
+msgid "Install directory"
+msgstr "安装目录"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:330
+msgid "Install location is required to use the Easy Deployment Script"
+msgstr "使用轻松部署脚本需要安装位置"
+
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:333
+#, python-format
+msgid "Install location of %(packageName)s agent"
+msgstr "%(packageName)s 代理的安装位置"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:496
+msgid "Instrumentation options are not available to non-admin users."
+msgstr "检测选项对非管理员用户不可用。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:358
+msgid "Instrumentation settings failed to update!"
+msgstr "检测设置更新失败!"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:361
+msgid "Instrumentation settings updated successfully!"
+msgstr "检测设置更新成功!"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:146 packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:175
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:179
+msgid "Internal Server Error"
+msgstr "内部服务器错误"
+
+#: packages/ui/utils/stateConstants.js:265 packages/ui/utils/stateConstants.js:270 packages/ui/utils/stateConstants.js:281
+msgid "Internet access"
+msgstr "互联网访问权限"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:66
+msgid "Invalid API key"
+msgstr "API 密钥无效"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:101 apps/sii/src/main/resources/splunk/bin/em_common.py:123
+msgid "Invalid JSON supplied as part of query!"
+msgstr "提供作为查询一部分的 JSON 无效!"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:340
+msgid "Invalid JSON supplied to REST handler!"
+msgstr "提供给 REST 处理程序的 JSON 无效!"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:204
+msgid "Invalid alert. Missing required arguments."
+msgstr "无效告警。缺少所需参数。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:109
+msgid "Invalid email address provided"
+msgstr "提供的电子邮件地址无效"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:314
+msgid "Invalid entity state"
+msgstr "实体状态无效"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:443
+msgid "Invalid filter"
+msgstr "筛选器无效"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:265
+msgid "Invalid response from loadAverageMetricValue"
+msgstr "来自 loadAverageMetricValue 的无效响应"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:185
+msgid "Invalid response returning group information!"
+msgstr "返回组信息的无效响应!"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:70
+msgid "Invalid routing key"
+msgstr "路由选择密钥无效"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_threshold.py:40
+msgid "Invalid values for thresholds provided"
+msgstr "所提供阈值的无效值"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:120 apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChart.js:91
+msgid "Investigate"
+msgstr "调查"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/GroupAnalysisWorkspace.js:180
+msgid "Investigate Entity"
+msgstr "调查实体"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:300 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:338
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:379
+msgid "It may take up to 5 minutes to show entities in the UI."
+msgstr "在 UI 中显示实体可能需要 5 分钟。"
+
+#: packages/ui/utils/commonUtils.js:23
+msgid "Just now"
+msgstr "刚刚"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:189
+msgid "Key ID"
+msgstr "密钥 ID"
+
+#: packages/ui/components/TimeRange.js:19
+#, python-format
+msgid "Last %d day"
+msgid_plural "Last %d days"
+msgstr[0] "过去 %d 天"
+
+#: packages/ui/components/TimeRange.js:18
+#, python-format
+msgid "Last %d hour"
+msgid_plural "Last %d hours"
+msgstr[0] "过去 %d 小时"
+
+#: packages/ui/components/TimeRange.js:15
+#, python-format
+msgid "Last %d minute"
+msgid_plural "Last %d minutes"
+msgstr[0] "过去 %d 分钟"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:345 packages/ui/utils/stateConstants.js:364
+msgid "Last Triggered Metric"
+msgstr "最后触发的指标"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:223
+msgid "Last time data collected"
+msgstr "最后收集数据的时间"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:166 apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:190
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:208
+msgid "Learn More"
+msgstr "了解更多信息"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:575
+msgid "License Name"
+msgstr "许可证名称"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:278
+msgid "License Usage Data"
+msgstr "许可证用量数据"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:576
+msgid "License Volume"
+msgstr "许可数量"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:246
+msgid "Loading AWS Account Information"
+msgstr "加载 AWS 帐户信息"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:256
+msgid "Loading AWS Data Source Options"
+msgstr "加载 AWS 数据源选项"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:53
+msgid "Loading IAM role Information"
+msgstr "加载 IAM 角色信息"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:418 apps/sii/src/main/webapp/metrics-analysis/reducer.js:34
+#: apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:44 apps/sii/src/main/webapp/metrics-analysis/reducer.test.js:131
+msgid "Loading..."
+msgstr "正在加载..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:214
+msgid "Log Group Name"
+msgstr "日志组名"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:178
+msgid "Mail host"
+msgstr "邮件主机"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/sagas.js:85
+msgid "Malformed response received (readUserPrefs)"
+msgstr "收到格式不正确的响应 (readUserPrefs)"
+
+#: apps/sii/src/main/webapp/settings/licensing/sagas.js:78
+msgid "Malformed response received (uploadLicense, userPrefs)"
+msgstr "收到格式不正确的响应 (uploadLicense, userPrefs)"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:223
+msgid "Manage app and add-on objects"
+msgstr "管理应用和加载项对象"
+
+#: packages/ui/components/ThresholdControl.js:259 packages/ui/components/chart-with-slider/ChartSettings.js:94
+msgid "Maximum"
+msgstr "最大值"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:324
+#, python-format
+msgid "Message: %(message)s"
+msgstr "消息: %(message)s"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:619
+msgid "Metric"
+msgstr "指标"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:113
+msgid "Metric name is missing from metric SPL"
+msgstr "指标 SPL 缺失指标名"
+
+#: packages/ui/components/ThresholdControl.js:237 packages/ui/components/chart-with-slider/ChartSettings.js:109
+msgid "Minimum"
+msgstr "最小值"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:472
+msgid "Missing required key: metric_name"
+msgstr "缺少必需的键: metric_name"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:270
+msgid "Missing required query parameter: query"
+msgstr "缺少必需的查询参数: query"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:49 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:285
+msgid "Monitoring machine"
+msgstr "监控机器"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:597 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:176
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:226
+msgid "Name"
+msgstr "名称"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_victorops.py:62
+msgid "Name cannot be empty"
+msgstr "名称不能为空"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:105
+msgid "No email_to provided"
+msgstr "未提供 email_to"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:71
+msgid "No new entities connected yet..."
+msgstr "尚未连接新实体..."
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:42
+msgid "None"
+msgstr "无"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:162
+msgid "Not Found"
+msgstr "无法找到"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:383
+msgid "Notify If"
+msgstr "通知条件"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:145
+msgid "Number of Entities"
+msgstr "实体数量"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:464 packages/ui/components/ConfirmationDialog.js:75
+msgid "OK"
+msgstr "确定"
+
+#: packages/ui/utils/stateConstants.js:215
+msgid "Off"
+msgstr "关"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:299 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:336
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:378
+msgid "Once the script finishes running, verify your data connection."
+msgstr "脚本运行完后，验证数据连接。"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:15
+msgid "Once the script finishes running, your entities will appear as inactive."
+msgstr "脚本运行完后，实体显示为不活跃。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:276
+msgid "Once your AWS account is added, verify your data connection"
+msgstr "添加您的 AWS 帐户后，验证数据连接"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:159
+msgid "Only Admin user can access AWS configuration page."
+msgstr "仅管理员用户可以访问 AWS 配置页面。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:378
+msgid "Only admin can delete the selected entities!"
+msgstr "仅管理员可以删除所选实体!"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:377
+msgid "Only admin can delete the selected entity!"
+msgstr "仅管理员可以删除所选实体!"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:297
+msgid "Only admin can delete the selected group!"
+msgstr "仅管理员可以删除所选组!"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:298
+msgid "Only admin can delete the selected groups!"
+msgstr "仅管理员可以删除所选组!"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:133
+msgid "Only alphanumeric characters, dash and underscore are allowed."
+msgstr "仅允许字母数字字符、短划线和下划线。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:134
+msgid "Only alphanumeric characters, dash, underscore, dot and dollar sign are allowed."
+msgstr "仅允许字母数字字符、短划线、下划线、句点和美元符号。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:135
+msgid "Only alphanumeric characters, dash, underscore, dot, dollar sign, space and wildcard filter values are allowed."
+msgstr "仅允许字母数字字符、短划线、下划线、句点、美元符号、空格和通配符筛选值。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:128 packages/ui/components/WildcardMultiSelect.js:85
+msgid "Only one wildcard character allowed."
+msgstr "仅允许一个通配符字符。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:601
+msgid "Only the characters A-Z, a-z, 0-9, -, _, . are allowed in the name."
+msgstr "名称中仅允许字符 A-Z、a-z、0-9、-、_、和 .。"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:250
+msgid "Operating system support for data collection"
+msgstr "数据收集操作系统支持"
+
+#: apps/sii/src/main/webapp/metrics-analysis/containers/EntityAnalysisWorkspace.js:364
+msgid "Overview"
+msgstr "概述"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:160
+msgid "Participation in our analytics program is required at the free tier."
+msgstr "免费层需要参与分析项目。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:210
+msgid "Password"
+msgstr "密码"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:223
+msgid "Password does not match."
+msgstr "密码不匹配。"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:211
+msgid "Password to use when authenticating with the SMTP server"
+msgstr "使用 SMTP 服务器进行身份验证时要使用的密码"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:99
+msgid "Patents"
+msgstr "专利"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:110
+msgid "Patents owned by Splunk Inc."
+msgstr "Splunk Inc 所拥有的专利"
+
+#: packages/ui/components/ObjectStatus.js:39
+msgid "Pending"
+msgstr "待决"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:198
+msgid "Please check your network connection."
+msgstr "请查看网络连接。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:181
+msgid "Please install Splunk Add-on for Amazon Web Services app version that is supported by the App for Infrustructure."
+msgstr "请安装 App for Infrustructure 支持的适用于 Amazon Web Services 的 Splunk 加载项应用版本。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:170
+msgid "Please reinstall Splunk Insights for Infrastructure. If the problem persists, contact Splunk support."
+msgstr "请重新安装 Splunk Insights for Infrastructure。如果问题仍存在，请联系 Splunk 支持。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:224
+msgid "Please select notification condition and method."
+msgstr "请选择通知条件和方法。"
+
+#: packages/common_libs/lib/rest_handler/rest_interface_splunkd.py:158
+#, python-format
+msgid "REST method %(method)s not allowed"
+msgstr "不允许 REST 方法 %(method)s"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:398
+msgid "Reading settings... Please wait..."
+msgstr "正在读取设置... 请稍候..."
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:95 apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:111
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:308 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:321
+msgid "Receiver port"
+msgstr "接收器端口"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:98 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:310
+msgid "Receiver port is required to use the Easy Deployment Script"
+msgstr "使用轻松部署脚本需要接收器端口"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:133 packages/ui/components/RefreshControl.js:133
+msgid "Refresh"
+msgstr "刷新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:216
+msgid "Region Category"
+msgstr "区域类别"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:291 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:328
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:370 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:109
+msgid "Remove"
+msgstr "删除"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:103 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:278
+msgid "Remove Credentials"
+msgstr "删除凭据"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:175 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:191
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:204 apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:218
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:180 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:227
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:244 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:256
+msgid "Required Field."
+msgstr "必填字段。"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:134
+msgid "Restart"
+msgstr "重新启动"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:124 apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:133
+msgid "Restart Splunk"
+msgstr "重新启动 Splunk"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:141
+msgid "Restart in progress..."
+msgstr "正在重新启动..."
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/MetricsAnalysisHeader.js:397
+msgid "Return to Investigate page"
+msgstr "返回到调查页面"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:220
+msgid "Review the documentation for managing apps."
+msgstr "查看文档了解如何管理应用。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:255
+msgid "Routing Key"
+msgstr "路由选择密钥"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:256
+msgid "Routing key obtained through the VictorOps Splunk integration."
+msgstr "通过 VictorOps Splunk 集成获取路由选择密钥。"
+
+#: packages/ui/components/ObjectStatus.js:40
+msgid "Running"
+msgstr "正在运行"
+
+#: apps/sii/src/main/webapp/configure/os/components/AgentRemoveInfo.js:18
+msgid ""
+"Running the removal script stops all Splunk agents and removes all packages on the monitored entity. This process cannot be undone, and you will have to manually add "
+"new agents and packages to start collecting data again."
+msgstr "运行删除脚本将停止所有 Splunk 代理并删除监控实体的所有包。此过程无法撤消，您需要手动添加新代理和包，以重新开始收集数据。"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:196
+msgid "Save"
+msgstr "保存"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:270
+msgid "Save Credentials"
+msgstr "保存凭据"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:476
+msgid "Save Preferences"
+msgstr "保存首选项"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:313
+msgid "Save as group"
+msgstr "另存为组"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:219
+msgid "Save as new group"
+msgstr "另存为新组"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:202
+msgid "Secret Key"
+msgstr "密钥"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:212
+msgid "See all"
+msgstr "查看所有"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:379 apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:406
+msgid "Select All"
+msgstr "全选"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:316
+#, python-format
+msgid "Select All %d Entities"
+msgstr "选择所有 %d 个实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsListing.js:237
+#, python-format
+msgid "Select All %d Groups"
+msgstr "选择所有 %d 组"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:389 apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:403
+msgid "Select..."
+msgstr "选择…"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:67
+msgid "Server"
+msgstr "服务器"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:105
+msgid "Server Logging"
+msgstr "服务器日志"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:113
+msgid "Server Name:"
+msgstr "服务器名称:"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModalContainer.js:368
+msgid "Server error"
+msgstr "服务器错误"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:180
+msgid "Set the host that sends mail for this Splunk instance."
+msgstr "为此 Splunk 实例设置发送邮件的主机。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:50
+msgid "Setting up AWS data collection - this could take up to 2 minutes"
+msgstr "设置 AWS 数据收集 - 这一过程最多可能需要 2 分钟"
+
+#: packages/ui/components/chart-with-slider/ChartSettings.js:131
+msgid "Show Legend"
+msgstr "显示图例"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:77
+msgid "Specify HEC port of the machine you want to send metric data to, e.g. 8088"
+msgstr "指定您要将指标数据发送到的机器的 HEC 端口，例如 8088"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:124
+msgid "Specify HEC token of the machine you want to send metric data to"
+msgstr "指定您要将指标数据发送到的机器的 HEC 令牌"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:226 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:257
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:245
+msgid "Specify configuration options"
+msgstr "指定配置选项"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:100 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:312
+msgid "Specify receiver port of the machine you want to send log data to, e.g. 9997"
+msgstr "指定您要将日志数据发送到的那个机器的接收器端口，例如 9997"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:53 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:290
+msgid "Specify the hostname or IP address of the machine you want to send data to, e.g. my.instance.domain.name"
+msgstr "指定您要将数据发送到的那个机器的主机名或 IP 地址，例如 my.instance.domain.name"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:187
+msgid "Splunk Add-on for Amazon Web Services"
+msgstr "适用于 Amazon Web Services 的 Splunk 加载项"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:233
+msgid "Splunk Add-on for Amazon Web Services is disabled. It must be enabled to configure AWS."
+msgstr "已禁用适用于 Amazon Web Services 的 Splunk 加载项。必须先启用此加载项才能配置 AWS。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:209
+msgid "Splunk Add-on for Amazon Web Services is not installed. It must be enabled to configure AWS."
+msgstr "未安装适用于 Amazon Web Services 的 Splunk 加载项。必须先启用此加载项才能配置 AWS。"
+
+#: apps/sii/src/main/webapp/utils/commonUtils.js:5
+msgid "Splunk App for Infrastructure"
+msgstr "Splunk App for Infrastructure"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:77
+msgid "Splunk Build"
+msgstr "Splunk 内部版本"
+
+#: apps/sii/src/main/webapp/utils/commonUtils.js:5
+msgid "Splunk Insights for Infrastructure"
+msgstr "Splunk Insights for Infrastructure"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:125
+msgid "Splunk Software License Agreement."
+msgstr "Splunk 软件许可证协议。"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:73
+msgid "Splunk TA AWS Version"
+msgstr "Splunk TA AWS 版本"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:75
+msgid "Splunk Version"
+msgstr "Splunk 版本"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:93
+msgid ""
+"Splunk®, Splunk>®, Listen to Your Data®, The Engine for Machine Data®, Splunk Cloud™, Splunk Light® and SPL™ are trademarks and registered trademarks of Splunk Inc. and/"
+"or its subsidiaries in the United States and other countries. All other brand names, product names, or trademarks belong to their respective owners."
+msgstr ""
+"Splunk®、Splunk>®、Listen to Your Data®、The Engine for Machine Data®、Splunk Cloud™、Splunk Light® 和 SPL™ 是 Splunk Inc. 和/或其在美国和其他国家/地区的子公司的商标和注"
+"册商标。所有其他品牌名称、产品名称或商标属于各自的所有者。"
+
+#: packages/ui/components/WildcardMultiSelect.js:70
+msgid "Start typing"
+msgstr "开始键入"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupControlBar.js:64 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:471
+msgid "Start typing to filter groups by name"
+msgstr "开始键入以按名称筛选组"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:366 apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:461
+msgid "Start typing to filter through all dimensions"
+msgstr "开始键入以筛选所有维度"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:222
+msgid "Status"
+msgstr "状态"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:415
+msgid "Stop or remove the data collection agents before you delete an entity to ensure that it is properly removed."
+msgstr "删除实体前停止或删除数据收集代理，以确保正确删除了实体。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:703
+msgid "Submit"
+msgstr "提交"
+
+#: packages/ui/components/ObjectStatus.js:41
+msgid "Succeeded"
+msgstr "成功"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:131 apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:79
+msgid "Success"
+msgstr "成功"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:159
+msgid "Success deleting VictorOps settings."
+msgstr "成功删除 VictorOps 设置。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:149
+msgid "Success saving VictorOps settings."
+msgstr "成功保存 VictorOps 设置。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:328
+#, python-format
+msgid "Success: Increased license to %(gigabytes)d GB with expiration of %(expirationDate)s"
+msgstr "成功: 许可证提高到 %(gigabytes)d GB，有效期至 %(expirationDate)s"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:122
+msgid "Successfully created HEC token."
+msgstr "成功创建 HEC 令牌。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:95
+msgid "Successfully deleted the account."
+msgstr "成功删除帐户。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:50
+msgid "Successfully enabled Http Event Collector."
+msgstr "成功启用 Http 事件收集器。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:99 apps/sii/src/main/webapp/configure/common/sagas.js:109
+msgid "Successfully fetched HEC token."
+msgstr "成功获取 HEC 令牌。"
+
+#: apps/sii/src/main/webapp/settings/instrumentation/components/Instrumentation.js:345
+msgid "Support Usage Data"
+msgstr "支持的用量数据"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:173
+msgid "Support and Services"
+msgstr "支持和服务"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:221 apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:241
+#: apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:240
+#, python-format
+msgid "Supported OS types: %(types)s"
+msgstr "支持的操作系统类型: %(types)s"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:226
+msgid "System"
+msgstr "系统"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:189
+msgid "System Information"
+msgstr "系统信息"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:164
+msgid "System Requirements for Splunk App for Infrastructure"
+msgstr "Splunk App for Infrastructure 系统要求"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:127
+msgid "Take a look now"
+msgstr "立即查看"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:221
+#, python-format
+msgid ""
+"The license you are uploading is expired:\n"
+"%(expirationDate)s"
+msgstr ""
+"正在上载的许可证过期日期为:\n"
+"%(expirationDate)s"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:216
+msgid "The license you are uploading is not compatible with Splunk Insights. Please upgrade to Splunk Enterprise and upload again."
+msgstr "正在上载的许可证与 Splunk Insights 不兼容。请升级到 Splunk Enterprise 并重新上载。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:397
+msgid "The severity degrades"
+msgstr "严重级别降级"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:396
+msgid "The severity improves"
+msgstr "严重级别提升"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:398
+msgid "The severity improves/degrades"
+msgstr "严重级别提升/降级"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:184
+msgid "Then install the Splunk Add-on for Amazon Web Services from Splunkbase."
+msgstr "然后安装来自 Splunkbase 的适用于 Amazon Web Services 的 Splunk 加载项。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:136
+#, python-format
+msgid "These reserved words cannot be used: %(reservedWords)s"
+msgstr "无法使用这些预留词: %(reservedWords)s"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:86
+msgid "Third-Party Software Credits and Attribution"
+msgstr "第三方软件信用和属性"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertSidebarChartArea.js:153
+msgid "This alert no longer exists."
+msgstr "此告警已不在。"
+
+#: apps/sii/src/main/webapp/configure/os/components/OsxConfiguration.js:279 apps/sii/src/main/webapp/configure/os/components/WindowsConfiguration.js:358
+msgid "This script must be run by user with administrator privileges, and it should also have the following dependencies available on the entity:"
+msgstr "此脚本必须由具备管理员特权的用户运行，它还应在实体中有下列相关项:"
+
+#: apps/sii/src/main/webapp/configure/os/components/UnixConfiguration.js:313
+msgid "This script must be run by user with root privileges, and it should also have the following dependencies available on the entity:"
+msgstr "此脚本必须由具备根特权的用户运行，它还应在实体中有下列相关项:"
+
+#: packages/ui/components/ThresholdControl.js:248
+msgid "Threshold"
+msgstr "阈值"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_threshold.py:43
+msgid "Threshold min can not be greater than max"
+msgstr "阈值最小值不能大于最大值"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:30
+msgid "To attach or modify IAM role, see instructions."
+msgstr "要附加或修改 IAM 角色，请参阅说明。"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:263
+msgid "To install a license, drop or upload a license file here (license files end with .lic):"
+msgstr "要安装许可证，请在此处放下或上载一个许可证文件(许可证文件以 .lic 结尾)。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:214
+msgid "To learn about using SII and VictorOps to solve your infrastructure problems "
+msgstr "要了解使用 SII 和 VictorOps 解决基础架构问题"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:538
+msgid "Total Data Stored by Type (metric vs. log/event)"
+msgstr "按类型划分的存储数据总量(指标和日志/事件)"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:518
+msgid "Total Storage Used"
+msgstr "已用总存储"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:90
+msgid "Trademarks"
+msgstr "注册商标"
+
+#: apps/sii/src/main/webapp/triggered-alerts/components/AlertsListing.js:343 packages/ui/utils/stateConstants.js:363
+msgid "Triggered Time"
+msgstr "触发时间"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsConfiguration.js:78
+msgid "Try Again"
+msgstr "重试"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:615
+msgid "Type Id"
+msgstr "类型 ID"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:80
+#, python-format
+msgid "Type: %(managed_by_type)s is not allowed."
+msgstr "类型: 不允许 %(managed_by_type)s。"
+
+#: apps/sii/src/main/webapp/configure/common/sagas.js:52
+#, python-format
+msgid "Unable to enable Http Event Collector: %(message)s"
+msgstr "无法启用 Http 事件收集器: %(message)s"
+
+#: apps/sii/src/main/webapp/configure/common/services.js:121
+msgid "Unable to fetch collector URL."
+msgstr "无法获取收集器 URL。"
+
+#: packages/ui/utils/messageConstants.js:3
+msgid "Unable to fetch install agent URL. Please make sure you have correct settings in collectors.conf."
+msgstr "无法获取安装代理 URL。请确保 collectors.conf 中设置正确。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:73
+msgid "Unable to get alert definition with given name"
+msgstr "无法通过给定名称获取告警定义"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_alert_impl.py:47
+msgid "Unable to update alert"
+msgstr "无法更新告警"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:84
+msgid "Unexpected metric_filter keys"
+msgstr "意外 metric_filter 密钥"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:227
+msgid "Unique name for this combination of API Key and Routing Key."
+msgstr "此 API 密钥和路由选择密钥组合的唯一名称。"
+
+#: packages/ui/components/ObjectStatus.js:43
+msgid "Unknown"
+msgstr "未知"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:131
+msgid "Unknown dimension name or value."
+msgstr "未知维度名或值。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:130
+msgid "Unknown dimension name."
+msgstr "未知维度名。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert.py:86
+msgid "Unknown metric_filter type"
+msgstr "未知 metric_filter 类型"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:212
+msgid "Update"
+msgstr "更新"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsAccountForm.js:235
+msgid "Update AWS account"
+msgstr "更新 AWS 帐户"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:129
+msgid "Update AWS data source"
+msgstr "更新 AWS 数据源"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:236
+msgid "Update Email Server Settings"
+msgstr "更新邮件服务器设置"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupContextControl.js:204
+msgid "Update this group"
+msgstr "更新此组"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:104
+msgid "Updating email settings, please wait..."
+msgstr "正在更新电子邮件设置，请稍候..."
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:299
+msgid "Upload"
+msgstr "上载"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:594
+msgid "Upload License"
+msgstr "上载许可证"
+
+#: apps/sii/src/main/webapp/settings/licensing/components/Licensing.js:313
+msgid "Uploading license, Please Wait"
+msgstr "正在上载许可证，请稍候"
+
+#: apps/sii/src/main/webapp/settings/licensing/sagas.js:82
+msgid "User preferences failed to update on license upload"
+msgstr "上载许可证时无法更新用户首选项"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:200
+msgid "Username"
+msgstr "用户名"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:201
+msgid "Username to use when authenticating with the SMTP server. Leave empty for no authentication."
+msgstr "使用 SMTP 服务器进行身份验证时要使用的用户名。如不验证，则保留为空。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_common.py:189
+msgid "Value needs to be a string or list"
+msgstr "值应为字符串或列表"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:371
+msgid "Values for Warning and Critical are empty/invalid."
+msgstr "“警告”和“严重”值为空/无效。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsIamForm.js:47
+msgid "Verify IAM role attachment"
+msgstr "验证 IAM 角色附加"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:63
+msgid "Version"
+msgstr "版本"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:259 apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:212
+msgid "VictorOps Settings"
+msgstr "VictorOps 设置"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:254
+msgid "VictorOps is not configured correctly. Please check notification settings."
+msgstr "未正确配置 VictorOps。请查看通知设置。"
+
+#: apps/sii/src/main/resources/splunk/bin/em_model_alert_action.py:72
+msgid "VictorOps notification criteria is not one of the supported criteria"
+msgstr "VictorOps 通知条件不是支持的条件之一"
+
+#: apps/sii/src/main/resources/splunk/bin/em_send_victorops.py:44
+msgid "VictorOps setting does not exist"
+msgstr "VictorOps 设置不存在"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:39
+#, python-format
+msgid "VictorOps setting with name %(name)s already exists"
+msgstr "名为 %(name)s 的 VictorOps 设置已存在"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:53 apps/sii/src/main/resources/splunk/bin/em_rest_victorops_impl.py:62
+#, python-format
+msgid "VictorOps setting with name %(vo_id)s does not exist"
+msgstr "名为 %(vo_id)s 的 VictorOps 设置不存在"
+
+#: apps/sii/src/main/webapp/investigate/components/EntityControlBar.js:285
+msgid "View group now"
+msgstr "立即查看组"
+
+#: apps/sii/src/main/webapp/settings/server-logging/components/ServerLogging.js:108
+#, python-format
+msgid "View internal log data to troubleshoot an issue with %(packageName)s or restart Splunk."
+msgstr "查看内部日志数据为 %(packageName)s 解决问题或重新启动 Splunk。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:555 packages/ui/utils/stateConstants.js:209
+msgid "Warning"
+msgstr "告警"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:166
+msgid ""
+"When setting up CloudWatch Logs agent configuration in AWS, edit the log stream name (log_stream_name) with a unique name (instance_id) for each log group within the "
+"configuration file. This defines the log stream’s identity for correlation of logs to individual instances and metric data."
+msgstr ""
+"在 AWS 中设置 CloudWatch 日志代理配置时，为配置文件中的每个日志组编辑具有唯一名称 (instance_id) 的日志流名称 (log_stream_name)。这样可以定义日志流的身份，以将日志与单独"
+"的实例和指标数据关联。"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesListing.js:420
+msgid "When you delete an entity, all associated alerts will also be deleted."
+msgstr "删除实体时，将同时删除所有关联告警。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:129 packages/ui/components/WildcardMultiSelect.js:86
+msgid "Wildcard can only be at the end."
+msgstr "通配符只能放在末尾。"
+
+#: apps/sii/src/main/webapp/dimensions/components/DimensionMultiSelect.js:127
+msgid "Wildcard searches not supported for dimension names."
+msgstr "维度名称不支持通配符搜索。"
+
+#: apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:175 apps/sii/src/main/webapp/configure/aws/components/AwsDataForm.js:180
+#: apps/sii/src/main/webapp/configure/common/components/ConfigureOptions.js:156
+msgid "Yes"
+msgstr "是"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:241
+msgid "You cannot change the name after saving."
+msgstr "保存后您无法更改名称。"
+
+#: apps/sii/src/main/webapp/configure/common/components/ConfigurationStatus.js:77
+#, python-format
+msgid "You have removed %d entity"
+msgid_plural "You have removed %d entities"
+msgstr[0] "您已删除 %d 个实体"
+
+#: apps/sii/src/main/webapp/investigate/components/EntitiesEmpty.js:44
+msgid "You haven't added any entities."
+msgstr "您尚未添加任何实体"
+
+#: apps/sii/src/main/webapp/investigate/components/GroupsEmpty.js:53
+msgid "You haven't created a group yet."
+msgstr "您尚未创建组。"
+
+#: apps/sii/src/main/webapp/configure/common/components/Configure.js:89
+#, python-format
+msgid "You must be assigned admin permissions to use the 'Add Data' page. Please contact your %(packageName)s admin."
+msgstr "您必须分配得到管理员权限才能使用“添加数据”页。请联系 %(packageName)s 管理员。"
+
+#: apps/sii/src/main/webapp/configure/common/components/CustomizeInputsModal.js:430
+msgid "You must select at least one metric."
+msgstr "您必须至少选择一个指标。"
+
+#: apps/sii/src/main/webapp/victor-ops/components/VictorOps.js:220
+msgid "click here."
+msgstr "单击此处。"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:610
+msgid "enter name of the alert"
+msgstr "输入告警名称"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:635
+msgid "greater than"
+msgstr "大于"
+
+#: apps/sii/src/main/resources/splunk/bin/em_rest_entity_impl.py:110 apps/sii/src/main/resources/splunk/bin/em_rest_groups_impl.py:137
+msgid "id is missing from request body."
+msgstr "请求主体中缺少 ID。"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:126
+msgid "invalid response"
+msgstr "无效响应"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:636
+msgid "less than"
+msgstr "少于"
+
+#: apps/sii/src/main/webapp/entities/sagas.js:115
+msgid "missing entityId"
+msgstr "缺少实体 ID"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:290
+msgid "missing filters or name of the group"
+msgstr "缺少筛选器或组名称"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:175
+msgid "missing groupId"
+msgstr "缺少组 ID"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:129
+msgid "missing name of the group"
+msgstr "缺少组名称"
+
+#: apps/sii/src/main/webapp/groups/sagas.js:285
+msgid "missing target name of group"
+msgstr "缺少组目标名称"
+
+#: apps/sii/src/main/webapp/metrics-analysis/components/EntityInfo.js:122 apps/sii/src/main/webapp/metrics-analysis/components/common/DimensionInfo.js:65
+msgid "n/a"
+msgstr "N/A"
+
+#: apps/sii/src/main/webapp/settings/email/components/Email.js:194
+msgid "none"
+msgstr "无"
+
+#: apps/sii/src/main/webapp/alert-thresholds-modal/components/ThresholdsModal.js:400
+msgid "via"
+msgstr "通过"
+
+#: apps/sii/src/main/webapp/settings/about/components/About.js:115
+#, python-format
+msgid "© %(year)s Splunk Inc. All rights reserved. All use of this Software is subject to the terms and conditions of the Splunk Software License Agreement."
+msgstr "© %(year)s Splunk Inc. 保留所有权利。此软件的所有使用受限于 Splunk 软件许可证协议条款和条件。"

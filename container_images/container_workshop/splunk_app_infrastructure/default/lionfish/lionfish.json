@@ -1,0 +1,232 @@
+{
+  "tasks": [
+    {
+      "name": "[*] Update CSS Task",
+      "type": "AppendToFileTask",
+      "appliesTo": "*",
+      "options": {
+        "file_path": "share/splunk/search_mrsparkle/exposed/build/css/bootstrap-lite.css",
+        "content": [
+          "[data-role='sidenav-menu'] { display: none; }",
+          ".error-page-container .return-link { display:none; }",
+          ".btn.btn-primary.password-management { display: none; }",
+          "div[data-view*='MenuContents'] > ul > li:last-child { display: none; }",
+          "div[data-component-name='user-pref-modal'] div[class^='navBar'] { display: none; }",
+          "div[data-component-name='user-pref-modal'] p[data-test='paragraph'] { display: none; }",
+          "div[data-component-name='user-pref-modal'] div[data-component-name='restart-control-group'] { display: none; }"
+        ]
+      }
+    },
+    {
+      "name": "[Prod] Update CSS Task",
+      "type": "AppendToFileTask",
+      "appliesTo": "prod",
+      "options": {
+        "file_path": "share/splunk/search_mrsparkle/exposed/build/css/bootstrap-lite.css",
+        "content": [
+        "[data-role='sidenav-toggle'] + [data-popdown-role='popdown'], [data-role='sidenav-toggle-active'] + [data-popdown-role='popdown'] {pointer-events: none;}",
+        "[data-role='sidenav-toggle'] + [data-popdown-role='popdown'] [data-icon='triangleDownSmall'], [data-role='sidenav-toggle-active'] + [data-popdown-role='popdown'] [data-icon='triangleDownSmall'] { display: none;}"
+        ]
+      }
+    },
+    {
+      "name": "Update user-prefs.conf Task",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/system/local/user-prefs.conf",
+        "stanzas": {
+          "general_default": {
+            "app_list": ["search", "splunk_app_infrastructure", "splunk_instrumentation"],
+            "TA_list": ["Splunk_TA_aws"]
+          },
+          "role_admin": {
+            "default_namespace": "splunk_app_infrastructure"
+          },
+          "role_user": {
+            "default_namespace": "splunk_app_infrastructure"
+          }
+        }
+      }
+    },
+    {
+      "name": "Disable UI Tour",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/system/local/ui-tour.conf",
+        "stanzas": {
+          "default": {
+            "useTour": false
+          }
+        }
+      }
+    },
+    {
+      "name": "Update telemetry.conf Task",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/apps/splunk_instrumentation/default/telemetry.conf",
+        "stanzas": {
+          "general": {
+            "sendAnonymizedUsage": true,
+            "sendLicenseUsage": true,
+            "sendAnonymizedWebAnalytics": true,
+            "sendSupportUsage": true,
+            "precheckSendSupportUsage": true,
+            "precheckSendAnonymizedUsage": true,
+            "precheckSendLicenseUsage": true,
+            "showOptInModal": false,
+            "deprecatedConfig": false,
+            "optInVersion": 3
+          }
+        }
+      }
+    },
+    {
+      "name": "Update app.conf label Task",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/apps/splunk_app_infrastructure/default/app.conf",
+        "stanzas": {
+          "ui": {
+            "label": "Insights for Infrastructure"
+          },
+          "launcher": {
+            "description": "Insights for Infrastructure"
+          }
+        }
+      }
+    },
+    {
+      "name": "Delete Blocked Apps",
+      "type": "DeleteAppsTask",
+      "appliesTo": "*",
+      "options": {
+        "apps": [
+          "SplunkForwarder",
+          "SplunkLightForwarder",
+          "SplunkUniversalForwarder",
+          "dmc",
+          "alert_logevent",
+          "alert_webhook",
+          "appsbrowser",
+          "framework",
+          "gettingstarted",
+          "introspection_generator_addon",
+          "launcher",
+          "learned",
+          "legacy",
+          "sample_app",
+          "splunk_7_0_overview",
+          "splunk_archiver",
+          "splunk_datasets_addon",
+          "splunk_monitoring_console"
+        ]
+      }
+    },
+    {
+      "name": "[Prod] Manage Search Pages",
+      "appliesTo": "prod",
+      "type": "ManagePagesTask",
+      "options": {
+        "app": "search",
+        "manager": {
+            "pages": [
+              "authentication_users.xml",
+              "authentication_users.prod_lite.xml",
+              "control.xml",
+              "control.prod_lite.xml"
+            ]
+        },
+        "views": {
+          "pages": []
+        }
+      }
+    },
+    {
+      "name": "Manage Instrumentation Pages",
+      "type": "ManagePagesTask",
+      "appliesTo": "*",
+      "options": {
+        "app": "splunk_instrumentation",
+        "manager": {
+            "pages": []
+        },
+        "views": {
+          "pages": []
+        }
+      }
+    },
+    {
+      "name": "Update default web.conf to add custom login background image",
+      "type": "AppendToFileTask",
+      "appliesTo": "*",
+      "options": {
+        "file_path": "etc/system/default/web.conf",
+        "content": [
+            "\n[settings]\nloginBackgroundImageOption = custom\nloginCustomBackgroundImage = splunk_app_infrastructure:login_image/waitomo_splashscreen_bg.png\nloginCustomLogo = splunk_app_infrastructure:login_image/waitomo_logo.png\n"
+        ]
+      }
+    },
+    {
+      "name": "Update default web.conf to enable Splunkweb SSL",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/system/local/web.conf",
+        "stanzas": {
+          "settings": {
+            "enableSplunkWebSSL": true,
+            "sendStrictTransportSecurityHeader": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Update default input.conf to enable SplunkTCP",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/system/local/inputs.conf",
+        "stanzas": {
+          "splunktcp://9997": {
+            "disabled": false,
+            "connection_host": "dns"
+          }
+        }
+      }
+    },
+    {
+      "name": "Update default authentication.conf to enforce stronger password policy",
+      "type": "ConfTask",
+      "appliesTo": "*",
+      "options": {
+        "path": "etc/system/local/authentication.conf",
+        "stanzas": {
+          "splunk_auth": {
+            "constantLoginTime": 0.000,
+            "enablePasswordHistory": 1,
+            "expireAlertDays": 15,
+            "expirePasswordDays": 90,
+            "expireUserAccounts": 1,
+            "forceWeakPasswordChange": 1,
+            "lockoutAttempts": 5,
+            "lockoutMins": 30,
+            "lockoutThresholdMins": 5,
+            "lockoutUsers": 1,
+            "minPasswordDigit": 1,
+            "minPasswordLength": 10,
+            "minPasswordLowercase": 1,
+            "minPasswordSpecial": 1,
+            "minPasswordUppercase": 1,
+            "passwordHistoryCount": 24,
+            "verboseLoginFailMsg": 1
+          }
+        }
+      }
+    }
+  ]
+}

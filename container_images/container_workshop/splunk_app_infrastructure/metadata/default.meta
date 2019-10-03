@@ -1,0 +1,47 @@
+# Application-level permissions
+
+[views/investigate]
+access = read : [ * ], write : [ admin ]
+
+[views/alerts]
+access = read : [ * ], write : [ admin ]
+
+[views/configure]
+access = read : [ * ], write : [ admin ]
+
+[views/settings]
+access = read : [ admin ], write : [ admin ]
+
+[alert_actions/em_send_email]
+export = none
+
+[transforms/em_groups]
+access = read : [ * ], write : [ * ]
+export = system
+
+[transforms/em_entities]
+access = read : [ * ], write : [ * ]
+export = system
+
+[macros/transform_sai_groups%281%29]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[macros/transform_all_sai_groups]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[macros/sai_events_indexes]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[macros/sai_metadata_indexes]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[macros/sai_metrics_indexes]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[savedsearches]
+access = read : [ * ], write : [ admin, power ]
