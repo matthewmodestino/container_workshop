@@ -15,7 +15,7 @@ spec:
       hostname: standalone
       containers:
         - name: standalone
-          image: matthewmodestino/container_workshop:7.3.2
+          image: matthewmodestino/container_workshop:7.3.2-redhat
           imagePullPolicy: Always
           env:
             - name: SPLUNK_HOME
