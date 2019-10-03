@@ -2,7 +2,7 @@
 #FROM splunk/splunk:latest
 
 #Redhat UBI
-FROM splunk/splunk:7.3.2-redhat
+FROM splunk/splunk:7.3.2
 
 #Seed apps for install
 COPY ta_container_workshop.tgz /tmp/
