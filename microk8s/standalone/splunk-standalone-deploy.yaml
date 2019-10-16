@@ -32,8 +32,6 @@ spec:
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG
               value: "true"
-            - name: SPLUNK_LICENSE_MASTER_URL
-              value: https://lm.o2.splunkit.io/
           ports:
             - name: web
               containerPort: 8000
