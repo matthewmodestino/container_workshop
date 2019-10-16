@@ -23,15 +23,17 @@ spec:
             - name: SPLUNK_ROLE
               value: splunk_standalone
             - name: SPLUNK_PASSWORD
-              value: helloworld
+              value: 5up3rn0va 
             - name: SPLUNK_START_ARGS
               value: "--accept-license"
             - name: SPLUNK_APPS_URL
               value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-app-for-infrastructure_141.tgz,/tmp/splunk-business-flow_102.tgz"
-            - name: "SPLUNK_HEC_TOKEN"
+            - name: SPLUNK_HEC_TOKEN
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG
               value: "true"
+            - name: SPLUNK_LICENSE_MASTER_URL
+              value: https://lm.o2.splunkit.io/
           ports:
             - name: web
               containerPort: 8000
