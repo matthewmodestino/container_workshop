@@ -21,14 +21,6 @@ retry_num: 50
 shc_bootstrap_delay: 30
 splunk:
   admin_user: admin
-  conf:
-    user-prefs:
-      directory: /opt/splunk/etc/users/admin/user-prefs/local
-      content:
-        general:
-          search_syntax_highlighting: dark
-          search_line_numbers: true
-          search_auto_format: true
   allow_upgrade: true
   app_paths:
     default: /opt/splunk/etc/apps
@@ -36,14 +28,23 @@ splunk:
     httpinput: /opt/splunk/etc/apps/splunk_httpinput
     idxc: /opt/splunk/etc/master-apps
     shc: /opt/splunk/etc/shcluster/apps
+  dfs:
+    dfc_num_slots: 4
+    dfw_num_slots: 10
+    dfw_num_slots_enabled: false
+    enable: false
+    port: 9000
+    spark_master_host: 127.0.0.1
+    spark_master_webui_port: 8080
   enable_service: false
   exec: /opt/splunk/bin/splunk
   group: splunk
   hec_disabled: 0
   hec_enableSSL: 1
   hec_port: 8088
-  hec_token: 00000000-0000-0000-0000-000000000000 
+  hec_token: d532e393-f320-4a88-84ad-83b31bd7310a
   home: /opt/splunk
+  hostname: 84d2e6afc378
   http_enableSSL: 0
   http_enableSSL_cert: null
   http_enableSSL_privKey: null
@@ -55,7 +56,7 @@ splunk:
     replication_factor: 3
     replication_port: 9887
     search_factor: 3
-    secret: SMbQnJM0E4Ax8s5RPTeS9pdXQ9/pf9sw
+    secret: /SV3u1oMYyqRRqOpPxR+ziX4psg3e3Cf
   ignore_license: false
   license_download_dest: /tmp/splunk.lic
   multisite_replication_factor_origin: 3
@@ -64,7 +65,7 @@ splunk:
   multisite_search_factor_total: 3
   nfr_license: /tmp/nfr_enterprise.lic
   opt: /opt
-  password: BN5Ihl55FpmnsZ3VZlsv1TzxhftMMK05
+  password: /OqCgqiCsMlYu+bJ+pS1/hki/MLblbvX
   pid: /opt/splunk/var/run/splunk/splunkd.pid
   root_endpoint: null
   s2s_enable: true
@@ -76,7 +77,7 @@ splunk:
     label: shc_label
     replication_factor: 3
     replication_port: 9887
-    secret: eTegW/1FB8Gvq1wQVxRuOERZucXsO1a1
+    secret: E7Us0IwoxJMurJ6lkgQUMUpNBLAgDnt0
   smartstore: null
   svc_port: 8089
   tar_dir: splunk

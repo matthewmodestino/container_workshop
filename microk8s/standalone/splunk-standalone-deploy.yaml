@@ -15,7 +15,7 @@ spec:
       hostname: standalone
       containers:
         - name: standalone
-          image: matthewmodestino/container_workshop:7.3.2-redhat
+          image: matthewmodestino/container_workshop:8.0.0
           imagePullPolicy: Always
           env:
             - name: SPLUNK_HOME
@@ -27,7 +27,7 @@ spec:
             - name: SPLUNK_START_ARGS
               value: "--accept-license"
             - name: SPLUNK_APPS_URL
-              value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-app-for-infrastructure_141.tgz,/tmp/splunk-business-flow_102.tgz"
+              value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-app-for-infrastructure_200.tgz,/tmp/splunk-add-on-for-infrastructure_200.tgz,/tmp/splunk-business-flow_111.tgz"
             - name: SPLUNK_HEC_TOKEN
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG
@@ -41,6 +41,8 @@ spec:
               containerPort: 8089
             - name: kv
               containerPort: 8191
+            - name: s2s
+              containerPort: 9997
           volumeMounts: 
             - name: splunk-standalone-data
               mountPath: /opt/splunk/var

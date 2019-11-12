@@ -20,6 +20,9 @@ spec:
     - name: splunkhec
       port: 8088
       nodePort: 8088
+    - name: s2s
+      port: 9997
+      nodePort: 9997
 
 
 #---
