@@ -15,9 +15,7 @@ In theory, you should be able to follow these on any properly configured Docker,
 If you run into issues, I will do my best to support you via Github Issues or Splunk User Group Slack (splk.it/slack) in the #docker or #kubernetes or #Openshift channels. 
 
 
-
 https://microk8s.io/docs/
-
 
 
 ## Sign up/Sign into docker hub (Optional)
@@ -32,21 +30,18 @@ git clone https://github.com/matthewmodestino/container_workshop
 
 
 ## Docker Images
-In the following labs, we will deploy splunk enterprise standalone instances, built on Red Hat’s Universal Base Image, that have been pre-configured to install a custom add-on to use with Splunk Connect for Kubernetes data. 
-
-
-```
-docker build -t matthewmodestino/container-workshop:8.0.0 -f ./Dockerfile .
-```
+In the following labs, we will deploy splunk enterprise standalone instance - built on Red Hat’s Universal Base Image - that have been pre-configured to make use of k8s data, immediately. If you would like to customize or control the behaviour of the app, you can create your own images, and use docker-splunk's app install options. 
 
 ```
-docker push matthewmodestino/container-workshop:8.0.0
+microk8s.docker build -t matthewmodestino/container_workshop:8.0.0 -f ./Dockerfile .
+```
+
+```
+microk8s.docker push matthewmodestino/container-workshop:8.0.0
 ```
 
 # Labs
 
 Now that you have your environments ready, you can dive into the labs. For beginners, I recommend doing them in succession, as knowledge in Docker images and Docker concepts translates well into k8s and Openshift, but feel free to choose your own adventure! 
 
-Install Microk8s
-Deploy demo environment with Ansible
-Use App for Infra to deploy Splunk Connect for Kubernetes
+Next: [This way to the lab!](01-start-here.md)
