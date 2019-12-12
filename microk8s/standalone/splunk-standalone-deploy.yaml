@@ -27,7 +27,7 @@ spec:
             - name: SPLUNK_START_ARGS
               value: "--accept-license"
             - name: SPLUNK_APPS_URL
-              value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-app-for-infrastructure_200.tgz,/tmp/splunk-add-on-for-infrastructure_200.tgz,/tmp/splunk-business-flow_111.tgz"
+              value: "/tmp/ta_container_workshop.tgz,/tmp/splunk-app-for-infrastructure_201.tgz,/tmp/splunk-add-on-for-infrastructure_201.tgz,/tmp/splunk-business-flow_116.tgz"
             - name: SPLUNK_HEC_TOKEN
               value: 00000000-0000-0000-0000-000000000000
             - name: DEBUG
