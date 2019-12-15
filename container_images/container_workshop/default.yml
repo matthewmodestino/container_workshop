@@ -42,9 +42,9 @@ splunk:
   hec_disabled: 0
   hec_enableSSL: 1
   hec_port: 8088
-  hec_token: d532e393-f320-4a88-84ad-83b31bd7310a
+  hec_token: 723d1085-abaa-445c-9e8a-bd45e63ed9e8
   home: /opt/splunk
-  hostname: 84d2e6afc378
+  hostname: 7958048f1b4d
   http_enableSSL: 0
   http_enableSSL_cert: null
   http_enableSSL_privKey: null
@@ -56,7 +56,7 @@ splunk:
     replication_factor: 3
     replication_port: 9887
     search_factor: 3
-    secret: /SV3u1oMYyqRRqOpPxR+ziX4psg3e3Cf
+    secret: 9ck6yciV6nMfCaMey9pib2/APeG0CDL9
   ignore_license: false
   license_download_dest: /tmp/splunk.lic
   multisite_replication_factor_origin: 3
@@ -65,19 +65,20 @@ splunk:
   multisite_search_factor_total: 3
   nfr_license: /tmp/nfr_enterprise.lic
   opt: /opt
-  password: /OqCgqiCsMlYu+bJ+pS1/hki/MLblbvX
+  password: mxyY+ekr3pt+gtRwcq0mdYD85fhqa7Gn
   pid: /opt/splunk/var/run/splunk/splunkd.pid
   root_endpoint: null
   s2s_enable: true
   s2s_port: 9997
   search_head_cluster_url: null
   secret: null
+  service_name: splunk
   shc:
     enable: false
     label: shc_label
     replication_factor: 3
     replication_port: 9887
-    secret: E7Us0IwoxJMurJ6lkgQUMUpNBLAgDnt0
+    secret: GHWjXqMUUWqniETIUqZoXAsZVIDSiC9+
   smartstore: null
   svc_port: 8089
   tar_dir: splunk
